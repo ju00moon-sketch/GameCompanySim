@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T05:02:04.894388+09:00",
+ "updated": "2026-11-07T05:08:11.140125+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "39분 전"
+   "updated": "45분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,7 +27,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "3분 전"
+   "updated": "2분 전"
   },
   {
    "label": "게임 디자인",
@@ -41,14 +41,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "Space 전역 규칙용 문구 4건(B 요청) — ui-ux 6.5·9.4",
-   "updated": "2분 전"
+   "updated": "8분 전"
   },
   {
    "label": "아트",
@@ -73,10 +73,10 @@
   },
   {
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
