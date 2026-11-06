@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T06:56:59.171934+09:00",
+ "updated": "2026-11-07T07:11:11.059285+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "49분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "대표 결정 반영: 제품 경로 시작 조건(대표 1명·1.5억 시험값·급여 0·인원 포함) + 초기 자본 재검증 계산표 + 출신별 시험안",
-   "updated": "2분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 결정 반영: 17.2 하루 안 시간 모델 — 이동을 480분 안에(작업 분 차감, 중복 없음), 출퇴근·점심 이동 밖/점심 안",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -48,7 +48,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 1건 삭제 가능: finance.focus.payment_short (B 코드 미사용)",
-   "updated": "3분 전"
+   "updated": "18분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -89,11 +89,16 @@
    "title": "계약 확정 — B 착수: ObligationKind 6종·비용·건물·유예/종료·raw/live DTO·UI",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "대표 결정 반영: 17.2 하루 안 시간 모델 — 이동을 480분 안에(작업 분 차감, 중복 없음), 출퇴근·점심 이동 밖/점심 안",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
   "completed": 86,
-  "dispatched": 2,
+  "dispatched": 3,
   "failed": 5
  }
 }
