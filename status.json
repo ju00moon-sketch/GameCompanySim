@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:20:14.515349+09:00",
+ "updated": "2026-11-07T08:26:20.672636+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,14 +13,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "수정 승인: 검수일 디렉터 부분 예약(min 규칙) + 전망 동일 규칙 + PlaytestPlanning 가정 — 별도 커밋 재료",
-   "updated": "2분 전"
+   "updated": "8분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "④ 커밋 520ec8a — B 재무/폐업 포함. 다음은 ⑤ 계약 확정 뒤",
-   "updated": "21분 전"
+   "updated": "27분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "급여 실값 정정(통합이 trial.json에서 확인): founder 300·programmer 450·artist 400·designer...",
-   "updated": "7분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 결정 반영 Task: 작업 생성 모델 (a)최소/(b)범위 연동 재정의 · 18.2 네 갈래 · 1.5/1.7/2.0 비교 계획",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -55,14 +55,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "13시간 전"
+   "updated": "14시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 키: 축소 범위 표시 이름 coop-expedition.mini",
-   "updated": "11분 전"
+   "updated": "17분 전"
   },
   {
    "label": "아트",
@@ -84,11 +84,16 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "대표 결정 반영 Task: 작업 생성 모델 (a)최소/(b)범위 연동 재정의 · 18.2 네 갈래 · 1.5/1.7/2.0 비교 계획",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
   "completed": 99,
-  "dispatched": 1,
+  "dispatched": 2,
   "failed": 5
  }
 }
