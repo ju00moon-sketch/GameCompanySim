@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T02:50:48.162878+09:00",
+ "updated": "2026-11-07T02:54:52.807968+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "40분 전"
+   "task": "조립 커밋 c6d45ff — display_name 매핑은 스키마 통지 뒤",
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,28 +27,28 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "3분 전"
+   "updated": "2분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "찌라시·소문·정보 유출 — 사양 19장 신설",
-   "updated": "1분 전"
+   "updated": "5분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "찌라시·소문 — 뉴스·커뮤니티 화면 설계 보강(4.9/4.10, 보고·대응)",
-   "updated": "2분 전"
+   "updated": "6분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "38분 전"
+   "updated": "방금"
   },
   {
    "label": "QA 2 (스모크)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구 키 19개 추가 (실제 창 점검에서 발견)",
-   "updated": "29분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "33분 전"
   },
   {
    "label": "아트",
@@ -107,7 +107,7 @@
   }
  ],
  "task_counts": {
-  "completed": 56,
+  "completed": 57,
   "dispatched": 5,
   "failed": 3
  }
