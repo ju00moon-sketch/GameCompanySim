@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:34:27.788851+09:00",
+ "updated": "2026-11-07T08:40:33.824156+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -10,17 +10,17 @@
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "fix 커밋 전 추가 경계(통합 검토): 전망이 완료 작업의 미소비 예약분을 후속 작업에 재배분 — 엔진과 불일치",
-   "updated": "2분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "fix 최종 경계(통합): ScheduleForecast.Continuing(455~459)이 다음 날 첫 Started 항목을 반환해 우...",
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "41분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "대표 결정 반영 Task: 작업 생성 모델 (a)최소/(b)범위 연동 재정의 · 18.2 네 갈래 · 1.5/1.7/2.0 비교 계획",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "UI/UX",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구 키: 축소 범위 표시 이름 coop-expedition.mini",
-   "updated": "25분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "31분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -86,13 +86,13 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "대표 결정 반영 Task: 작업 생성 모델 (a)최소/(b)범위 연동 재정의 · 18.2 네 갈래 · 1.5/1.7/2.0 비교 계획",
+   "title": "fix 최종 경계(통합): ScheduleForecast.Continuing(455~459)이 다음 날 첫 Started 항목을 반환해 우...",
    "status": "진행 중",
-   "assignee": "게임 디자인"
+   "assignee": "구현 A (제작 코어)"
   }
  ],
  "task_counts": {
-  "completed": 100,
+  "completed": 101,
   "dispatched": 2,
   "failed": 5
  }
