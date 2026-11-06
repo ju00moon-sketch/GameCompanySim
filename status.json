@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:26:20.672636+09:00",
+ "updated": "2026-11-07T08:34:27.788851+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -12,22 +12,22 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "수정 승인: 검수일 디렉터 부분 예약(min 규칙) + 전망 동일 규칙 + PlaytestPlanning 가정 — 별도 커밋 재료",
-   "updated": "8분 전"
+   "task": "fix 커밋 전 추가 경계(통합 검토): 전망이 완료 작업의 미소비 예약분을 후속 작업에 재배분 — 엔진과 불일치",
+   "updated": "2분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "④ 커밋 520ec8a — B 재무/폐업 포함. 다음은 ⑤ 계약 확정 뒤",
-   "updated": "27분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "35분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "게임 디자인",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 키: 축소 범위 표시 이름 coop-expedition.mini",
-   "updated": "17분 전"
+   "updated": "25분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -92,7 +92,7 @@
   }
  ],
  "task_counts": {
-  "completed": 99,
+  "completed": 100,
   "dispatched": 2,
   "failed": 5
  }
