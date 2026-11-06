@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:58:02.568475+09:00",
+ "updated": "2026-11-07T06:04:08.770018+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -10,38 +10,38 @@
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "참고(계약 확정 뒤 B 몫 확장): 재무 분리 — 기본 운영비·인건비·월세·관리비 별도 의무, ObligationKind",
-   "updated": "10분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "계약 확정 — B 착수: ObligationKind 6종·비용·건물·유예/종료·raw/live DTO·UI",
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "31분 전"
+   "updated": "37분 전"
   },
   {
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "총괄 결정: 프리셋 시작 현금 3.7억(시험값) — trial-010 기입은 통합 칸 이름 확정 뒤",
+   "task": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
    "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "총괄 답 3건 — 메뉴 7항목·전체 보기 뜻 / 채용 화면 M1 노출 조건 / 직군색 충돌은 아트에",
-   "updated": "24분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "30분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,14 +62,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "58분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "총괄",
@@ -86,14 +86,24 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "총괄 결정: 프리셋 시작 현금 3.7억(시험값) — trial-010 기입은 통합 칸 이름 확정 뒤",
+   "title": "계약 확정 — B 착수: ObligationKind 6종·비용·건물·유예/종료·raw/live DTO·UI",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
    "status": "진행 중",
    "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 79,
-  "dispatched": 2,
+  "completed": 80,
+  "dispatched": 4,
   "failed": 5
  }
 }
