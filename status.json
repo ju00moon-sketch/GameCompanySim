@@ -1,24 +1,24 @@
 {
- "updated": "2026-11-07T03:08:59.597474+09:00",
+ "updated": "2026-11-07T03:19:08.095071+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "① display_name 필드 추가됨 — BalanceSettings 매핑",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
    "updated": "방금"
   },
@@ -34,21 +34,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "① 스키마 추가됨 — trial-008 작성(이름 4·시험값 4/50/7·awareness 15→2)",
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "찌라시·소문 — 뉴스·커뮤니티 화면 설계 보강(4.9/4.10, 보고·대응)",
-   "updated": "20분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "30분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,14 +62,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 자리 수 불일치 2건 수정",
-   "updated": "8분 전"
+   "updated": "18분 전"
   },
   {
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "총괄",
@@ -99,6 +99,6 @@
  "task_counts": {
   "completed": 63,
   "dispatched": 3,
-  "failed": 3
+  "failed": 5
  }
 }
