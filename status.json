@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T04:05:09.459815+09:00",
+ "updated": "2026-11-07T04:15:18.953020+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
-   "updated": "3분 전"
+   "updated": "13분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,14 +27,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 입력: 장비·가구 등급 체계 — 최하위 '스타터급' 시안 접수 (사양 반영 요청)",
-   "updated": "15분 전"
+   "updated": "25분 전"
   },
   {
    "label": "UI/UX",
@@ -48,7 +48,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -69,14 +69,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "13분 전"
   },
   {
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
