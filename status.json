@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T07:37:35.338621+09:00",
+ "updated": "2026-11-07T07:47:44.144403+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -17,10 +17,10 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "④ 좁은 후속(승인): 알림함 지급 불능 결정 항목 — CashWarning 재사용 표시 소비자",
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "44분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 키 1건 누락: event.company.closed (폐업 사건 알림 문장)",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -91,13 +91,13 @@
    "assignee": "게임 디자인"
   },
   {
-   "title": "④ 좁은 후속(승인): 알림함 지급 불능 결정 항목 — CashWarning 재사용 표시 소비자",
+   "title": "문구 키 1건 누락: event.company.closed (폐업 사건 알림 문장)",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)"
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 88,
+  "completed": 89,
   "dispatched": 3,
   "failed": 5
  }
