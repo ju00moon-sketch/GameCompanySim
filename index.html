@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="300">
+<title>GameCompanySim 작업 현황</title>
+<style>
+:root { --fg: #1c1c1c; --muted: #5d6066; --border: #d9d9d9; --surface: #f6f6f4; --accent: #0b6e4f; --bg: #ffffff; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg: #e8e6e3; --muted: #9a9ea6; --border: #3a3d42; --surface: #1f2124; --accent: #5cc8a3; --bg: #141618; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.6 system-ui, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+main { max-width: 980px; margin: 0 auto; padding: 32px 20px 80px; }
+header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 28px; }
+header h1 { margin: 0 0 6px; font-size: 26px; }
+header p { margin: 0; color: var(--muted); }
+h2 { font-size: 20px; margin: 40px 0 12px; }
+h3 { font-size: 17px; margin: 28px 0 8px; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0 20px; font-size: 14px; }
+th, td { border: 1px solid var(--border); padding: 7px 10px; text-align: left; vertical-align: top; }
+th { background: var(--surface); position: sticky; top: 0; }
+code { background: var(--surface); padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+.state { display: inline-block; padding: 1px 8px; border: 1px solid var(--border); border-radius: 3px; font-size: 13px; white-space: nowrap; }
+.state.working { border-color: var(--accent); color: var(--accent); }
+.doc p { margin: 10px 0; }
+.doc ul { padding-left: 22px; }
+.meta { color: var(--muted); font-size: 13px; }
+.doc table { display: block; overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>GameCompanySim 작업 현황</h1>
+  <p>갱신 2026-11-07 01:23 KST · 현황 파일이 바뀌면 자동으로 다시 게시됩니다 · 이 페이지는 5분마다 새로고침</p>
+</header>
+
+<h2>지금 상태</h2>
+<table>
+<thead><tr><th>담당</th><th>상태</th><th>현재·최근 작업</th><th>마지막 활동</th></tr></thead>
+<tbody><tr><td>통합(기술 책임)</td><td><span class="state working">작업 중</span></td><td>New messages</td><td class="meta">방금</td></tr><tr><td>구현 A (제작 코어)</td><td><span class="state working">작업 중</span></td><td>A 후속 3: 복원 ID 경계 결함(전 모듈) 수정·회귀</td><td class="meta">방금</td></tr><tr><td>구현 B (사업·저장·화면)</td><td><span class="state working">작업 중</span></td><td>후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결</td><td class="meta">방금</td></tr><tr><td>구현 C (채용)</td><td><span class="state working">작업 중</span></td><td>채용1 완료 접수·후속2 판단/대기 규칙</td><td class="meta">5분 전</td></tr><tr><td>게임 디자인</td><td><span class="state working">작업 중</span></td><td>New messages</td><td class="meta">방금</td></tr><tr><td>UI/UX</td><td><span class="state working">작업 중</span></td><td>UI 결정 6 확정 — 문서 반영 후 worker_done</td><td class="meta">1분 전</td></tr><tr><td>QA 1 (검증 설계)</td><td><span class="state done">보고 완료·대기</span></td><td>예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행</td><td class="meta">2분 전</td></tr><tr><td>QA 2 (스모크)</td><td><span class="state done">보고 완료·대기</span></td><td></td><td class="meta">6시간 전</td></tr><tr><td>글·문구</td><td><span class="state done">보고 완료·대기</span></td><td>문구 추가 3개: person.detail.remaining_to_exact + 플레이테스트 경고 2</td><td class="meta">2분 전</td></tr><tr><td>아트</td><td><span class="state working">작업 중</span></td><td>대표 확정 7항 반영 — 아트 3문서 재정리</td><td class="meta">2분 전</td></tr><tr><td>총괄</td><td><span class="state working">작업 중</span></td><td></td><td class="meta">1분 전</td></tr></tbody>
+</table>
+
+<h2>열린 Task <span class="meta">(완료 37 / 전체 48)</span></h2>
+<table>
+<thead><tr><th>Task</th><th>담당</th><th>상태</th></tr></thead>
+<tbody><tr><td>New messages</td><td>통합(기술 책임)</td><td>진행 중</td></tr><tr><td>예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행</td><td>QA 1 (검증 설계)</td><td>진행 중</td></tr><tr><td>후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결</td><td>구현 B (사업·저장·화면)</td><td>진행 중</td></tr><tr><td>채용1 완료 접수·후속2 판단/대기 규칙</td><td>구현 C (채용)</td><td>진행 중</td></tr><tr><td>UI 결정 6 확정 — 문서 반영 후 worker_done</td><td>UI/UX</td><td>진행 중</td></tr><tr><td>A 후속 3: 복원 ID 경계 결함(전 모듈) 수정·회귀</td><td>구현 A (제작 코어)</td><td>진행 중</td></tr><tr><td>New messages</td><td>게임 디자인</td><td>진행 중</td></tr><tr><td>대표 확정 7항 반영 — 아트 3문서 재정리</td><td>아트</td><td>진행 중</td></tr></tbody>
+</table>
+
+<div class="doc">
+<h1>GameCompanySim 작업 현황</h1>
+<p>이 파일은 <strong>현재 상태만</strong> 둔다(최신이 맨 위). 착수·재개 전에 읽는다. 담당 변경·완료·검증 결과는 총괄이 갱신한다.</p>
+<h2>M1 — 첫 게임 제작 플로우 (착수 2026-11-06)</h2>
+<p><strong>목표:</strong> 대표가 소규모 팀을 직접 지휘해 게임 하나를 기획 → 제작 → 검증 → 출시 → 첫 정산까지 끌고 가는 플레이가 Unity에서 끝까지 동작한다. 공고형 채용(7장)과 PM 위임(2장)은 M2·M3로 미루되, 데이터 모델은 그 확장을 막지 않게 둔다(동일 인물 ID 유지, 명령 검증 공통화, 예산 예약 자리 확보).</p>
+<p><strong>기준 문서:</strong> <code>기획안/게임회사_시뮬레이션_설계반영안_v0.2_채용시스템통합_2026-11-06.md</code> (0.1 C01~C06만 확정, 나머지 제안) + 보완자료 <code>기획안/게임회사_시뮬레이션_16개회사_추가조사와설계보완_2026-11-06.md</code> (v0.2를 대체하지 않는 덧붙임; D01~D08 보완 명세, 6장 데이터·명령 경계, 9장 T01~T16 추가 검증). 보완자료 중 M1에 바로 적용할 것: 인물 ID는 경로가 늘어도 하나(CandidateProfile 경계), 제작·교육·면접이 같은 작업 용량을 나눔(DevelopmentPlan 경계), 업무 권한과 투자·채용 권한의 분리(OrganizationPolicy, D05 "권한 구조는 초기"), 조건 수락일과 실제 합류일 구분. 나머지(인재풀·집중 채용·사내 이동·공용 조직·공동 제작)는 M2 이후. 용어는 <code>기획안/공용_용어집_v0.1.md</code>(game-design 작성 중)를 따른다.
+<strong>보완문 2 (2026-11-06, 대표):</strong> <code>기획안/보완_직원배치_FM방식_2026-11-06.md</code> — 직원 배치를 FM 포지션 방식으로: 스탯 + 직무별 적합도, 플레이어가 자리(포지션)에 배치, 자리에 따라 발휘 능력이 달라짐, 숙련 단계 ≠ 배치 자리, 책임 자리(팀장·PM)는 채용 또는 배치로만(자동 승진 없음), 한 사람의 시간은 자리가 여러 개여도 1회 소비. 직무 목록·적합도 계산식·겸직 범위·화면 형태는 <strong>제안</strong>으로 만든다(확정 아님). M1: 프로젝트 팀 자리에 초기 팀원 배치·교체 기본형(자리 엔티티·배치 명령·적합도 표시·교체 화면). 팀장·PM 자리는 M2·M3.
+<strong>보완문 3 (2026-11-06, 대표):</strong> <code>기획안/보완_숙련단계_네임드_직책_2026-11-06.md</code> — 숙련 단계는 직무 스탯 기반 표시 단계(신입·주니어·미들·시니어·베테랑·전설 후보, 기준·순서·밸런스 미정, 희귀도 아님). 최상위 전설급 네임드 인재(이름·일러스트는 대표가 직접, 실존 인물·최종 이름·일러스트 제작 금지, 등장·채용 조건·승급 가능 여부 미정). 숙련 단계 ≠ 직책(팀장·PM은 채용 또는 배치로만, 자동 부여 없음). 기존 확정 방향 유지. M1: 숙련 단계 파생 표시까지. 네임드·직책 임명은 M2·M3.
+<strong>보완문 4 (2026-11-06, 대표):</strong> <code>기획안/보완_포텐셜_유망주_2026-11-06.md</code> — FM식 포텐셜·유망주(기존 시스템에 추가). 확정: 유망주는 희귀도·직책이 아니라 분야별 성장 가능성 있는 직원 · 현재 능력/성장 가능성/성장 속도/회사의 육성 여건을 분리 · 한 분야 가능성 ≠ 다른 분야·팀장/PM · 공고형 채용·숙련≠직책·점진 위임 유지, 뽑기·즉시 구매 없음 · 실제 능력과 회사 파악 정보 분리, 숨은 값은 추천·정렬·자동 선별에 불사용 · 실무·검수·교육·멘토링 시간 1회 차감 · 평가 갱신(면접으로 알아냄) ≠ 성장(실무로 늘어남) · 유망주도 현재 업무 기여, 캠페인 중 체감(검수 없이 처리·범위 확대) · 멘토는 실제 시간·분야 역량 사용, 전설≠최고 교육자, 멘토 없는 학습 여건도 시험 · 시니어도 성장. <strong>제안·미정:</strong> 혼합형(분야별 개인차+환경) vs 고정 상한 비교 시험, 상한·분야 구분·수치 공개·속도·확률, 유망주↔네임드 관계·전설 승급. 첫 비교 시험 1~5(원문). 마일스톤: 모델 제안·시험 설계 지금, 코어는 M1에서 4분리 자리와 사건 분리만(성장 산식 오버레이, 기본 0), 시험 1~3은 M1 후반 코어 테스트, 시험 4는 M2, 육성 일정 위임 M3. v0.4 직원 구조 파일은 폴더에 없음 → 사양 v0.1+DB v0.3 기준.
+<strong>보완문 4 추가 지시 1·2 (2026-11-06, 대표 — Q6 수정, 최종):</strong> <strong>현재 능력치는 근무 기록에 따라 추정이 실제값에 수렴하고, 일정 근무량(조정 변수)을 넘으면 완전히 정확(실제값 그대로 표시)</strong> — 기준은 분야별 누적 근무 시간 1차·재직 기간 보조(game-design 제안), 지원자는 서류·면접으로 좁힌 추정에서 시작, 시작 팀은 정확값 시작을 기본 제안. <strong>포텐셜(분야별 최대 성장치)은 숨김</strong> — 스카우터(평가 역량을 가진 인물: 초반 대표, 이후 인사·채용 담당·분야 리드)의 역량에 따라 추정 구간의 정확도가 올라감, 평가에 실제 시간 소요, 근무 기록으로는 완전 정확해지지 않음. 정렬·추천은 두 추정값(현재 능력 추정·포텐셜 추정)만 사용. 코어: PersonSkill = 실제값(숨김) + 현재 능력 추정(근무 기록 기반, 임계치 후 실제값과 동일) + 포텐셜 추정(스카우터 기반) + 숨은 포텐셜. 상한 모델 비교의 기본 후보는 '숨은 분야별 최대 성장치 + 성장 속도·환경'(산식·수치는 시험 전 제안).
+<strong>플랫폼 확정 (2026-11-06, 대표):</strong> 우리 시뮬레이션의 출시 플랫폼은 <strong>PC(Windows 데스크톱)부터</strong> 개발한다. 입력은 마우스+키보드 기준, 화면 설계는 데스크톱 해상도(1920×1080 기준, 1280×720 최소 가정 — ui-ux 제안으로 확정) 기준. 모바일·콘솔은 범위 밖. (v0.2 0.2의 '출시 플랫폼 미정'을 이 항목으로 갱신.)
+<strong>UI 결정 (2026-11-06, 총괄 — UI 문서 11장 회신):</strong> 시간 진행 = 실시간+일시정지+배속(턴제는 문서 대안만) · 기준 1920×1080, 최소 1280×720, 창/전체화면, UI 배율 0.8~1.5(시험값) · 결정 대화 시 자동 일시정지 기본 ON · M1 빌드에서 채용·위임 메뉴 숨김 · 단축키 6.5 시험 승인 · 개발용 검사 화면 M1 포함(읽기 전용, 통합 소유, 일반 플레이 숨김) · 외주 발주 M2 · 중반 상태 픽스처 M2 · M2 채용/M3 위임 · 채용 경로 탭은 공고 지원만(M2). <strong>대표 확인 대기(잠정값):</strong> 시각 방향 미정(구조 초안 유지) · 사무실 화면 M1 없음(2D/3D 미정) · 언어 한국어 우선·영어 길이 1.5배 여유 · 임시 초상(이니셜/실루엣), 네임드 이름·일러스트는 대표 직접.
+<strong>용어 결정 (2026-11-06, 총괄):</strong> <code>docs/copy/M1_문구_v0.1.md</code> 7장 T01~T12 — 소비자 결제액(축약 결제액) · 정산대상액 · 입금액(사건명 정산 입금) · 대표 구간 · 내부 준비/생략(위험 감수) · 플랫폼 검토 · 플레이테스트/플레이테스트 보고서/조사비 · 관심(찜)·구매(플레이 전)·완주(표 머리말 축약) · 기능 · 작업 시간(개인)/작업 용량(팀 총량) · 진행 중/재작업 필요 · 화면 뱃지 UI 3.1·3.2 4+3종. 문구 파일 키가 Presentation 문자열 원본(하드코딩 금지).
+<strong>참고 시안 (2026-11-06, 대표):</strong> <code>기획안/참고_사내브라우저_시안v2/</code> (README + PNG 3장) — 외부 세계는 <strong>사내 브라우저</strong>의 사이트로 본다: 탭 채용(가상 채용 사이트) · 뉴스(게임 매체) · 커뮤니티(게시판), 확장 가능, 게임 내 날짜·「게임으로 돌아가기」. 이름·수치는 예시. 마일스톤: 브라우저 셸 + 뉴스·커뮤니티 읽기 전용 피드(공개 사건 기반 규칙 생성)는 M1 후반, 채용 사이트·지원자 관리는 M2.
+<strong>데이터 기반팩 (2026-11-06, 대표 — "이걸 기반으로 설계해서 개발"):</strong> <code>기획안/게임회사_시뮬레이션_DB기반팩_v0.3_2026-11-06.zip</code> → 압축 해제 <code>기획안/game_company_database_v0_3/</code> (README → <code>docs/DB조사설계_본문.md</code> → <code>DB목록_초기데이터.xlsx</code> → <code>data/*.csv|json</code>, <code>research_seed.sqlite</code>, <code>validate_pack.py</code> 12개 구조 검사 통과 확인). 내용: 논리 개체 64종(<code>tables.csv</code>, TB001~TB064, 층: 조사/콘텐츠/런타임/지식/세이브, 단계: 초기/확장) + 필드 사전 458(<code>fields.csv</code>) · 콘텐츠: 직무 48(<code>roles</code>)·역량 64(<code>skills</code>)·직무-역량 146(<code>role_skills</code>, weight null)·영역 24·규칙 48(<code>mechanics</code>)·작업 템플릿 40(<code>work_templates</code>, 단계 기획/실험/기반/제작/콘텐츠/검증/출시/인사/조직/온라인/운영)·의존 60(DAG)·규칙-작업 144 · 조사: 출처 45+59, 참고 게임 6·회사 21, 지표 8, 주장 34, 수집계획 25, 시험 33. <strong>총괄 결정:</strong> (1) <code>tables/fields</code>가 코어 개체·필드 이름의 기준(충돌 시 보고 후 결정), 용어집은 TB ID를 병기. (2) <code>roles/skills/role_skills/work_templates/work_dependencies/mechanics/mechanic_work/domains</code>는 M1 콘텐츠 원본 — 단계 기획·실험·기반·제작·콘텐츠·검증·출시만 M1, 인사·조직·온라인·운영은 M2+. (3) null인 가중치·공수·계수는 설계대로 비어 있는 값 — 조정 변수에 시험값(game-design 제안)으로 채우고 사실처럼 쓰지 않는다. (4) 조사층(sources·claims·metrics·reference_*)은 저장소에 보관하되 런타임 콘텐츠로 싣지 않는다. (5) 경계: 콘텐츠 팩 → 엔진 분리 시뮬레이션 → 명령·정보 서비스 → Unity 화면(본문 13장). 저장소 내 위치·변환 파이프라인·검사 통합은 통합 담당이 정한다(제안: <code>data/content-pack/v0.3/</code> 원본 + 빌드 시 런타임 팩 변환, <code>validate_pack.py</code>를 검사에 포함).
+<strong>디자인 확정 (2026-11-06, 총괄 — 대표 위임 범위, 사양 v0.1 8.1·8.2):</strong> 시간 실시간·배속·1틱=1일·앱 종료 중 진행 없음 · 첫 캠페인 = 기획 출신 창업자+3명, 첫 작품 기획 단계 시작, 종료 조건 '급여 지급 불능 28일 초과'(첫 검증판), 목표 출시→PM 위임→다음 작품 · 지원 장르 3개(협동 원정·서사 어드벤처·로그라이트 액션) · 시대·지역 = 현재와 비슷한 가상 지역, 원화 표기 시험값, 실제 법·세율 미적용 · PM 조기 채용 잠금 없음 · 능력 수치 비공개(근무 기록으로 추정 구간 축소) · 숙련 6단계(직무 점수+경력) · 네임드는 처음부터 인재 시장에 있고 같은 전형, 일반 직원 전설 승급은 첫 검증판 불가 · M1 범위 묶음 9종(기능 직접 선택은 이후) · 홍보 1종·자동 정지·최소 검수 M1 포함, 패치 제외 · 28일 달력 · 자리 모델 M1 6자리 고정·자리당 1명·겸직 3개·최소 60분·자리 밖 작업 배정 금지 · 숙련 단계는 효과 없는 표시값. <strong>대표가 바꾸면 갱신.</strong>
+<strong>QA 갱신 (2026-11-06):</strong> <code>docs/qa/M1_검증계획_v0.1.md</code>에 기반팩 <code>validate_pack.py</code> 통과를 코어 실행 전제로 추가, 팩 시험 T001~T033 = 자료 전제 10·M1 적용 17·M2 이후 보류 6(원문 ID 보존). 코어 35·연동 13·수동 25·보류 15 유지. C21 콘텐츠 버전 고정, TB036(시간 배정)과 자리 Assignment 의미 구분 보강.
+<strong>QA 갱신 2 (2026-11-06):</strong> 포텐셜·유망주 + 추가 지시 2 반영 — M1 후반 코어 C36~C46 11개 추가(총 46: 현재 능력 분야별 근무량 단조 수렴·임계치 정확값·미근무 분야 불변·시작 팀 옵션, 숨은 포텐셜의 스카우터 정확도 단조성·평가 시간·실제값 불변, 추천·정렬은 두 추정만), 원문 비교 시험 1~5 = S14~S18(1~3 M1 후반, 4 M2 보류, 5 공통; 시나리오 총 18).
+<strong>UI 설계 완료 (2026-11-06):</strong> <code>기획안/UIUX_첫검증판_화면설계_v0.1.md</code> 2,110줄 — M1 화면 10종 + M1 후반 사내 브라우저·뉴스·커뮤니티·포텐셜 영역 + M2·M3 채용 사이트 4·경영 채용 5·위임 화면, mermaid 흐름 7, DB 이름 대응표(0.3), 보완문 4·추가 지시 2 반영. 총괄 결정(10.5 D01~D17): 데이터·계약 이름은 DB, 표시명·상태 목록은 용어집, DB에 없는 개체(Position·Notification·ApprovalRequest·Report·NewsArticle·CommunityPost·CashForecast)는 용어집 개체로 추가; TB036 role 값 확장(평가·멘토링·테스트 진행); 거친 DB state + 용어집 세부 status 병행(M2); 대표 직무 기획 계열·자리 ROLE001·팀장은 ResponsibilityKind; 역량 척도 0~100. 열린 가정 24개·용어집 요청 → game-design. <strong>대표 결정 추가:</strong> 결정 20 사이트·매체·회사·게임·기자 이름(글 담당 제안 → 대표 확정, 그때까지 자리 표시).
+<strong>구현 B 코어 완료 (2026-11-06):</strong> Core/Business 8파일(출시 체크리스트·출시, 고객 집단 3 퍼널 시장, 네 단계 금액·지연 정산·현금·급여·간접비, 사건, 복원) + Core/Persistence 7파일(정규 JSON 저장 코덱·파일 저장소·버전·중복 사건 보호) — B 테스트 24개 통과, 공유 트리 38/38 시점 확인. 설계 차이·계약 이슈 3건·열린 질문은 통합에 상세 보고. 총괄 회신: 급여 지급 가능은 지급 시점 실제 현금 기준, 리뷰 판정 난수는 통합의 목적별 파생 난수 결정 후 변경. <strong>B 다음 Task: Presentation 1단계</strong>(UI Toolkit 앱 셸·문자열 테이블·시간 펌프·사전 검사 표시·대시보드/시간 조작/프로젝트 생성/작업판/조직·배치 5화면, Editor 전용 미리보기 공급자는 통합 조립 후 삭제).
+<strong>게임 디자인 산출물 완료 (2026-11-06):</strong> 용어집·사양을 기반팩 v0.3 기준 정렬(용어집 0.1 대응표·0.2 표식, 사양 12~14장), 총괄·대표 결정(Q1~Q8, 8.2 1~12, Q6→추가 지시 2, D01·D13·D14·D18·D19) 반영, 균형 오버레이 <code>data/balance/m1/trial.json</code>(balance-v2, m1-trial-004: 범위 9묶음 공수 2,604~3,932h, 사양 2.16 일치), 사양 13장 포텐셜·유망주(네 층·두 사건, 성장 모델 A·B, 스카우터 정확도, 비교 시험 1~5 픽스처), UI 가정 24개 답(확정 2·제안 21·미정 1). 총괄 결정: 검수 책임 = DisciplineLead 통일, estimate<strong>ccuracy·initial_team_exact(true</strong> 시험값으로 채움, 오버레이 스키마 v3(시장 계수·설계 축 효과·성장 규칙 ID) 통합에 요청, 전설 승급은 대표 결정 대기(기본 불가).
+<strong>채용 첫 상태 처리 (2026-11-06</strong>대표 지시):<strong> <code>기획안/보완_채용_첫상태처리_시험기준_2026-11-06.md</code> — 채용 AI·노동시장이 아니라 후보 1명·회사 2곳(플레이어·경쟁사,</strong>은 규칙)·회사별 자리 1개에서 인물/전형/제안/고용 구분, 제안 종료 이력·예약만 해제, 인건비 한도와 현금 분리(동일 기간·단위·포함 항목, 중복 가산 금지), 후보 실제 상태와 회사별 지식 분리(통보 시점 입력), 같은 시점 처리 순서 고정·기한 시점 수락·승인된 연장, 제안 발송·수락 원자성·우선순위 입력·사건 멱등이 <strong>모순 없이 이어지는지 코어 테스트로 증명**. 첫 시나리오: 양쪽 제안 </strong> → 우리 제안 수락 → 경쟁사 철회 통보(즉시/지연) → 실제 합류, 사건마다 저장·재개 비교. 담당: 통합 = <code>Contracts/HiringContracts.cs</code>(TB016·020·021·022·025·026·019, 명령·시험 입력 훅·처리 순서·멱등) · <strong>구현 C(신규 세션, 대표 </strong>로 로 전환, <code>Core/Hiring</code>·<code>tests/Core.Tests/Hiring</code>)<strong> = 구현·테스트·보고서 <code>docs/qa/채용_첫상태처리_시험보고_v0.1.md</code>(6장 형식,</strong>현 완료≠시험 통과, 미실행 명시) · qa-1 = 검수·독립 재실행 · game-design = 3-3 시험용 정의·입력값. 7장 미정(수락 판단식·기한 길이·정보 공개 정책·번복·경쟁사 대규모 처리)은 확정하지 않음. 기존 M1 작업과 병행.
+<strong>채용 1차 구현 기준 (2026-11-06, 대표 — 7장 미정 대체):** klzzw</strong>:0037. 확정: 수락 판단 = 필수조건 확인 → 6항목(보상·역할/권한·프로젝트/성장·근무 환경/지원·평판/안정성·조직 규모 적합성) 개인별 중요도 가중 합, 동점은 최우선 항목부터 비교 후 끝까지 같을 때만 기록되는 1회 추첨(재발송 재추첨 없음), 같은 조건·정보→같은 판단 · 기한 = 최소 검토 후 유효기간, 회사 승인 1회 연장, 기한 시점 수락 허용, 재발송 초기화 불가, 게임 시간 정지 시 함께 정지, 기다릴 구체 근거 없으면 조기 결정 · 반공개 노동시장(우리 정보 정확, 경쟁 정보는 확인한 만큼, 사실/후보 발언/추정/미확인 구분, 숨은 값 추천·정렬 금지) · 수락 통보: 선택 회사 즉시, 나머지 1게임일 뒤 종료 통보(철회+공개 이유만, 회사명·조건 비공개), 그 전까지 예약 유지(즉시 통보는 오류 검사용) · 자발적 번복·노쇼 없음, 회사의 조건 변경·취소는 약속 불이행 종료(미래 약정 해제, 발생 비용·불이행 기록, 후보 재구직, 해당 후보의 판단 근거) · 하루 단위 계획 + 사건 시점 처리, 프레임 스캔 금지, 모든 회사 동일 원칙. <strong>초기 밸런스값(조정 변수):** 가중치 3</strong>25/15/10/10/5, 기본선 60·재직자 +5, 최소 검토 1일·유효 5일·연장 3일·통보 지연 1일. 순서: 1단계 상태 시험(C 진행 중) → 2단계 판단·대기 규칙. (game-design 사양 결정 5(d) d-3의 기한 7일은 5일로 정정 요청.)
+<strong>직원 능력 체계 변경 (2026-11-06, 대표 수정 의견):** <code>기획안/보완_직원능력체계_검토의견_전체원문_2026-11-06.md</code> + 총괄 메모 <code>기획안/보완_직원능력체계_총괄메모_2026-11-06.md</code>. 구조 = 공통 기본 능력(8) + 보조 능력(20)</strong> 전문 지식·실제 경험 기록(문제·규모·환경·책임·검증) + 회사 확인 근거, 별도로 학습 능력·포텐셜·육성 환경. 경계: 경험 차이는 배수가 아니라 준비·검토 과정 차이 · 작업 정의가 사용 능력 결정('개발 또는 운영' 금지) · 기본 능력은 속도 전용 아님·같은 근거 재곱 금지 · 학습≠포텐셜≠현재 실력, 성장 기록 4분리 · 보조 능력은 '한 항목 변경 시 다른 선택' 검증 · 숙련은 주 전문 분야별(전환 시 강등 없음) · 숫자 전부 숨기지 않음(이력서 요약→근거 펼침, 판단 근거 문장) · 보안은 업무 묶음(9번째 능력 아님) · 64역량 의미 대응표는 만들되 숫자 자동 변환 금지. 첫 비교 시험 = '같은 거래 기능을 만드는 팀'(6개 비교, 결과 축 5개). <strong>원 제안 문</strong>8·20 목록·공식 자료 34건·대응표)는 아직 미수령 — 대표에게 요청.<strong> 적용 순서: 제안 수령 → game</strong>esign 사양 절+대응표 → 통합 계약 → A 후속 Task(M1 조립 후). 채용 상태 시험(C)은 재개봉 없음.
+<strong>도구 지침 (2026-11-06, 대표):</strong> 개발 중 막히는 부분은 <strong>REA(Reverse Engineer Anything,</strong>ithub.com/morluto/rea, MIT, npm <code>rea-agents</code>) — 에이전트용 리버스 엔지니어링 MCP/CLI<strong> 로 기존 시뮬레이션 게임의 구현을 분석해 참고한다(Unit</strong>IL2CPP 메타데이터·.NET 어셈블리·Electron/JS·웹·프로세스 동작 분석, 근거·한계 포함 결과). <strong>총괄 경계:** 분석은 설계·구조 이해(클린룸: 규칙·흐름·데이터 구조의 </strong>디어)에만 쓰고 코드·데이터·에셋·문구를 복제하지 않는다. 분석 대상은 대표가 정당하게 보유한 게임/소프트웨어로 한정하고 EULA·저작권 위험은 분석 전 총괄이 확인한다. 분석 산출물은 <code>docs/research/</code>(조사층, 런타임 미탑재)에 근거·한계와 함께 기록, 기획안·사양에 반영할 때는 '참고 사례'로 표기. (총괄이 처음 'REA 회계 모델'로 오해해 보낸 메시지는 취소 — 약정·사건·예약 분리는 기존 지시문대로 유지.)
+<strong>REA 설치 (2026-11-06):*</strong><code>npm install -g rea-agents</code> → <code>rea</code> 6.8.0 (Node 24.19.0, 요구 ^24.22.1 미만이라 엔진 경고만 — 기능 실패 시 Node 24.22.1+ 업그레이드 필요). MCP 등록은 하지 않고 CLI로 사용(세션 컨텍스트 비용 회피). 분석 대상은 대표 지정·총괄 승인 후.
+<strong>게임 디자인 갱신 (2026-11-06):** 사양 결정 5(d) 기한·통보를 대표</strong>기값(유효 5일·최소 검토 1일·연장 3일·통보 즉시/1일 뒤)으로 정정, S0~S11 기대 상태 재계산 + S6c·S12·S13 추가. 결정 5(e) '채용 1차 구현 기준' e-1~e-12(필수조건/선호, 6항목 만족도 계산 근거 제안, 가중치, 기본선, 동점, 조기 결정, 반공개 정보 표, 통보, 약속 불이행 종료, 하루 계획+사건 처리, 초기값, 2단계 시험 J1~J9) 추가.
+<strong>보안팀 설계 검</strong>의견 (2026-11-06, 대표):<strong> klzzwxh</strong>044 (SHA-256 F22DF0EC… 확인, 186줄). 보안팀 정식 반영·공통 능력 사용·전문 경험 구분·조사/수정/재검증 협업 흐름 유지 + 보완: ① 예방→평상시→의심 사건→정상화까지의 작업 사슬(코드 수정 ≠ 사건 해결, 영향에 필요한 후속 작업만 생성, '막은 해킹 건수' 같은 알 수 없는 숫자 금지) ② 검토 업무라고 전부 '분석'이 아님 — 작업별 사용 능력(코드·구조 검토=개발, 로그 조사=분석, 권한 조치=운영, 일정 조정=관리, 보호 기능 구현=개발), 보호 대상 3 × 업무 영역 6은 다른 축이며 시간·효과 중복 계산 금지 ③ 게임 결함 / 의심 행동 / 고의적 악용 / 제재 분리, 안티치트는 범위 지원일 뿐 로직 결함은 개발 수정 ④ 실제 사건·경보·회사 판단·제재·공지 구분 유지, 미탐률을 회사 화면에 그대로 표시 금지(개발용 검사 vs 플레이 화면 표), 제재 취소 비율 ≠ 오탐률, 기록 없는 사건 자동 복원 금지, 직원 평가는 발견 건수 하나로 하지 않음 ⑤ 보안 담당자 판단과 실행 권한 분리 — 위임 방침 표(조사·검증 / 임시 제한 / 개발 수정·배포 / 제재·복구·보상 / 대외 공지), 임시 제한은 무엇·누구에게 영향·해제 근거를 남기고 정상 플레이·매출에 실제 비용, 고객 반응은 기존 고객 시뮬레이션으로 ⑥ 사건은 회사 구조(자산·결함/공백·상황·보호와 관측·영향과 대응)에서 발생, 성장 벌칙·무작위 벌금 금지, 거래 없는 작품엔 거래 악용 없음, 좋은 투자 결과 인정, 업무 적으면 겸직·외부 지원도 유효. <strong>첫 검증 = 기존 아이템 거래 기능의 사건 모델(비교 7개)** — 능력 체계 '거래 기능 팀' </strong>과 같은 묶음. 마일스톤: 설계는 지금(game-design), 계약·구현은 M1 조립 후 거래 기능 비교 시험과 함께(M2). <strong>원 문서(수정된 전체 능력 체계·보안 절·인용 채용공고)는 여전히 미수령.</strong>
+<strong>오버레이 v3 (2026-11-06):</strong> game-design이 <code>data/balance/m1/trial.json</code>을 balance-v3 <code>m1-trial-006</code>으로 작성(positions.name_key, business 시장·재무 시험값, design 장르 3·범위 9·규칙 효과, growth_models A/B(비활성), hiring 1차 기준값). 통합이 로더·빌드 검증을 v3로 교체하고 공유 테스트를 복구하는 중.
+<strong>아트·구도 시안 (2026-11-06, 2026-11-07 대표 추가 지시 반영):</strong> <code>기획안/참고_아트_구도_브리프/</code> (PNG 2개 + README). <strong>결정 3·11:</strong> 로우폴리곤 3D + SD + 밝고 아기자기한 톤 + 팀별 포인트 컬러 + 가독성 우선 오브젝트. <strong>최신 확정 방향:</strong> 층 미선택은 건물 전경, 층 선택은 선택 층 내부 상세, 전경 복귀는 층 선택 해제. <strong>성장은 기존 건물 증축이 아니라 회사 단계에 따른 사옥 이전. 건물 내부 섹터는 플레이어가 선택.</strong> 이전의 '층 증축=조직 성장' 제안은 폐기하며, 직군별 층·방은 예시일 뿐 고정하지 않는다. 시안 UI는 복제하지 않음. 경영 메뉴(UI Toolkit) 접근을 유지하되 사무실을 선택 불가능한 배경으로 제한하지 않는다. 연출은 코어 상태를 표현하며 결과를 바꾸지 않는다. 사무실 1차 전경·층 상세는 기존 M1 후반 계획 유지. 단계별 이전·섹터 편집의 조건·비용·자유도·구현 시점은 별도 설계 대상이며 이번 지시로 코어 구현 범위를 즉시 늘리지 않는다. 아트는 기존 구도·성장 규칙·에셋 목록 정정, UI는 보기·선택 흐름, 게임 디자인·통합은 단계·건물·섹터와 회사 상태의 연결을 맡는다. 초기 건물·층수·인원·화면 수치 및 제작 도구·외주 여부는 미확정.</p>
+<p><strong>대표 확정 — 자율 사무실·건물 성장·대표 역할 (2026-11-07):</strong> <code>기획안/보완_자율사무실_건물성장_대표역할_확정_2026-11-07.md</code> (원문 7항 + 총괄 충돌 해소 표). <strong>확정:</strong> ① 직원은 처음부터 자율 행동(출근·이동·착석·업무·회의·식사·휴식·퇴근 스스로), 대표는 제작 방향·우선순위·인력/역할 배치·예산·중요 변경만 결정. '직접 지휘→점진 위임'은 <strong>판단 책임의 이동</strong>이지 자율 행동 해금이 아님. ② 기획→제작→시험→수정→출시가 대표 선택(기능 추가/삭제·품질 목표·수정 우선순위·인력 조정)에 따라 실제 결과를 바꿈; 사무실의 업무·회의·검수 행동도 이 흐름에 연결. ③ 건물은 건설 아닌 <strong>성장 시 이사</strong>; <strong>가구·팀 배치는 플레이어 자유</strong>(확정), 자유 건축·층 증축·방 슬롯 배치는 승인된 기본 사양 아님, 내부 구조 변경 범위는 미정; 부서↔방 일대일 강제 없음(보안 전용실 불필요), 시안의 4층·층별 부서는 예시. ④ 모든 화면·직원 활동은 <strong>하나의 게임 시계</strong>, 보이지 않는 층도 같은 규칙, 식사·회의·업무 중복 계산 금지, 장면 인물 = 시뮬레이션 인물(장식 인물 금지). ⑤ 초기 보고 3단계 <strong>결정 필요 / 처리 중 / 기록</strong>; 위임 업무는 담당자가 권한 안에서 실행(사소한 승인 요청 금지); <strong>김비서</strong>는 추후 업데이트(튜토리얼·사내 메신저 전달 캐릭터), 세부·시점 미정, M1·채용 시험 조건 아님. ⑥ <strong>작업 기여는 실제 수행 이력</strong>(구현·검수·수정·지원·교육)으로 기록, 마지막 담당자 귀속·능력 역산 금지, 출시 판단과 분리. ⑦ 회사가 커져도 대표의 직접 제작 관여 가능, 위임 강제 없음, 개별 직원 수동 조작은 어느 단계에도 없음. <strong>미정:</strong> 건물별 공간·수용, 이사 비용·조건·진행 방식, 가구 배치 세부 제한·내부 구조 변경 범위, 김비서 세부·시점, 목업 수치. <strong>처리:</strong> 아트 D-A5 장식 주기 기각(식사는 게임 시간과 연결; 하루 안 시간 모델은 game-design 설계 대기), D-A7은 '가구·팀 배치 자유 + 구조 변경 미정'으로 재작성. 채용 시험 범위 불변, 사무실 기능은 선행 조건 아님; 이후 시연 연결점(같은 PersonId 합류→배치→자율 업무·생활)은 통합 계약 논점. <strong>기획 반영 Task 배정:</strong> game-design(0.1 C04 정의·7.11 강제 없음·16장·새 절 기여 기록/보고 3단계/하루 안 시간 모델 미정), ui-ux(2장·4.11 가구/팀 배치·7장 3단계·8장·김비서 추후), art(3.2/3.4/D-A5/D-A7/6장), integration(architecture 15·시연 읽기 모델 논점), B(알림함 3단계), A(기여 기록 재구성 가능성 확인). <strong>구현·시험은 미착수(기획 반영과 구분).</strong>
+<strong>플레이 흐름(M1):</strong> 새 회사 시작(대표 + 초기 팀 + 초기 자본) → 프로젝트 생성(장르·대상 고객·범위) → 4장 단계(기획 가설 → 프로토타입 → 대표 구간 → 본제작 → 통합 검증 → 출시 준비) → 작업판(의존 작업·배정·병목) → 플레이테스트(정보만 제공, 개선은 별도 작업) → 출시 체크리스트 → 출시 → 시장 반응(인지 → 관심 → 구매 → 플레이 → 평가) → 11장 돈의 네 상태(결제액 → 정산대상액 → 개발사 몫 → 입금) 지연 반영 → 결과 화면.</p>
+<p><strong>M1 기준값(시험용, 전부 조정 변수):</strong> 실시간 + 일시정지 + 배속(1/2/4), 하루 단위 틱 · PC 패키지 단일 시장, 스토어 1개, 고객 집단 3개, 경쟁사 없음 · 지원 장르 2~3개 · 초기 팀: 대표 + 3명(프로그래밍·아트·기획) · 초기 자본·급여·가격은 game-design 사양의 시험값.</p>
+<p><strong>기술 결정(총괄 확정):</strong> Unity <strong>6000.5.9f1</strong>(설치본 <code>C:/Program Files/Unity/Hub/Editor/6000.5.9f1</code>). 계산과 화면 분리(17.6): 코어는 UnityEngine을 참조하지 않는 순수 C#, 명령 + 공통 검증(17.3), 사건 로그, 결정적 난수, 저장 버전(17.5 최소). 코어는 <code>dotnet test</code>(.NET 9 설치됨)로 Unity 없이 검증 가능해야 한다. 세부 구조·UI 기술(UI Toolkit/uGUI)은 통합 담당이 정하고 여기 기록한다.</p>
+<p><strong>통합 1단계 계약:</strong> <code>docs/architecture.md</code>, <code>Assets/Scripts/Core/Contracts/</code>. UI는 UI Toolkit(큰 목록 가상화·공통 USS·읽기 모델 바인딩). asmdef <code>GameCompanySim.Core</code>(<code>noEngineReferences</code>)와 <code>GameCompanySim.Presentation</code>(Core 참조). A 소유 <code>Core/Production</code>, B 소유 <code>Core/Business</code>·<code>Core/Persistence</code>·이후 <code>Presentation</code>, 통합 소유 <code>Core/Contracts</code>·<code>Core/Runtime</code>·프로젝트/공용 테스트 설정. 1단계는 모듈 구현 없이 계약만 제공했으며 현재 A/B가 구현 중.</p>
+<p><strong>통합 검증:</strong> Unity 6000.5.9f1(b57deb96f08d) <code>-batchmode -nographics -quit -projectPath</code> 초기화/컴파일 exit 0(<code>Logs/unity-compile.log</code>), Core·Presentation DLL 생성. .NET SDK 9.0.317, <code>dotnet test tests/Core.Tests/Core.Tests.csproj</code> 1통과/0실패/0건너뜀(<code>Logs/TestResults/core-tests.trx</code>). Core .NET Standard 2.1 빌드 경고0/오류0(<code>Logs/core-compat.log</code>), 별도 실행 스모크 금액=136000·오버플로 거부·PersonId=20 보존. 실제 게임 틱·저장·시장 동작 통과를 의미하지 않음.</p>
+<p><strong>통합 인계:</strong> 최초 라이선스 오류(<code>Logs/unity-create.log</code>, exit 198)는 사용자 로그인 완료 후 해결. <code>Assets/Packages/ProjectSettings</code> 초기화·컴파일 완료, 에디터가 생성한 잠금 파일과 기본 설정 포함. 설치·라이선스·계정 변경 없음. 공용 용어집 M1 식별자 및 추가 보완 경계 4개 반영. 기술 차이는 architecture 9절에 기록(시간 조작도 명령, 정수 분/고정소수점, M1 자체 퍼블리싱 FIN은 개발사 몫 100%). 커밋 <code>3eefb05</code> — <code>chore: bootstrap Unity project and core contracts</code>(64개 파일, 비공개 현황·로그·타 담당 문서 제외), 푸시·원격 변경 없음.</p>
+<p><strong>자리·숙련 계약 보완 완료:</strong> 커밋 <code>59b5c86</code> (<code>feat(core): add position assignment and proficiency contracts</code>), <code>Contracts/PositionContracts.cs</code>, architecture 4.1·6절. Position(=Title/Slot)·Assignment를 Employee 고용/Team 소속과 분리하고 AssignPosition만으로 배치·교체·해제. <strong>AssignWork의 두 번째 인자는 PersonId가 아니라 PositionId</strong>이며 작업의 수행자는 활성 배치에서 해석. GetProficiency/GetRoleFit는 파생 조회·비저장, IRolePerformanceModel은 산식 주입 경계만 제공. Person.IsNamed/PortraitId, 자동 승진 금지, 공통 인물 용량 원장, M1 실무 자리/M2 이후 책임 자리 경계 반영. A/B 중계는 총괄이 완료.</p>
+<p><strong>자리 계약 검증·플랫폼:</strong> <code>dotnet test</code> 1통과/0실패/0건너뜀(<code>Logs/TestResults/position-contracts.trx</code>). Unity 6000.5.9f1 <code>-buildTarget Win64</code> 컴파일/계약 소비 스모크 exit 0(<code>Logs/unity-position-contracts.log</code>, <code>PLACEMENT_CONTRACT_SMOKE_PASS target=StandaloneWindows64</code>): 배치/해제 명령·자리 기반 AssignWork·파생 조회 API·기본 1920×1080 확인. 입력은 마우스+키보드, 1280×720은 최소 화면 설계 가정. 임시 관측 코드 제거. 실제 배치 처리·산식·UI 동작은 A/B 후속 구현·검증 범위이며 테스트 통과로 보고하지 않음.</p>
+<p><strong>Presentation·B 계약 완료:</strong> 커밋 <code>d64478e</code> (<code>feat(core): define presentation and business integration contracts</code>), <code>Contracts/PresentationContracts.cs</code>, architecture 3.1~3.4·7~8절. IGameClient의 읽기/Preview(issue 목록)/Execute/IDisposable 구독, IDeveloperInspection 읽기 전용 포트 분리. Notifications 매퍼는 통합 Runtime 소유, A는 공통 검사/가시성 필터/구독, B는 도메인 사건/화면/시간 펌프 담당. 개발 검사 화면은 통합 Presentation/Diagnostics·M1 포함·일반 플레이 숨김. 결정 대화 자동 정지 기본 ON, 기준 1920×1080·최소 1280×720.</p>
+<p><strong>B 요청 전달:</strong> StartPromotion, 깊은 IBusinessCapture, IDayContext.CommandId/ActorPersonId, Checklist StatusDay/EvidenceWorkPackageId, Append 가시성 인자, 환불 후 금액의 수수료 기준을 <code>d64478e</code>에 반영. 독립 시험 요율20%에서 수수료18,000·정산대상72,000. B 디스패치 에 직접 전송(), 실제 반영 확인은 아직 없음. 이후 사내 브라우저 요청으로 아래 WorldPublic 구분을 추가 중.</p>
+<p><strong>Presentation·B 계약 검증:</strong> <code>dotnet test</code> 1통과/0실패/0건너뜀(<code>Logs/TestResults/presentation-contracts.trx</code>). Unity 6000.5.9f1 Win64 컴파일·계약 소비 스모크 exit 0(<code>Logs/unity-presentation-contracts.log</code>, <code>PRESENTATION_CONTRACT_SMOKE_PASS</code>), FIN 예시 fee=18,000/settleable=72,000 확인. 실제 Preview/구독/알림/광고/정산/UI 행동 구현은 이번 범위 밖. A/B 소유 구현 파일은 수정하지 않음. 임시 관측 코드 제거.</p>
+<p><strong>공개 피드 계약:</strong> 대표 사내 브라우저 참고 README 반영. <code>IGameReadModel.PublicEventFeed</code>는 날짜·종류·회사·대상·관측값(InfoGrade 포함) 읽기 모델이며 기존 IGameClient.Subscribe로 갱신을 구독. 회사 내부 정보의 뉴스 유출 방지를 위해 EventVisibility를 Internal=0 / CompanyKnown=1 / WorldPublic=2로 분리. 일반 화면은 WorldPublic 또는 현재 회사 CompanyKnown, 뉴스/커뮤니티는 WorldPublic만 사용. 급여·정산·입금·심사는 CompanyKnown 유지, 숨은 인지·관심 인원은 Internal. 기사/게시글 생성·사이트 화면은 game-design 제안 후 M1 후반, 현재는 계약만. 추가 검증 진행 중.</p>
+<p><strong>담당:</strong></p>
+<table>
+<thead>
+<tr>
+<th>담당</th>
+<th>세션</th>
+<th>범위</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>총괄</td>
+<td>coordinator</td>
+<td>제품 결정·범위·우선순위·UI 검수·교차 검토·배정</td>
+</tr>
+<tr>
+<td>통합(기술 책임자)</td>
+<td>integration</td>
+<td>Contracts·Runtime·사건→알림 매퍼·개발 검사 화면(Presentation/Diagnostics), 통합·리뷰·커밋·머지</td>
+</tr>
+<tr>
+<td>구현 A</td>
+<td>implementer-A</td>
+<td>Core/Production: 시간·회사·인물/고용/팀·자리/배치·숙련/적합도·제작/테스트·IGameClient 사전 검사/공개 필터/구독</td>
+</tr>
+<tr>
+<td>구현 B</td>
+<td>implementer-B</td>
+<td>Core/Business·Persistence: 출시·광고·시장·정산·현금·저장 → Presentation(개발 검사 제외)·시간 펌프·알림함</td>
+</tr>
+<tr>
+<td>게임 디자인</td>
+<td>game-design</td>
+<td>용어집·첫 검증판 사양·M1 수치 초기값</td>
+</tr>
+<tr>
+<td>UI/UX</td>
+<td>ui-ux</td>
+<td>화면 설계·흐름·와이어프레임 (M1 화면 우선)</td>
+</tr>
+<tr>
+<td>QA(복잡)</td>
+<td>qa-1</td>
+<td>M1 검증 계획·시나리오·코어 테스트 설계·원인 분석</td>
+</tr>
+<tr>
+<td>QA(단순)</td>
+<td>qa-2</td>
+<td>스모크·회귀 재실행·체크리스트 점검</td>
+</tr>
+<tr>
+<td>글</td>
+<td>writer</td>
+<td>UI 문구·단계명·알림·결과 화면 문장 (화면 목록 확정 후)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>규칙:</strong> 자기 범위 파일만 수정. 커밋·푸시는 통합 담당만(영어 Conventional Commits). 수치는 시험값 + 조정 변수. 제안을 확정으로 쓰지 않는다. 결정이 필요하면 총괄에게 <code>ask</code>.
+<strong>진행:</strong> 2026-11-06 — 부트스트랩 <code>3eefb05</code>, 자리·숙련 계약 <code>59b5c86</code> 커밋 완료. <strong>구현 A/B 진행 중.</strong> integration UI 결정 6·9 및 B 요청(광고·캡처·실행 주체·체크 날짜·사건 가시성·환불 후 수수료·알림 주체) 계약·문서·.NET/Unity 검증 완료, 후속 커밋과 B 직접 인계 준비. qa-1 검증계획 v0.1: 코어35·연동13·수동25·보류15. game-design·ui-ux 문서 작성 중, writer 대기.</p>
+<p><strong>통합 코어 기준선(2026-11-07):</strong> <code>b12d7d5</code> (<code>feat(core): integrate production business and persistence</code>, 138파일) 커밋 완료. A/B 코어·공용 계약·선택 Hiring 호스트/저장 블록·balance-v3 데이터 포함; C 진행 중 구현/시험·Presentation·기획안·비공개 현황/로그 제외. 기본 <code>dotnet test</code> 146/146, 원본 구조12/Python5 통과(<code>Logs/TestResults/core-baseline.trx</code>), Unity6000.5.9f1 Win64 v3 실제 로드 exit0(<code>Logs/unity-core-baseline.log</code>). 규칙 <code>m1-trial-006-ea3d5548da19bd20</code>. 총괄에 로 전달됨.</p>
+<p><strong>통합 Runtime 진행:</strong> 실제 <code>SimulationFactory</code>가 동일 콘텐츠/오버레이로 A 제작과 B 시장/재무를 생성하며 초기 고용·급여도 B에 전달. .NET 실행에서 초기 월급15,300,000 → 명령 기반 제작/내부 플레이테스트 → 480일 출시 준비 → 485일 출시 → 569일까지 시장/정산/입금 → 저장·복원 후 같은 84일의 정규 JSON 일치를 확인(<code>Logs/runtime-lifecycle-smoke.json</code>). 결제177,060,000·정산대상/개발사 몫85,134,000·입금30,184,000. 기술 경로 증거이며 캠페인 자금 균형·게임오버·UI 검증 완료는 아님.</p>
+<p><strong>2026-11-07 완료 보고 접수(18건):</strong>
+- <strong>A 후속 1·2 완료:</strong> 채용 호스팅·합류 포트(호스팅 10 + C 파이프라인 11, 146/146) → UI 읽기 모델 7항목(달력·NameKey/역량 비중·추정 임계·2.17 일정 전망+PreviewProjectPlan·플레이테스트 계획 질의·ActiveStaff), Contracts에 DRAFT, 2.17(g) 검산 일치, 19개 테스트 포함 178/178, 실제 완료일이 미리보기 범위 안. <strong>합류 차단 세 경로 확정</strong>(예방 / 회사 약속 불이행 종료 사건 / 불변조건 위반만 예외·롤백).
+- <strong>B Presentation 2단계 완료:</strong> 화면 5개(플레이테스트·체크리스트·재무 요약·출시 결과·알림함) + 공용 가상화 표, 1단계부터 있던 다중 클래스 스타일 결함 수정, EditMode 27/27·PlayMode 5/5·공유 173/173, 캡처 28장(<code>Logs/Captures/{1920,1280}-01~14</code>). 아직 Preview 데이터만, Runtime·v0.2 문구·A DRAFT 연결 대기.
+- <strong>C 채용 1단계 완료 → 기준선 <code>06dc065</code></strong> (<code>feat(hiring): implement transactional offer and joining flow</code>, 30파일): <code>Core/Hiring</code> 11파일 + 시험 6파일, 실제 경로 22 + 하네스 16, 173/173, 실제 스모크(<code>Logs/hiring-pipeline-smoke.log</code>, 통합 재검 <code>Logs/hiring-review-smoke.json</code>: 인물 254 유지·수락 2일/합류 29일·56일 급여 1회·지연 통보·중복 무효과·저장 재개 동일). <strong>qa-1 검수 38/38 통과</strong>(스냅샷 66·복원 44), 커버 보강 QA-COV-H01(회사별 비간섭)·H02(같은 시점 승인·만료 충돌) → C 2단계 범위. <strong>C2 편집 해제, 2단계 착수.</strong>
+- <strong>qa-1:</strong> 독립 146/146, 대조표 <code>docs/qa/M1_코어_독립검증_보고_v0.1.md</code>. <strong>QA-DEF-01/C44 → A 수정 완료</strong>(재직 보조는 자기 근무 있는 역량에만; QA 입력 영구 회귀 + C43~C45 경계 테스트, 184/184, QA 독립 경로 50~70→50~70 확인) → qa-1 재검증 중. <strong>새 결함(통합 발견, A 배정): 복원 ID 경계</strong> — <code>Manifest.NextEntityId</code>가 기존 <code>Hiring.CommitmentId</code>보다 낮아도 Restore가 수락(생산 Claim만 검사) → 전 모듈 최대 ID 대조로 InvalidSave 거부 + 회귀. Runtime 전주기 독립 실행은 조립 커밋 통지 대기.
+- <strong>writer / B 문구:</strong> v0.2 699 → 2단계 +109(화면 표 키 697·문자열 808) → <strong>B가 SOURCE 전환·ko.json 재생성·<code>--check</code> 통과·재캡처 28장 완료.</strong> B가 실제 코어 코드에서 뽑은 누락 키 7그룹(event.ProjectBaselineSet / A issue 9 / A 거부·저장 사유 19 / B 출시·현금 사유 28+내부 6 / format.game_date·weekend_mark / PlaytestStatus 4·schedule 2 / 시작·저장·불러오기 23)을 writer 3차 Task로 배정(<code>spec-writer-m1-v02-phase3.md</code>). <strong>총괄 승인 제품 판단(B 제안):</strong> (a) 새 게임 고정 시작·이름 입력 없음(<code>start.default_company_name</code>)·무작위 시드를 InitialSeed로 저장(회사 이름 입력 M2) (b) 「저장」마다 새 파일, 자동 저장·덮어쓰기 없음, 임시 파일 후 교체 (c) 불러오기 목록 회사·날짜·규칙 버전·저장 시각 최신 순, 불일치 비활성+코어 issue.save.* 사유, 게임 중 불러오기 확인 대화 (d) 저장 후 재개 요약 알림 M1 제외.
+- <strong>game-design:</strong> 보안 15.9(업무 사슬·능력 표·결함/악용/제재 분리·정보 경계·평가 6축·SecurityAuthority·사건 모델·K1~K7, 외부 자료는 '참고'), 사무실 16장(확정 4·미정·분리·계약 논점 8 → 통합 중계), 2.13/2.17 결정 정렬. 보안팀 원 문서(보호 대상 3·업무 영역 6·채용공고)는 여전히 미수령.
+- <strong>art 1단계 + 사옥 이전 정정 완료:</strong> <code>기획안/아트/</code> 3문서 + <code>Logs/art-stage1-report.md</code>. 정정: 구도사양 2.x(층 미선택=외관형 전경, 층 선택=위층·지붕 숨김 상세, 복귀=해제)·3장 전체(G1~G9 증축·자동 배정 폐기 → 공통 치수·시험용 건물·섹터 종류 제안·단계별 외관·재사용 섹터·이전 연출)·4.x 신설·7장 우선순위(1차 전경·층 상세, 2차 이전·섹터는 시점 별도), 에셋목록(단계별 외관 세트 BX11·섹터 키트·모델 77·공수 56~110일 + 단계당 외관 4.4~7.7일). <strong>대표 결정 대기 D-A1~D-A8</strong>: D-A1 도구(Blender 추천)·D-A2 제작 방식(혼합 추천)·D-A3 포인트 컬러(직군 7색 추천)·D-A4 초상(SD 머리 캡처 추천)·D-A5 점심 연출(장식 주기 추천)·<strong>D-A6 회사 단계·이전 규칙·시작 건물(아트 추천 없음, 게임 디자인·통합 설계)</strong>·<strong>D-A7 섹터 단위(가 칸에 종류만 / 나 크기·모양 / 다 벽·가구 편집, 추천 없음)</strong>·D-A8 전경 형태(외관형 추천 / 단면형). 통합 질문 Q-I1~Q-I16 + Q-I11(단계·건물·섹터·좌석 읽기 모델).
+- <strong>integration:</strong> architecture 15절 사무실 반영, 알림 매퍼 선언 오류 복구 후 173/173. <strong>UI 결정 6 확정</strong>(b12d7d5 IGameClient: ReadModel 단일 Revision / Preview→ICommandPreview / Execute 동일 검증 / Subscribe→IDisposable; Preview·조회·거부 무변경; 커밋 뒤 StateChanged 1회, Restore 뒤 StateReplaced+빈 Events → UI 캐시·커서 초기화·과거 토스트 재생 금지; 시간·저장은 ISimulation, 개발 검사는 IDeveloperInspection 한정) → ui-ux에 전달. Runtime 알림 종류 키 현재 5종(WorkCompleted·PlaytestCompleted·PlatformReview·Settlement·CashWarning), v0.2 22종 안. 공개 뉴스는 release.released/market.reviews_* 공개 값만. A 후속 2 계약은 기본 멤버 제거·Unity 소비 검증 뒤 별도 확정.
+- <strong>ui-ux 4.11 사무실 보기:</strong> <code>UIUX_첫검증판_화면설계_v0.1.md</code> 0.6 변경 10 — 새로 열면 전경, 층 선택=층 상세, 「전경 보기」/Esc로 해제, 층 간 직접 이동, 경영 화면 복귀 시 이전 상태, 이전 완료 시 새 건물 전경. 층 선택은 명령·저장 대상 아님. 섹터 선택 = 층 상세 → 상세 패널 → 유형 C 대화('효과 규칙 미정') → 명령. 원칙 7 정정(메뉴로 모든 경영 화면 접근; 사무실이 선택 불가 배경이라는 뜻 아님), 결정 3 확정·결정 11 '있음', 단축키 O/PageUp·PageDown/Q·E/+·-(시험), 가정 A84~A88. 결정 6 확정은 통합 회신 대기(총괄이 요청함).</p>
+<ul>
+<li><strong>A 플레이테스트 전망 정정:</strong> LatestResultDay는 완료 전 null(유한 상한 약속 안 함), 미배정 경고에 필요 진행자 시간(<code>playtest.result_if_assigned</code>·<code>playtest.no_conductor_capacity</code>), 용량 0은 미정, 완료는 Evidence.ObservedAt. 질문 키 <code>playtest.question.&lt;id&gt;</code> 단일화. 통합에 계약 주석 5건·기본 인터페이스 멤버 제거 조율(기본값 의존: B DTO·TestClock/TestProduction, C HiringIntegrationFixture, Presentation Preview/FakeClock) 중계. game-design에 13장 진행도·PL10 수정 배정.</li>
+<li><strong>균형 관측(통합 Runtime 시드21·협동 표준):</strong> 485일 출시·569일 입금·저장 일치 성공이나 <strong>미지급 급여 48,900,000원·최장 504일(65일 경과)</strong> → game-design에 의도 여부·v3 시험값 조정 제안 요청(승인 전 파일 수정 없음).
+<strong>총괄 결정(2026-11-07):</strong> ① 맡을 자리 없는 작업 = 생성 차단 아님, 경고 + Unknown + 기간/인건비 미정. ② 미배정 플레이테스트 결과일 = 다음 근무일부터 배정된다는 조건부 전망, 용량 0은 미정, 완료 후 실측은 Evidence.ObservedAt. ③ 질문 키는 <code>playtest.question.&lt;id&gt;</code> 하나(<code>.name</code> 별칭 금지). ④ C 2단계는 통합의 1단계 기준선 커밋 뒤 착수(e-2 산식·여유 7일은 시험값). ⑤ 체크리스트 항목별 생략·상점 공개 명령은 M2.</li>
+</ul>
+<p><strong>진행 중 Task:</strong> A(C44 수정·질문 키 정정·미리보기 경고), B(v0.2 전환→Runtime 연결→A 읽기 모델 UI 연결→실제 데이터 전주기 검증), C(2단계 차이 정리→기준선 후 구현), integration(C1 기준선 커밋·A DRAFT 확정·MessageCode 목록·Factory 가능 통지), qa-1(C1 검수·Runtime 대기), writer(2단계 키), art(사옥 이전 정정), ui-ux(보기·섹터 선택 흐름). <strong>대표 대기:</strong> 아트 D-A1~D-A7, 나머지 결정안 md, 보안팀 원 문서.</p>
+</div>
+</main>
+</body>
+</html>

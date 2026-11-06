@@ -1,0 +1,129 @@
+{
+ "updated": "2026-11-07T01:23:50.286012+09:00",
+ "agents": [
+  {
+   "label": "통합(기술 책임)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "New messages",
+   "updated": "방금"
+  },
+  {
+   "label": "구현 A (제작 코어)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "A 후속 3: 복원 ID 경계 결함(전 모듈) 수정·회귀",
+   "updated": "방금"
+  },
+  {
+   "label": "구현 B (사업·저장·화면)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
+   "updated": "방금"
+  },
+  {
+   "label": "구현 C (채용)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "채용1 완료 접수·후속2 판단/대기 규칙",
+   "updated": "5분 전"
+  },
+  {
+   "label": "게임 디자인",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "New messages",
+   "updated": "방금"
+  },
+  {
+   "label": "UI/UX",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "UI 결정 6 확정 — 문서 반영 후 worker_done",
+   "updated": "1분 전"
+  },
+  {
+   "label": "QA 1 (검증 설계)",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
+   "updated": "2분 전"
+  },
+  {
+   "label": "QA 2 (스모크)",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "",
+   "updated": "6시간 전"
+  },
+  {
+   "label": "글·문구",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "문구 추가 3개: person.detail.remaining_to_exact + 플레이테스트 경고 2",
+   "updated": "2분 전"
+  },
+  {
+   "label": "아트",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 확정 7항 반영 — 아트 3문서 재정리",
+   "updated": "2분 전"
+  },
+  {
+   "label": "총괄",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "",
+   "updated": "1분 전"
+  }
+ ],
+ "open_tasks": [
+  {
+   "title": "New messages",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)"
+  },
+  {
+   "title": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "채용1 완료 접수·후속2 판단/대기 규칙",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "UI 결정 6 확정 — 문서 반영 후 worker_done",
+   "status": "진행 중",
+   "assignee": "UI/UX"
+  },
+  {
+   "title": "A 후속 3: 복원 ID 경계 결함(전 모듈) 수정·회귀",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "New messages",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
+  },
+  {
+   "title": "대표 확정 7항 반영 — 아트 3문서 재정리",
+   "status": "진행 중",
+   "assignee": "아트"
+  }
+ ],
+ "task_counts": {
+  "completed": 37,
+  "dispatched": 8,
+  "failed": 3
+ }
+}
