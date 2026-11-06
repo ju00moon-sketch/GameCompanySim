@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:44:45.773483+09:00",
+ "updated": "2026-11-07T06:50:51.564947+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,7 +13,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
-   "updated": "23분 전"
+   "updated": "29분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -34,7 +34,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 결정 반영: 제품 경로 시작 조건(대표 1명·1.5억 시험값·급여 0·인원 포함) + 초기 자본 재검증 계산표 + 출신별 시험안",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 키 5건 추가 — 저장 복원 검사 사유(A): save.contribution_value·save.contribution_refere...",
-   "updated": "8분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 1건 삭제 가능: finance.focus.payment_short (B 코드 미사용)",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -94,11 +94,16 @@
    "title": "대표 결정 반영: 제품 경로 시작 조건(대표 1명·1.5억 시험값·급여 0·인원 포함) + 초기 자본 재검증 계산표 + 출신별 시험안",
    "status": "진행 중",
    "assignee": "게임 디자인"
+  },
+  {
+   "title": "문구 1건 삭제 가능: finance.focus.payment_short (B 코드 미사용)",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
   "completed": 84,
-  "dispatched": 3,
+  "dispatched": 4,
   "failed": 5
  }
 }
