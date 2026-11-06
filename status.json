@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T01:34:45.791110+09:00",
+ "updated": "2026-11-07T01:36:49.140413+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "A 후속 3: 복원 ID 경계 결함(전 모듈) 수정·회귀",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,7 +27,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "label": "게임 디자인",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "UI 결정 6 확정 — 문서 반영 후 worker_done",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,15 +61,15 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구 추가 3개: person.detail.remaining_to_exact + 플레이테스트 경고 2",
-   "updated": "13분 전"
+   "task": "문구 1개 추가: issue.save.entity_id_bound",
+   "updated": "방금"
   },
   {
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 확정 7항 반영 — 아트 3문서 재정리",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "총괄",
@@ -101,19 +101,14 @@
    "assignee": "구현 C (채용)"
   },
   {
-   "title": "대표 확정 7항 반영 — 아트 3문서 재정리",
-   "status": "진행 중",
-   "assignee": "아트"
-  },
-  {
    "title": "균형 수정안 승인: initial_cash_won 3.5억 (m1-trial-007)",
    "status": "진행 중",
    "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 40,
-  "dispatched": 6,
+  "completed": 42,
+  "dispatched": 5,
   "failed": 3
  }
 }
