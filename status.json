@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:35:22.695382+09:00",
+ "updated": "2026-11-07T05:41:41.370715+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -27,21 +27,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "8분 전"
+   "updated": "15분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 후속 결정 반영 — 가구 해금(명성·규모)·건물 임대/구매 시험값 제안·시작 조건(대표 직군 선택·창업팀 없음)·초반 QA 겸임",
-   "updated": "2분 전"
+   "updated": "8분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "총괄 답 3건 — 메뉴 7항목·전체 보기 뜻 / 채용 화면 M1 노출 조건 / 직군색 충돌은 아트에",
-   "updated": "2분 전"
+   "updated": "8분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "36분 전"
+   "updated": "42분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
