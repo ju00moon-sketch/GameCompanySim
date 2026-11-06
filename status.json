@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T01:24:37.371063+09:00",
+ "updated": "2026-11-07T01:28:28.547334+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "New messages",
+   "task": "(수신 메시지 처리)",
    "updated": "1분 전"
   },
   {
@@ -27,13 +27,13 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "New messages",
+   "task": "(수신 메시지 처리)",
    "updated": "방금"
   },
   {
@@ -45,43 +45,43 @@
   },
   {
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "",
-   "updated": "6시간 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "7시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 추가 3개: person.detail.remaining_to_exact + 플레이테스트 경고 2",
-   "updated": "3분 전"
+   "updated": "7분 전"
   },
   {
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 확정 7항 반영 — 아트 3문서 재정리",
-   "updated": "3분 전"
+   "updated": "6분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "",
-   "updated": "방금"
+   "task": "(수신 메시지 처리)",
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "New messages",
+   "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
   },
@@ -111,7 +111,7 @@
    "assignee": "구현 A (제작 코어)"
   },
   {
-   "title": "New messages",
+   "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "게임 디자인"
   },
