@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T06:30:32.513822+09:00",
+ "updated": "2026-11-07T06:38:39.993212+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
-   "updated": "9분 전"
+   "updated": "17분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -31,17 +31,17 @@
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
-   "updated": "24분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 결정 반영: 제품 경로 시작 조건(대표 1명·1.5억 시험값·급여 0·인원 포함) + 초기 자본 재검증 계산표 + 출신별 시험안",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "문구 키 5건 추가 — 저장 복원 검사 사유(A): save.contribution_value·save.contribution_refere...",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "6분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -91,13 +91,13 @@
    "assignee": "구현 B (사업·저장·화면)"
   },
   {
-   "title": "문구 키 5건 추가 — 저장 복원 검사 사유(A): save.contribution_value·save.contribution_refere...",
+   "title": "대표 결정 반영: 제품 경로 시작 조건(대표 1명·1.5억 시험값·급여 0·인원 포함) + 초기 자본 재검증 계산표 + 출신별 시험안",
    "status": "진행 중",
-   "assignee": "글·문구"
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 83,
+  "completed": 84,
   "dispatched": 3,
   "failed": 5
  }
