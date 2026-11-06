@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T01:47:02.496644+09:00",
+ "updated": "2026-11-07T01:49:05.925693+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,7 +27,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "게임 디자인",
@@ -59,22 +59,22 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 1개 추가: issue.save.entity_id_bound",
-   "updated": "10분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 키 10개 추가 + 구 알림함 탭 키 3개 삭제",
+   "updated": "방금"
   },
   {
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 추가 결정 9항 — 가구 용도·장식 보너스 없음·이사 시 가구 이동",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
    "updated": "방금"
   }
@@ -119,11 +119,16 @@
    "title": "코드 사실 확인 2건(변경 없음): ChangeScope 영향 범위·대표 실무 자리",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "문구 키 10개 추가 + 구 알림함 탭 키 3개 삭제",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
   "completed": 43,
-  "dispatched": 8,
+  "dispatched": 9,
   "failed": 3
  }
 }
