@@ -1,5 +1,5 @@
-# GameCompanySim 작업 현황
+# GameCompanySim 작업 현황판
 
-작업 현황 페이지: https://ju00moon-sketch.github.io/GameCompanySim/
+https://ju00moon-sketch.github.io/GameCompanySim/
 
-`index.html`은 자동 생성된다. 기계용 요약은 `status.json`, 원문은 `status.md`.
+`index.html`은 자동 생성된다(현황 파일이 바뀌면 다시 게시). 기계용 요약은 `status.json`, 총괄 기록 원문은 `status.md`.
