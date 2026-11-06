@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:04:08.770018+09:00",
+ "updated": "2026-11-07T06:14:17.286815+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -27,28 +27,28 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "37분 전"
+   "updated": "47분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "30분 전"
+   "updated": "41분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "task": "문구 키 21건 — 지급 불능·폐업·재무 종류(B 요청, 문장은 writer가 정함)",
+   "updated": "2분 전"
   },
   {
    "label": "아트",
@@ -94,16 +94,11 @@
    "title": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)"
-  },
-  {
-   "title": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 80,
-  "dispatched": 4,
+  "completed": 82,
+  "dispatched": 3,
   "failed": 5
  }
 }
