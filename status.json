@@ -1,40 +1,40 @@
 {
- "updated": "2026-11-07T04:37:39.469216+09:00",
+ "updated": "2026-11-07T04:43:47.235254+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
-   "updated": "15분 전"
+   "updated": "21분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
-   "updated": "14분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 일괄 결정 반영 — 사양 16.5·16·17.2·17.4·12.1 지급불능·D 목록 (12절 game-design 몫)",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -59,24 +59,24 @@
   },
   {
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "문구 키 1개 추가: hiring.candidate_withdrew (지원자 자동 철회 사유)",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "36분 전"
+   "updated": "42분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -91,18 +91,18 @@
    "assignee": "구현 C (채용)"
   },
   {
-   "title": "문구 키 1개 추가: hiring.candidate_withdrew (지원자 자동 철회 사유)",
-   "status": "진행 중",
-   "assignee": "글·문구"
-  },
-  {
    "title": "UI 설계 결정 2건(B 보고) — Space 전역 일시정지 vs 포커스 컨트롤 충돌 · 큰 배율의 고정 표 행 잘림",
    "status": "진행 중",
    "assignee": "UI/UX"
+  },
+  {
+   "title": "대표 일괄 결정 반영 — 사양 16.5·16·17.2·17.4·12.1 지급불능·D 목록 (12절 game-design 몫)",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 67,
+  "completed": 68,
   "dispatched": 4,
   "failed": 5
  }
