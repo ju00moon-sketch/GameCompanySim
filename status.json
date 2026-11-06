@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T02:54:52.807968+09:00",
+ "updated": "2026-11-07T03:03:00.447181+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "조립 커밋 c6d45ff — display_name 매핑은 스키마 통지 뒤",
-   "updated": "1분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "① display_name 필드 추가됨 — BalanceSettings 매핑",
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,21 +27,21 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "찌라시·소문·정보 유출 — 사양 19장 신설",
-   "updated": "5분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "① 스키마 추가됨 — trial-008 작성(이름 4·시험값 4/50/7·awareness 15→2)",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "찌라시·소문 — 뉴스·커뮤니티 화면 설계 보강(4.9/4.10, 보고·대응)",
-   "updated": "6분 전"
+   "updated": "14분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,22 +61,22 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "33분 전"
+   "task": "문구 자리 수 불일치 2건 수정",
+   "updated": "2분 전"
   },
   {
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -104,11 +104,21 @@
    "title": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
    "status": "진행 중",
    "assignee": "아트"
+  },
+  {
+   "title": "① 스키마 추가됨 — trial-008 작성(이름 4·시험값 4/50/7·awareness 15→2)",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
+  },
+  {
+   "title": "① display_name 필드 추가됨 — BalanceSettings 매핑",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
   }
  ],
  "task_counts": {
-  "completed": 57,
-  "dispatched": 5,
+  "completed": 59,
+  "dispatched": 7,
   "failed": 3
  }
 }
