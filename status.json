@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T04:21:24.932123+09:00",
+ "updated": "2026-11-07T04:31:33.603436+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "label": "UI/UX",
@@ -55,26 +55,26 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "9시간 전"
+   "updated": "10시간 전"
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 키 1개 추가: hiring.candidate_withdrew (지원자 자동 철회 사유)",
+   "updated": "방금"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "19분 전"
+   "updated": "30분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
    "updated": "방금"
   }
@@ -96,19 +96,14 @@
    "assignee": "구현 C (채용)"
   },
   {
-   "title": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
+   "title": "문구 키 1개 추가: hiring.candidate_withdrew (지원자 자동 철회 사유)",
    "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
-  },
-  {
-   "title": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 64,
-  "dispatched": 5,
+  "completed": 66,
+  "dispatched": 4,
   "failed": 5
  }
 }
