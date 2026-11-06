@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:04:02.673130+09:00",
+ "updated": "2026-11-07T02:12:10.456648+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -12,8 +12,8 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "코드 사실 확인 2건(변경 없음): ChangeScope 영향 범위·대표 실무 자리",
-   "updated": "13분 전"
+   "task": "공유 빌드 남은 오류 3곳 — A 파일, 지금 수정",
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,21 +27,21 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "대표 추가 결정 9항 — 사양 반영(자율 작업·출시 판단·퍼블리싱·출시 이후)",
-   "updated": "1분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "초기 팀 표시 이름 필요 + 실제 전주기 매출 관측",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 추가 결정 9항 — UI 문서 반영",
-   "updated": "8분 전"
+   "updated": "16분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -59,17 +59,17 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 키 10개 추가 + 구 알림함 탭 키 3개 삭제",
-   "updated": "10분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 수정 3건: if_assigned_now 자리 1개·issue 2개 추가·'참고'→'기록'",
+   "updated": "방금"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 추가 결정 9항 — 가구 용도·장식 보너스 없음·이사 시 가구 이동",
-   "updated": "5분 전"
+   "updated": "13분 전"
   },
   {
    "label": "총괄",
@@ -99,11 +99,21 @@
    "title": "채용1 완료 접수·후속2 판단/대기 규칙",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "문구 수정 3건: if_assigned_now 자리 1개·issue 2개 추가·'참고'→'기록'",
+   "status": "진행 중",
+   "assignee": "글·문구"
+  },
+  {
+   "title": "초기 팀 표시 이름 필요 + 실제 전주기 매출 관측",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 48,
-  "dispatched": 4,
+  "completed": 50,
+  "dispatched": 6,
   "failed": 3
  }
 }
