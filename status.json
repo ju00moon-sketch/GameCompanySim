@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T03:21:11.780779+09:00",
+ "updated": "2026-11-07T03:28:32.425978+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,70 +13,70 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "① display_name 필드 추가됨 — BalanceSettings 매핑",
-   "updated": "13분 전"
+   "updated": "20분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
-   "updated": "2분 전"
+   "updated": "9분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "① 스키마 추가됨 — trial-008 작성(이름 4·시험값 4/50/7·awareness 15→2)",
-   "updated": "16분 전"
+   "updated": "23분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "32분 전"
+   "updated": "40분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "13분 전"
+   "updated": "21분 전"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 자리 수 불일치 2건 수정",
-   "updated": "20분 전"
+   "updated": "27분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
