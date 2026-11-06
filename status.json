@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T01:51:09.270367+09:00",
+ "updated": "2026-11-07T01:51:41.485113+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -34,14 +34,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 추가 결정 9항 — 사양 반영(자율 작업·출시 판단·퍼블리싱·출시 이후)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 추가 결정 9항 — UI 문서 반영",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
