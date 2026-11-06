@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T07:27:26.172367+09:00",
+ "updated": "2026-11-07T07:37:35.338621+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -17,10 +17,10 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "계약 확정 — B 착수: ObligationKind 6종·비용·건물·유예/종료·raw/live DTO·UI",
-   "updated": "7분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "④ 좁은 후속(승인): 알림함 지급 불능 결정 항목 — CashWarning 재사용 표시 소비자",
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "34분 전"
+   "updated": "44분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -89,11 +89,16 @@
    "title": "대표 결정 반영 Task: 기존 계산 점검 + 급여 분해 + 축소 첫 작품 범위 정의 + 조건 비교표(계산) + 외주/선급금 후보",
    "status": "진행 중",
    "assignee": "게임 디자인"
+  },
+  {
+   "title": "④ 좁은 후속(승인): 알림함 지급 불능 결정 항목 — CashWarning 재사용 표시 소비자",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
   "completed": 88,
-  "dispatched": 2,
+  "dispatched": 3,
   "failed": 5
  }
 }
