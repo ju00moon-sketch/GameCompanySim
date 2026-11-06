@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T04:49:53.050855+09:00",
+ "updated": "2026-11-07T04:55:58.913999+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
-   "updated": "27분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "33분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,21 +27,21 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "대표 일괄 결정 반영 — 사양 16.5·16·17.2·17.4·12.1 지급불능·D 목록 (12절 game-design 몫)",
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -59,8 +59,8 @@
   },
   {
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "③ 알림 문구 키 7개 추가 — Logs/notification-contract-step3.md",
    "updated": "방금"
   },
@@ -69,14 +69,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "48분 전"
+   "updated": "54분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -91,11 +91,6 @@
    "assignee": "구현 C (채용)"
   },
   {
-   "title": "대표 일괄 결정 반영 — 사양 16.5·16·17.2·17.4·12.1 지급불능·D 목록 (12절 game-design 몫)",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
-  },
-  {
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "UI/UX"
@@ -104,16 +99,11 @@
    "title": "③ 알림 계약 확인 + B 다음 Task: DetailCode 소비·미지급 표시·Space/표 규칙 적용",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
-  },
-  {
-   "title": "③ 알림 문구 키 7개 추가 — Logs/notification-contract-step3.md",
-   "status": "진행 중",
-   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 69,
-  "dispatched": 6,
+  "completed": 71,
+  "dispatched": 4,
   "failed": 5
  }
 }
