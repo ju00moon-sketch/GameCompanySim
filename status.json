@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T02:34:32.760739+09:00",
+ "updated": "2026-11-07T02:42:40.346138+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "공유 빌드 남은 오류 3곳 — A 파일, 지금 수정",
-   "updated": "24분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "32분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,28 +27,28 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "판단 접수 — 판매 모양(출시 몰림) 복원 칸 제안을 구체화",
-   "updated": "12분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "찌라시·소문·정보 유출 — 사양 19장 신설",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "38분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "찌라시·소문 — 뉴스·커뮤니티 화면 설계 보강(4.9/4.10, 보고·대응)",
+   "updated": "방금"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "22분 전"
+   "updated": "30분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 키 19개 추가 (실제 창 점검에서 발견)",
-   "updated": "13분 전"
+   "updated": "21분 전"
   },
   {
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "36분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
+   "updated": "1분 전"
   },
   {
    "label": "총괄",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -99,11 +99,26 @@
    "title": "채용1 완료 접수·후속2 판단/대기 규칙",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "찌라시·소문·정보 유출 — 사양 19장 신설",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
+  },
+  {
+   "title": "찌라시·소문 — 뉴스·커뮤니티 화면 설계 보강(4.9/4.10, 보고·대응)",
+   "status": "진행 중",
+   "assignee": "UI/UX"
+  },
+  {
+   "title": "대표 결정: 로우폴리 3D는 Meshy로 제작, 이미지 시안은 대표가 제공 — D-A1·D-A2 갱신",
+   "status": "진행 중",
+   "assignee": "아트"
   }
  ],
  "task_counts": {
   "completed": 54,
-  "dispatched": 4,
+  "dispatched": 7,
   "failed": 3
  }
 }
