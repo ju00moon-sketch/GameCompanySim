@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T01:53:44.871561+09:00",
+ "updated": "2026-11-07T01:57:41.868861+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "코드 사실 확인 2건(변경 없음): ChangeScope 영향 범위·대표 실무 자리",
-   "updated": "2분 전"
+   "updated": "6분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -38,17 +38,17 @@
   },
   {
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "대표 추가 결정 9항 — UI 문서 반영",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "예고: 채용 첫 상태 처리 시험 보고 검수·독립 재실행",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 키 10개 추가 + 구 알림함 탭 키 3개 삭제",
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -106,19 +106,14 @@
    "assignee": "게임 디자인"
   },
   {
-   "title": "대표 추가 결정 9항 — UI 문서 반영",
-   "status": "진행 중",
-   "assignee": "UI/UX"
-  },
-  {
    "title": "대표 추가 결정 9항 — 가구 용도·장식 보너스 없음·이사 시 가구 이동",
    "status": "진행 중",
    "assignee": "아트"
   }
  ],
  "task_counts": {
-  "completed": 45,
-  "dispatched": 7,
+  "completed": 46,
+  "dispatched": 6,
   "failed": 3
  }
 }
