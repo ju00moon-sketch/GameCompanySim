@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:20:23.426393+09:00",
+ "updated": "2026-11-07T06:30:32.513822+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -10,38 +10,38 @@
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "계약 확정 — B 착수: ObligationKind 6종·비용·건물·유예/종료·raw/live DTO·UI",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "53분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
-   "updated": "14분 전"
+   "updated": "24분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "47분 전"
+   "updated": "57분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -55,14 +55,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "11시간 전"
+   "updated": "12시간 전"
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 키 21건 — 지급 불능·폐업·재무 종류(B 요청, 문장은 writer가 정함)",
-   "updated": "8분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 키 5건 추가 — 저장 복원 검사 사유(A): save.contribution_value·save.contribution_refere...",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
@@ -91,13 +91,13 @@
    "assignee": "구현 B (사업·저장·화면)"
   },
   {
-   "title": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
+   "title": "문구 키 5건 추가 — 저장 복원 검사 사유(A): save.contribution_value·save.contribution_refere...",
    "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 82,
+  "completed": 83,
   "dispatched": 3,
   "failed": 5
  }
