@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T04:15:18.953020+09:00",
+ "updated": "2026-11-07T04:21:24.932123+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -10,17 +10,17 @@
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
-   "updated": "13분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "후속: 문구v0.2·실제Runtime·A 읽기모델 최종연결",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "대표 입력: 장비·가구 등급 체계 — 최하위 '스타터급' 시안 접수 (사양 반영 요청)",
-   "updated": "25분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -69,7 +69,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "13분 전"
+   "updated": "19분 전"
   },
   {
    "label": "총괄",
@@ -99,11 +99,16 @@
    "title": "② 배정 — IHiringContext.CreatePurposeRandom 호스트(A)",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
   "completed": 64,
-  "dispatched": 4,
+  "dispatched": 5,
   "failed": 5
  }
 }
