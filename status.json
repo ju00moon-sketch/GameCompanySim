@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T05:22:22.344052+09:00",
+ "updated": "2026-11-07T05:29:16.363505+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -24,10 +24,10 @@
   },
   {
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "게임 디자인",
@@ -55,14 +55,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "10시간 전"
+   "updated": "11시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "Space 전역 규칙용 문구 4건(B 요청) — ui-ux 6.5·9.4",
-   "updated": "23분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "29분 전"
   },
   {
    "label": "아트",
@@ -86,11 +86,6 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)"
-  },
-  {
    "title": "③ 알림 계약 확인 + B 다음 Task: DetailCode 소비·미지급 표시·Space/표 규칙 적용",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
@@ -107,8 +102,8 @@
   }
  ],
  "task_counts": {
-  "completed": 73,
-  "dispatched": 5,
+  "completed": 74,
+  "dispatched": 4,
   "failed": 5
  }
 }
