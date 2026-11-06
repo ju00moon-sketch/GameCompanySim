@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T04:55:58.913999+09:00",
+ "updated": "2026-11-07T05:02:04.894388+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "33분 전"
+   "updated": "39분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,21 +27,21 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "채용1 완료 접수·후속2 판단/대기 규칙",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "대표 일괄 결정 반영 — 사양 16.5·16·17.2·17.4·12.1 지급불능·D 목록 (12절 game-design 몫)",
-   "updated": "4분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 후속 결정 반영 — 가구 해금(명성·규모)·건물 임대/구매 시험값 제안·시작 조건(대표 직군 선택·창업팀 없음)·초반 QA 겸임",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,20 +61,20 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "③ 알림 문구 키 7개 추가 — Logs/notification-contract-step3.md",
-   "updated": "방금"
+   "task": "Space 전역 규칙용 문구 4건(B 요청) — ui-ux 6.5·9.4",
+   "updated": "2분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "54분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
    "updated": "방금"
   }
@@ -99,11 +99,16 @@
    "title": "③ 알림 계약 확인 + B 다음 Task: DetailCode 소비·미지급 표시·Space/표 규칙 적용",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "대표 후속 결정 반영 — 가구 해금(명성·규모)·건물 임대/구매 시험값 제안·시작 조건(대표 직군 선택·창업팀 없음)·초반 QA 겸임",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 71,
-  "dispatched": 4,
+  "completed": 72,
+  "dispatched": 5,
   "failed": 5
  }
 }
