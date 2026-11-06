@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:48:41.328179+09:00",
+ "updated": "2026-11-07T08:58:50.210691+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,14 +13,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "fix 최종 경계(통합): ScheduleForecast.Continuing(455~459)이 다음 날 첫 Started 항목을 반환해 우...",
-   "updated": "7분 전"
+   "updated": "17분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "49분 전"
+   "updated": "59분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -34,14 +34,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 결정 반영 Task: 작업 생성 모델 (a)최소/(b)범위 연동 재정의 · 18.2 네 갈래 · 1.5/1.7/2.0 비교 계획",
-   "updated": "11분 전"
+   "updated": "21분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "task": "UI 갱신(⑤ 시간 재생 계약): 6.2 '업무 이동 480분 밖' → 08:3x 결정으로 정정 · 명령 큐 팝오버 · 비근무일 짧은 표시...",
+   "updated": "3분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "39분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구(⑤ 시간 재생 예고): 명령 완료 기준·대기 수·취소·실제 결과, 오늘 재생 끝내기, 비근무일 표시, 8배속",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -84,11 +84,16 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "문구(⑤ 시간 재생 예고): 명령 완료 기준·대기 수·취소·실제 결과, 오늘 재생 끝내기, 비근무일 표시, 8배속",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 102,
-  "dispatched": 1,
+  "completed": 103,
+  "dispatched": 2,
   "failed": 5
  }
 }
