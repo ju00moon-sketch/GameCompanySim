@@ -1,25 +1,25 @@
 {
- "updated": "2026-11-07T10:01:46.168425+09:00",
+ "updated": "2026-11-07T10:11:55.533072+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "⑤ 통합 검토: FindReceipt(ProductionSimulation.cs 365~368)가 조회마다 payload 해독 — 공개 여...",
-   "updated": "21분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "31분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "⑤ 착수(계약 확정) — B: Persistence Save4 DTO·fakes·TimePump/Submit·ZIP 세션·DayReplay...",
+   "task": "⑤ 접수 — 후속 3건(작은 작업): 날짜 표기 통일·UiSettings 오버레이 연결·speed_8x 키 정리",
    "updated": "방금"
   },
   {
@@ -33,8 +33,8 @@
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "참고: 통합 작업 생성 계약(architecture 18절) — (a) 순수 12개 436시간, 혼합 포함 721시간 계산 일치; 대표 구...",
-   "updated": "26분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "37분 전"
   },
   {
    "label": "UI/UX",
@@ -48,7 +48,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "6시간 전"
+   "updated": "7시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 키 3건(B ⑤): time_control.fault.notice · issue.save.session · 명령 대기 없음",
-   "updated": "17분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구: 명령 대기 팝오버의 채용 명령 4종 라벨 + speed_8x 키 정리(B 판단 뒤)",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -86,14 +86,19 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "⑤ 착수(계약 확정) — B: Persistence Save4 DTO·fakes·TimePump/Submit·ZIP 세션·DayReplay...",
+   "title": "⑤ 접수 — 후속 3건(작은 작업): 날짜 표기 통일·UiSettings 오버레이 연결·speed_8x 키 정리",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "문구: 명령 대기 팝오버의 채용 명령 4종 라벨 + speed_8x 키 정리(B 판단 뒤)",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 108,
-  "dispatched": 2,
+  "completed": 109,
+  "dispatched": 3,
   "failed": 5
  }
 }
