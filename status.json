@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T22:17:34.109078+09:00",
+ "updated": "2026-11-07T22:29:33.138366+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "45분 전"
+   "updated": "57분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "56분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 C (채용)",
@@ -48,14 +48,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "QA: 시작 조건 기준선 재기록 + 초기 자본 1.5/1.7/2.0/2.1억 비교",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "27시간 전"
+   "updated": "28시간 전"
   },
   {
    "label": "글·문구",
@@ -69,14 +69,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "대표 지적: 팔레트 적용 뒤 키보드(FI11)·마우스(FI12)가 이상해 보임 — 소형 프롭 수정",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
