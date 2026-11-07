@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T18:54:31.477831+09:00",
+ "updated": "2026-11-07T19:00:39.240777+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,21 +27,21 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "7분 전"
+   "updated": "13분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "UI/UX 추가: 4.14 새 게임 화면 — 회사명·대표명 입력, 로고 이미지 선택, 출신 8종(무직 포함), 초기 자본 2.1억·보증금...",
-   "updated": "21분 전"
+   "updated": "27분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "문구: §20 추가 키(B 목록 A2: 회사명·대표명·로고 입력·실납 안내·출신 8종 new_game.origin.<id>) + 오류 코드...",
-   "updated": "방금"
+   "task": "(수신 메시지 처리)",
+   "updated": "2분 전"
   },
   {
    "label": "아트",
@@ -107,13 +107,14 @@
   },
   {
    "title": "(수신 메시지 처리)",
-   "status": "진행 중",
+   "status": "차단",
    "assignee": ""
   }
  ],
  "task_counts": {
   "completed": 145,
   "failed": 5,
-  "dispatched": 6
+  "dispatched": 5,
+  "blocked": 1
  }
 }
