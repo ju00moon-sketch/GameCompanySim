@@ -6,8 +6,8 @@
 
 - `docs/architecture.md`20절/17.6과 공유 Contracts 착지: 대표8출신·회사20/대표12자·선택 로고(코어 밖)·자본2.1억/Day0 실납후1.9억·Save6·명령17~25·공통 용량/평가/장소/공개 인물·계획 공수. OfferDefaults/PostingOptions·검수 ID도 파생 조회이며 새 저장 필드가 아니다.
 - 공식 `m1-trial-017-67aa939f7a95cee0`(balance-v5), 시장172명·가구17·한도1500만·월세200만/관리비30만/보증금2000만. 전체 Core471/471·팩12·Python5 통과(`Logs/TestResults/startup-trial017-core.trx`). 이전016의9명령 전체 공개 멤버/정본 왕복·NUnit16·손상 입력18쌍 증거는 그대로 보존하며017 제품 세계 실행과 구별한다.
-- Runtime 새 게임/직접 복원·B 창업/가구/실납·C 앞단/시장·달력을 연결했다. 실제017 실행은8출신의1인/173저장·초기현금1.9억·D28기간비430만·Save6 정본 왕복 및 자연 채용 D29/기획자 디렉터 인계까지 통과했다. 이후 D74까지 첫 제작 기여가 없어 전체 제품 스모크는 실패(`Logs/startup-trial017-product-smoke.json`); A에게 실행기 입력/제작 로직 원인 구분을 인계했으며 녹색 전 코드 커밋은 보류한다.
-- `docs/qa/시작조건_컷오버_교차검토_시나리오_v0.1.md`: D29/D56·8출신·단일 관측/중복 평가·596입력 해시·trial014 동결·Save6/로고·017 자본 비교를 준비했다. 원596과 trial014 C1의505입력을 구별하며 원본3개 SHA 확인. 제품 결과를 계획의 통과 수로 바꾸지 않는다.
+- Runtime 새 게임/직접 복원·B 창업/가구/실납·C 앞단/시장·달력을 연결했다. 통합의017 실제 실행은8출신/초기현금1.9억/D28기간비430만/Save6 왕복을 통과했다. 첫 제작 대기는 A가 작업 수요 부재 `NoRoleMatch`로 확정했고 제품 코드 변경 없이 공개 ChangeScope로 재작업을 승인한 경로가 D29 자연 합류·D30 첫 생산·D56급여500만1회/현금175900000 및16개 왕복을 통과했다(`Logs/startup-hiring-production-smoke.json`); 최초 실패 원기록은 보존한다.
+- `docs/qa/시작조건_컷오버_교차검토_시나리오_v0.1.md`: D29/D56·8출신·596/505입력 구분·동결 원본3개 SHA·Save6/로고·017 자본 비교. 자본1.5/1.7/2.0억+기본2.1억×seed47/21의8회 실제 생성/D28/Save6에서 자본별 시장·인물·ID/RNG 동일을 확인했다(`Logs/startup-capital-boundary-smoke.json`); 출시/균형 비교는 미실행이다. B ProductStartTests→통합 Unity 어셈블리/제품 제외→B 플레이어/최종 검사 순서 뒤 §20 커밋 관문이다.
 - Unity 전용 `GameCompanySim.TestSupport`/`FrozenFixtureFactory` 구현과 실제 .NET 세계 스모크 통과(`Logs/startup-frozen-factory-smoke.json`): A 동결 어댑터와 생성/D28 정본 동일,4인/6배치/3.7억/빈 가구·채용 미탑재, Save6 복원/다음 틱 동일, 제품 저장 교차 거부,10억 UI 시험 변형의 ID/RNG 보존. B RealGame/PlayMode용 API를 인계했으며 Unity 컴파일/실제 화면은 별도 관문이다. 아트2는 `24820d1`(`feat(art): add generated furniture props and verified imports`)로210파일 별도 커밋·미푸시; 원본2.27GB는 로컬 보존·Git 제외, 최종34FBX/근거만 포함했다.
 
 
