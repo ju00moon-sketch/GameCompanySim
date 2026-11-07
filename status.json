@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T01:20:36.867430+09:00",
+ "updated": "2026-11-08T01:27:13.729090+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -17,10 +17,10 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "55분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "채용 과거 사건 문구 불변 보완·집중 검증",
+   "updated": "1분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -55,7 +55,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "30시간 전"
+   "updated": "31시간 전"
   },
   {
    "label": "글·문구",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "6분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -84,11 +84,16 @@
    "title": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "구현 B: 과거 채용 사건 표시 보완",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
   "completed": 168,
   "failed": 7,
-  "dispatched": 1
+  "dispatched": 2
  }
 }
