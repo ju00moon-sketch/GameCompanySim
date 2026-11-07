@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:39:47.028527+09:00",
+ "updated": "2026-11-07T16:45:53.369574+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -12,43 +12,43 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "B 확인 요청(낮은 우선순위, §20 착수 전 짧게): 프로젝트 생성 범위 설명의 추정 공수가 '미확인'으로 보임(QA UI-OBS-01)",
-   "updated": "21분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
+   "updated": "1분 전"
   },
   {
    "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "41분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "game-design: 채용 앞단 시험 데이터(Q4)·초기 인건비 한도(Q5) 기입",
-   "updated": "23분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "UI/UX: 새 게임 시작·채용 최소안·첫 채용 안내 반영",
-   "updated": "15분 전"
+   "updated": "21분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
-   "updated": "24분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "30분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,14 +62,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구 1건: 프로젝트 생성 범위 설명 '추정 공수 [범위]' → '계획 공수 [N]시간'",
-   "updated": "9분 전"
+   "updated": "15분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "41분 전"
   },
   {
    "label": "총괄",
@@ -84,11 +84,31 @@
    "title": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
+  },
+  {
+   "title": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)"
   }
  ],
  "task_counts": {
   "completed": 140,
   "failed": 5,
-  "dispatched": 1
+  "dispatched": 5
  }
 }
