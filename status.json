@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T00:01:55.121502+09:00",
+ "updated": "2026-11-08T00:20:10.165221+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "공개 거절 사유 수정본 검수·로컬 커밋, 후속 사건 문안 수정 전 경계 확보",
-   "updated": "2분 전"
+   "updated": "20분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,14 +27,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "43분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "33분 전"
+   "updated": "51분 전"
   },
   {
    "label": "UI/UX",
@@ -69,12 +69,12 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "59분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
    "updated": "1분 전"
   }
