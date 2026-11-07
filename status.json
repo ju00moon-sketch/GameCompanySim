@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T20:24:24.897770+09:00",
+ "updated": "2026-11-07T20:30:31.844172+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
-   "updated": "12분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design 확인 1건(B 발견): trial 질문 methods에 DocumentReview가 없어 서류 심사(ReviewApp...",
-   "updated": "17분 전"
+   "updated": "23분 전"
   },
   {
    "label": "UI/UX",
@@ -55,14 +55,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "25시간 전"
+   "updated": "26시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "49분 전"
+   "updated": "55분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -94,11 +94,16 @@
    "title": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
   }
  ],
  "task_counts": {
   "completed": 150,
   "failed": 5,
-  "dispatched": 3
+  "dispatched": 4
  }
 }
