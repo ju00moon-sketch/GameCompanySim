@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T03:56:16.059763+09:00",
+ "updated": "2026-11-08T05:21:32.079267+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "외부 회사 초기안 기술 계약 검토 및 현황판 게시 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "현황판 정정본 게시: 전체 세션 복원·담당별 작업·대표결정 일원화·watch 복구",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7시간 전"
+   "updated": "8시간 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,51 +43,51 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4시간 전"
+   "updated": "6시간 전"
   },
   {
    "session_id": "7ad5ba168b",
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "채용 1~6 결정 반영·외부6회사 통합표·생성/공고 후속 설계",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "37분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "task": "현황판 최신 의도 반영: 미답변 대표결정 일원화·채용 1~6 답변 반영",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "48분 전"
+   "updated": "16분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "아트 독립 검수: G1·G2 마우스 윤곽·휠·측면·예산 경계",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "아트 독립 검수: G1·G2 키보드 배열·사진 충실도·예산 경계",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1시간 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,41 +98,52 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "아트: G1/G2 키보드·마우스 새 시안 충실도 보완·검수",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "9분 전"
-  },
-  {
-   "session_id": "580b24ec6c",
-   "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
+   "task": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
+  },
+  {
+   "session_id": "580b24ec6c",
+   "label": "총괄",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "아트 독립 검수: G1·G2 마우스 윤곽·휠·측면·예산 경계",
+   "title": "채용 1~6 결정 반영·외부6회사 통합표·생성/공고 후속 설계",
    "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)"
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "7ad5ba168b"
   },
   {
-   "title": "아트 독립 검수: G1·G2 키보드 배열·사진 충실도·예산 경계",
+   "title": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
    "status": "진행 중",
-   "assignee": "QA 2 (스모크)"
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "0acfc37077"
+  },
+  {
+   "title": "현황판 정정본 게시: 전체 세션 복원·담당별 작업·대표결정 일원화·watch 복구",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "db10db84d0"
   }
  ],
  "completed_tasks": [
@@ -1015,6 +1026,36 @@
    "title": "M2·M3·M8 인물 생성·이력·정보 공개와 회사 프로필 구체안 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "아트 독립 검수: G1·G2 마우스 윤곽·휠·측면·예산 경계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "아트 독립 검수: G1·G2 키보드 배열·사진 충실도·예산 경계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 정정: 세션 목록 복원·전체 담당 작업 현황·완료 작업 이동",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 정정 준비: 자동 게시 안전 중지·UI 수정 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "채용 1~6 새 방향의 초기고용·공고·정원·선호 기술 계약 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 최신 의도 반영: 미답변 대표결정 일원화·채용 1~6 답변 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1057,12 +1098,17 @@
    "title": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "아트 반환: 키보드 모서리 확인·보완 및 실제 저폴리 비교 후보",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 176,
-  "failed": 8,
-  "dispatched": 2
+  "completed": 182,
+  "failed": 9,
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
