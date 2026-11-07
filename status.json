@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T09:35:24.470855+09:00",
+ "updated": "2026-11-07T09:45:33.226302+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "3분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "⑤ 착수(계약 확정) — A: 실제 구간/기여 연결·이동·전망·FindReceipt·codec fingerprint·X8/복원·테스트",
-   "updated": "1분 전"
+   "task": "⑤ 통합 검토: FindReceipt(ProductionSimulation.cs 365~368)가 조회마다 payload 해독 — 공개 여...",
+   "updated": "5분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -34,14 +34,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "참고: 통합 작업 생성 계약(architecture 18절) — (a) 순수 12개 436시간, 혼합 포함 721시간 계산 일치; 대표 구...",
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "39분 전"
+   "updated": "49분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "task": "문구 키 3건(B ⑤): time_control.fault.notice · issue.save.session · 명령 대기 없음",
+   "updated": "1분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -92,7 +92,7 @@
   }
  ],
  "task_counts": {
-  "completed": 106,
+  "completed": 108,
   "dispatched": 2,
   "failed": 5
  }
