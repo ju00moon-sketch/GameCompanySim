@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-07T19:41:45.157925+09:00",
+ "updated": "2026-11-07T19:51:54.109493+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
    "updated": "방금"
   },
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design: 대표 답 — 스타터 임대 조건 상향(보증금 2,000만·월세 200만·관리비 30만 시험값) → 16.6 임대 표·...",
-   "updated": "2분 전"
+   "updated": "13분 전"
   },
   {
    "label": "UI/UX",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "7분 전"
+   "updated": "17분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "37분 전"
+   "updated": "47분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
