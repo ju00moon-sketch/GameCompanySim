@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:24:43.763593+09:00",
+ "updated": "2026-11-08T03:40:00.397526+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6시간 전"
+   "updated": "7시간 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -54,18 +54,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "21분 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "현황판 질의응답·전체 세션·완료 탭 완성 및 게시 인계",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17분 전"
+   "updated": "32분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +87,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "32시간 전"
+   "updated": "33시간 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7시간 전"
+   "updated": "8시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -109,18 +109,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "12분 전"
   }
  ],
  "open_tasks": [
