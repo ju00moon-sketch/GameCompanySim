@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T14:56:04.668150+09:00",
+ "updated": "2026-11-07T15:02:10.543319+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "(수신 메시지 처리)",
+   "task": "다음 컷오버: 회사 시작 조건 전환 계약(대표 1명·FounderJobFamilyId·1.5억 제품 경로·프리셋 격리·첫날 채용 시장) —...",
    "updated": "방금"
   },
   {
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "53분 전"
+   "updated": "59분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -45,10 +45,10 @@
   },
   {
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "11시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
+   "updated": "방금"
   },
   {
    "label": "QA 2 (스모크)",
@@ -66,22 +66,39 @@
   },
   {
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "10시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "아트: 간판 분리·창 위치·직군색·프롭 요청 카드",
+   "updated": "방금"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
- "open_tasks": [],
+ "open_tasks": [
+  {
+   "title": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)"
+  },
+  {
+   "title": "아트: 간판 분리·창 위치·직군색·프롭 요청 카드",
+   "status": "진행 중",
+   "assignee": "아트"
+  },
+  {
+   "title": "다음 컷오버: 회사 시작 조건 전환 계약(대표 1명·FounderJobFamilyId·1.5억 제품 경로·프리셋 격리·첫날 채용 시장) —...",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)"
+  }
+ ],
  "task_counts": {
   "completed": 129,
-  "failed": 5
+  "failed": 5,
+  "dispatched": 3
  }
 }
