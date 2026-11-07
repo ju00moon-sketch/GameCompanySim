@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T16:03:13.363967+09:00",
+ "updated": "2026-11-07T16:13:22.224965+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,21 +27,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "C: 채용 앞단(공고·지원·평가) 계약 제안",
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
    "task": "game-design: 채용 앞단 시험 데이터(Q4)·초기 인건비 한도(Q5) 기입",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
    "task": "UI/UX: 새 게임 시작·채용 최소안·첫 채용 안내 반영",
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -66,17 +66,17 @@
   },
   {
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "아트 보안 수정 2건(통합 검토): meshy_generate.py api-base 제한·키 마스킹",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "4분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -91,11 +91,6 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "아트 보안 수정 2건(통합 검토): meshy_generate.py api-base 제한·키 마스킹",
-   "status": "진행 중",
-   "assignee": "아트"
-  },
-  {
    "title": "game-design: 채용 앞단 시험 데이터(Q4)·초기 인건비 한도(Q5) 기입",
    "status": "진행 중",
    "assignee": "게임 디자인"
@@ -107,8 +102,8 @@
   }
  ],
  "task_counts": {
-  "completed": 134,
+  "completed": 135,
   "failed": 5,
-  "dispatched": 5
+  "dispatched": 4
  }
 }
