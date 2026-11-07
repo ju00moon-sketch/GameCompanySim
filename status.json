@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:06:48.071118+09:00",
+ "updated": "2026-11-07T19:16:57.233407+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -27,28 +27,28 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "19분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "29분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "33분 전"
+   "updated": "43분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -69,14 +69,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 승인: 나머지 31장 전부 생성(2단계 G1 13장 → 3단계 18장, 2등급 포함) — 리메시 목표 상한 93%",
-   "updated": "2분 전"
+   "updated": "12분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
