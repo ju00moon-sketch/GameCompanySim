@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:42:22.801874+09:00",
+ "updated": "2026-11-07T10:52:32.245144+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "⑤ 마지막 정리(통합 리뷰): SessionSave.Read entry 바이트 복사·Dictionary 제거 (span 경로)",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구: 명령 대기 팝오버의 채용 명령 4종 라벨 + speed_8x 키 정리(B 판단 뒤)",
-   "updated": "24분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "34분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
