@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T13:53:12.511570+09:00",
+ "updated": "2026-11-07T14:03:21.759162+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "B 후속(§19 마무리): 대시보드 팀 행·배치 영향 미리보기를 실제 수행자 기준으로",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,14 +62,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "50분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "9시간 전"
+   "updated": "10시간 전"
   },
   {
    "label": "총괄",
@@ -84,16 +84,11 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
-  },
-  {
-   "title": "B 후속(§19 마무리): 대시보드 팀 행·배치 영향 미리보기를 실제 수행자 기준으로",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
-  "completed": 127,
-  "dispatched": 2,
+  "completed": 128,
+  "dispatched": 1,
   "failed": 5
  }
 }
