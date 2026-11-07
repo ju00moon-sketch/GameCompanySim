@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-07T15:16:25.636235+09:00",
+ "updated": "2026-11-07T15:22:32.007654+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "다음 컷오버: 회사 시작 조건 전환 계약(대표 1명·FounderJobFamilyId·1.5억 제품 경로·프리셋 격리·첫날 채용 시장) —...",
+   "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "updated": "방금"
   },
   {
@@ -24,17 +24,17 @@
   },
   {
    "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "9시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "C: 채용 앞단(공고·지원·평가) 계약 제안",
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "game-design: 스타터 공용 가구 최소 보유 명세(품목 ID·수량) + 시작 조건 2.3 반영",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
@@ -48,7 +48,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -91,14 +91,24 @@
    "assignee": "아트"
   },
   {
-   "title": "다음 컷오버: 회사 시작 조건 전환 계약(대표 1명·FounderJobFamilyId·1.5억 제품 경로·프리셋 격리·첫날 채용 시장) —...",
+   "title": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "C: 채용 앞단(공고·지원·평가) 계약 제안",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "game-design: 스타터 공용 가구 최소 보유 명세(품목 ID·수량) + 시작 조건 2.3 반영",
+   "status": "진행 중",
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 129,
+  "completed": 130,
   "failed": 5,
-  "dispatched": 3
+  "dispatched": 5
  }
 }
