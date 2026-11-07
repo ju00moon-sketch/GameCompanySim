@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T03:50:09.800435+09:00",
+ "updated": "2026-11-08T03:56:16.059763+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "외부 회사 초기안 기술 계약 검토 및 현황판 게시 대기",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "31분 전"
+   "updated": "37분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,29 +65,29 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "42분 전"
+   "updated": "48분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "아트 독립 검수: G1·G2 마우스 윤곽·휠·측면·예산 경계",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5시간 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "아트 독립 검수: G1·G2 키보드 배열·사진 충실도·예산 경계",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "33시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,14 +120,19 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
   {
-   "title": "외부 회사 초기안 기술 계약 검토 및 현황판 게시 대기",
+   "title": "아트 독립 검수: G1·G2 마우스 윤곽·휠·측면·예산 경계",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)"
+   "assignee": "QA 1 (검증 설계)"
+  },
+  {
+   "title": "아트 독립 검수: G1·G2 키보드 배열·사진 충실도·예산 경계",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)"
   }
  ],
  "completed_tasks": [
@@ -997,6 +1002,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "외부 회사 초기안 기술 계약 검토 및 현황판 게시 대기",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 질의응답·전체 세션·완료 탭 완성 및 게시 인계",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1050,9 +1060,9 @@
   }
  ],
  "task_counts": {
-  "completed": 175,
+  "completed": 176,
   "failed": 8,
-  "dispatched": 1
+  "dispatched": 2
  },
  "checks": {
   "sessions": true,
