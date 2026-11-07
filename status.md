@@ -9,6 +9,7 @@
 - Runtime 새 게임/직접 복원·B 창업/가구/실납·C 앞단/시장·달력을 연결했다. 통합의017 실제 실행은8출신/초기현금1.9억/D28기간비430만/Save6 왕복을 통과했다. 첫 제작 대기는 A가 작업 수요 부재 `NoRoleMatch`로 확정했고 제품 코드 변경 없이 공개 ChangeScope로 재작업을 승인한 경로가 D29 자연 합류·D30 첫 생산·D56급여500만1회/현금175900000 및16개 왕복을 통과했다(`Logs/startup-hiring-production-smoke.json`); 최초 실패 원기록은 보존한다.
 - `docs/qa/시작조건_컷오버_교차검토_시나리오_v0.1.md`: D29/D56·8출신·596/505입력 구분·동결 원본3개 SHA·Save6/로고·017 자본 비교. 자본1.5/1.7/2.0억+기본2.1억×seed47/21의8회 실제 생성/D28/Save6에서 자본별 시장·인물·ID/RNG 동일을 확인했다(`Logs/startup-capital-boundary-smoke.json`); 출시/균형 비교는 미실행이다. B ProductStartTests→통합 Unity 어셈블리/제품 제외→B 플레이어/최종 검사 순서 뒤 §20 커밋 관문이다.
 - Unity 전용 `GameCompanySim.TestSupport`/`FrozenFixtureFactory`의 .NET 동결 대조·복원·10억 변형은 통과했다(`Logs/startup-frozen-factory-smoke.json`). Unity6000.5.9f1 실제 배치도 종료0:8출신 동일 시드/달력 조회/Save6 복원·동결4인 복원 동일, Core의 Unity 참조0·TestSupport 일반 제품 컴파일 목록 제외(`Logs/startup-unity-assembly-smoke.json`, `startup-trial017-unity-smoke.log`). 임시 Editor 실행기/meta를 지우고 B에게 Unity를 양도했으며 B 플레이어·최종 검사 뒤 커밋한다. 아트2는 `24820d1`로210파일 별도 커밋·미푸시; 원본2.27GB는 로컬 보존·Git 제외다.
+- 커밋 전 추가 평가 회귀에서 같은 ExecuteWorkday의 선행 질문 관측 누락을 확인했다(`Logs/TestResults/hiring-front-market-assessment-red.trx`). 승인된 내부 `IHiringModule.AssessmentHistory` 실시간 읽기 포트와20.7.3/F-07 계약을 추가·인계했으며 A 공급자/C 생산자·시험 어댑터 전환 뒤 해당 회귀를 포함한 전체 Core 및 실제 다중 질문 경로를 확인한다. 앞의471건과 Unity 증거는 이 추가 수정 이전 결과다.
 
 
 - 아트 분리 커밋 완료: **`9d7c73b` — `feat(art): add starter office assets and prop generation pipeline`**,80파일, 푸시 없음. Assets/Art·ArtSource 두 묶음·아트 문서3개·docs/art-pipeline만 포함했으며 §20/WORK_STATUS·로그·임시 검사 코드·Core 변경은 포함하지 않았다.

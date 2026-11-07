@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T20:30:31.844172+09:00",
+ "updated": "2026-11-07T20:36:38.976512+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,7 +13,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -33,15 +33,15 @@
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "game-design 확인 1건(B 발견): trial 질문 methods에 DocumentReview가 없어 서류 심사(ReviewApp...",
-   "updated": "23분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "30분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "55분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
