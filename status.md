@@ -4,12 +4,12 @@
 
 ## 통합 기술 인계 — 시작 조건/채용 앞단 (2026-11-07)
 
-- `docs/architecture.md`20절/17.6과 공유 Contracts 착지: 대표8출신·회사20/대표12자·선택 로고(코어 밖)·자본2.1억/Day0 실납후1.9억·Save6·명령17~25·공통 용량/평가/장소/공개 인물·계획 공수. OfferDefaults/PostingOptions·검수 ID도 파생 조회이며 새 저장 필드가 아니다.
-- 공식 `m1-trial-017-67aa939f7a95cee0`(balance-v5), 시장172명·가구17·한도1500만·월세200만/관리비30만/보증금2000만. 추가 평가·달력 수정 후 전체 Core535/535·팩12·Python5 통과(`Logs/TestResults/startup-live-history-core.trx`). 초기471건·016의9명령 정본 왕복/NUnit16/손상 입력18쌍은 단계별 과거 증거로 보존한다.
-- Runtime 새 게임/직접 복원·B 창업/가구/실납·C 앞단/시장·달력을 연결했다. 통합의017 실제 실행은8출신/초기현금1.9억/D28기간비430만/Save6 왕복을 통과했다. 첫 제작 대기는 A가 작업 수요 부재 `NoRoleMatch`로 확정했고 제품 코드 변경 없이 공개 ChangeScope로 재작업을 승인한 경로가 D29 자연 합류·D30 첫 생산·D56급여500만1회/현금175900000 및16개 왕복을 통과했다(`Logs/startup-hiring-production-smoke.json`); 최초 실패 원기록은 보존한다.
-- `docs/qa/시작조건_컷오버_교차검토_시나리오_v0.1.md`: D29/D56·8출신·596/505입력 구분·동결 원본3개 SHA·Save6/로고·017 자본 비교. 자본1.5/1.7/2.0억+기본2.1억×seed47/21의8회 실제 생성/D28/Save6에서 자본별 시장·인물·ID/RNG 동일을 확인했다(`Logs/startup-capital-boundary-smoke.json`); 출시/균형 비교는 미실행이다. B ProductStartTests→통합 Unity 어셈블리/제품 제외→B 플레이어/최종 검사 순서 뒤 §20 커밋 관문이다.
-- Unity 전용 `GameCompanySim.TestSupport`/`FrozenFixtureFactory`의 .NET 동결 대조·복원·10억 변형은 통과했다(`Logs/startup-frozen-factory-smoke.json`). Unity6000.5.9f1 실제 배치도 종료0:8출신 동일 시드/달력 조회/Save6 복원·동결4인 복원 동일, Core의 Unity 참조0·TestSupport 일반 제품 컴파일 목록 제외(`Logs/startup-unity-assembly-smoke.json`, `startup-trial017-unity-smoke.log`). 임시 Editor 실행기/meta를 지우고 B에게 Unity를 양도했으며 B 플레이어·최종 검사 뒤 커밋한다. 아트2는 `24820d1`로210파일 별도 커밋·미푸시; 원본2.27GB는 로컬 보존·Git 제외다.
-- 같은 ExecuteWorkday 선행 관측 누락을 `IHiringModule.AssessmentHistory` readonly live 포트+A 회사 필터로 수정했고 면접 조율 경계/기본일을20.7.2·F-08에 고정했다. A 실제 Runtime/Day5는 현재·잠재력 각3관측 합성/Save6 왕복/재실행 불변을 통과했다(`Logs/assessment-history-live-smoke.json`); 통합 전체535건도 녹색이다. B의 이 수정 이후 Windows 빌드·최종 EditMode/PlayMode·worker_done을 받으면 §20 단일 커밋한다.
+- §20 코드 컷오버 완료: `bc7e71c03ed2570bd3d1c8a1ac05594e02629660` — `feat: add founder startup and hiring front end`,223파일. 완료 근거 문서는 `a269ee5be2de067e615dd379f0dbe46b2dbdd694` — `docs: record startup cutover verification`로 기록했다. 푸시 없음; 기획안·비공개 현황·아트·로그/임시 산출물·자동 ProjectSettings 제외. 구현 완료와 검증 한계는 architecture20.12, 정확한 범위/해시는 `Logs/startup-cutover-commit-scope.json`에 있다.
+- 공식 `m1-trial-017-67aa939f7a95cee0`(balance-v5):8출신·대표1인·자본2.1억/보증금실납2000만/시작현금1.9억·시장172명·가구17·채용한도1500만·Save6. 최종 Core535/535·팩12·Python5, Unity EditMode126/126·PlayMode11/11 원본 XML 확인(`Logs/TestResults/startup-live-history-core.trx`, `b-s20-editmode.xml`, `b-s20-playmode.xml`).
+- 실제 Runtime은 자연 합류D29·첫 생산D30·첫 급여D56와 상태별 Save6 왕복을 통과했다. 같은 근무일 관측 누락은 AssessmentHistory live 포트로 수정했고 현재/잠재력 각3관측 합성·재실행 불변을 확인했다. 금요일 조율 뒤 면접 첫 가능일은 화요일이며20.7.2/F-08로 고정했다.
+- Unity6000.5.9f1 실제 배치 종료0,8출신 결정성/복원·동결4인 복원 동일·Core Unity 참조0·TestSupport 일반 제품 목록/실제 Managed 미포함. B의 Win64 빌드 성공 보고와 실제 기동 로그는 있으나 빌드 로그는 미보존이며 승인대로 재빌드하지 않았다. 임시 통합 실행기 소스/meta는 제거했다.
+- QA 후속: 제품1.9억 기준선 재기록·채용 노출·장기 경제/자본 비교. 원596입력은 두 버전의 응답/ID/RNG가 같지만 WorkId269 불호환으로 실제 날짜 진행0이므로 완주 통과가 아니다. 자본4종×seed47/21의8회 시작/D28 검증은 장기 균형 비교와 구별한다.
+- 독립 아트 커밋2는 `24820d1`로210파일·미푸시이며 생성 원본2.27GB는 로컬 보존·Git 제외다. §20 커밋과 섞지 않았다. 미해결 구현 계약 질문은 없다.
 
 
 - 아트 분리 커밋 완료: **`9d7c73b` — `feat(art): add starter office assets and prop generation pipeline`**,80파일, 푸시 없음. Assets/Art·ArtSource 두 묶음·아트 문서3개·docs/art-pipeline만 포함했으며 §20/WORK_STATUS·로그·임시 검사 코드·Core 변경은 포함하지 않았다.
