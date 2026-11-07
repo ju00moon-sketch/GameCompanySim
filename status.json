@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T17:32:35.074793+09:00",
+ "updated": "2026-11-07T17:44:46.753516+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,28 +13,28 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
-   "updated": "48분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
-   "updated": "44분 전"
+   "updated": "57분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "46분 전"
+   "updated": "58분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "46분 전"
+   "updated": "58분 전"
   },
   {
    "label": "UI/UX",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "36분 전"
+   "updated": "48분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
