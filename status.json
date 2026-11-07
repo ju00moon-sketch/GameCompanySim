@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T23:31:25.150383+09:00",
+ "updated": "2026-11-07T23:37:31.439299+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "후속 통합 재개: 소형 프롭 수정본 검수·커밋, B 채용 사건 문안 수정 뒤 별도 커밋",
-   "updated": "17분 전"
+   "updated": "23분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,28 +27,28 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "QA OBS-START-01 분석: 동일 프로그래머 반복 거절과 고정 정책의 한계",
-   "updated": "13분 전"
+   "updated": "19분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 채용시장 지시를 기존 사양에 반영: 고정 전설·지속 일반 인물·스펙/능력/특성 분리·다회사 지원",
-   "updated": "2분 전"
+   "updated": "9분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "54분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "29분 전"
+   "updated": "35분 전"
   },
   {
    "label": "총괄",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
