@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T17:44:46.753516+09:00",
+ "updated": "2026-11-07T17:50:54.953266+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -20,21 +20,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "58분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "58분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "UI/UX",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "48분 전"
+   "updated": "54분 전"
   },
   {
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "대표 승인: Meshy 시범 3장 실제 생성(--pilot --run, 약 120 크레딧) — 1등급 로우폴리 기준",
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
@@ -104,16 +104,11 @@
    "title": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
-  },
-  {
-   "title": "대표 승인: Meshy 시범 3장 실제 생성(--pilot --run, 약 120 크레딧) — 1등급 로우폴리 기준",
-   "status": "진행 중",
-   "assignee": "아트"
   }
  ],
  "task_counts": {
-  "completed": 141,
+  "completed": 142,
   "failed": 5,
-  "dispatched": 6
+  "dispatched": 5
  }
 }
