@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:21:32.079267+09:00",
+ "updated": "2026-11-08T05:54:59.317365+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -50,22 +50,22 @@
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "채용 1~6 결정 반영·외부6회사 통합표·생성/공고 후속 설계",
+   "task": "채용시장 후속 결정 카드의 승인 단위 정정",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "현황판 최신 의도 반영: 미답변 대표결정 일원화·채용 1~6 답변 반영",
+   "task": "공개 현황판 읽음 상태 null 초기화 예외 수정·정상 기록 보존 검증",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "16분 전"
+   "updated": "13분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9시간 전"
+   "updated": "10시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -114,23 +114,16 @@
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
-  {
-   "title": "채용 1~6 결정 반영·외부6회사 통합표·생성/공고 후속 설계",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "7ad5ba168b"
-  },
   {
    "title": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
    "status": "진행 중",
@@ -144,6 +137,13 @@
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
    "session_id": "db10db84d0"
+  },
+  {
+   "title": "채용시장 후속 결정 카드의 승인 단위 정정",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "7ad5ba168b"
   }
  ],
  "completed_tasks": [
@@ -1053,7 +1053,17 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "채용 1~6 결정 반영·외부6회사 통합표·생성/공고 후속 설계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 최신 의도 반영: 미답변 대표결정 일원화·채용 1~6 답변 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판 읽음 상태 null 초기화 예외 수정·정상 기록 보존 검증",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1106,7 +1116,7 @@
   }
  ],
  "task_counts": {
-  "completed": 182,
+  "completed": 184,
   "failed": 9,
   "dispatched": 3
  },
