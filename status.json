@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T21:07:15.418398+09:00",
+ "updated": "2026-11-07T21:13:21.694986+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "30분 전"
+   "updated": "36분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,7 +27,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "label": "게임 디자인",
@@ -45,8 +45,8 @@
   },
   {
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "QA: 채용 흐름 인물 노출 측정(사기 특성 확률 입력)",
    "updated": "방금"
   },
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -89,11 +89,16 @@
    "title": "QA: 채용 흐름 인물 노출 측정(사기 특성 확률 입력)",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)"
+  },
+  {
+   "title": "B: 통합 커밋 관문용 결과 파일 경로 3개 요청 — 최종 EditMode XML·PlayMode XML·Win64 빌드 로그(재실행 불필요)",
+   "status": "진행 중",
+   "assignee": ""
   }
  ],
  "task_counts": {
   "completed": 153,
   "failed": 5,
-  "dispatched": 2
+  "dispatched": 3
  }
 }
