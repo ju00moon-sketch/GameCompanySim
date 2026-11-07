@@ -1,33 +1,33 @@
 {
- "updated": "2026-11-07T11:18:54.521914+09:00",
+ "updated": "2026-11-07T11:33:06.148774+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "통지: ⑤ 커밋 6d0e65b — 다음은 18절 작업 생성 구현(통합 계약 컷오버 뒤 배정)",
-   "updated": "5분 전"
+   "updated": "19분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "통지: ⑤ 커밋 6d0e65b — B 다음 항목 대기",
-   "updated": "5분 전"
+   "updated": "19분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "5시간 전"
+   "updated": "6시간 전"
   },
   {
    "label": "게임 디자인",
@@ -55,7 +55,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "16시간 전"
+   "updated": "17시간 전"
   },
   {
    "label": "글·문구",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
