@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:02:10.543319+09:00",
+ "updated": "2026-11-07T15:08:17.682262+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "59분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 C (채용)",
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "UI/UX",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "6분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
