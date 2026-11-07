@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T01:43:29.017135+09:00",
+ "updated": "2026-11-08T01:53:38.275678+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
-   "updated": "15분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "후속 검수: B 이력 불변 보완 완료, 네 파일 로컬 커밋",
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "채용 과거 사건 문구 불변 보완·집중 검증",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -76,12 +76,19 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "9분 전"
   }
  ],
- "open_tasks": [],
+ "open_tasks": [
+  {
+   "title": "후속 검수: B 이력 불변 보완 완료, 네 파일 로컬 커밋",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)"
+  }
+ ],
  "task_counts": {
   "completed": 169,
-  "failed": 8
+  "failed": 8,
+  "dispatched": 1
  }
 }
