@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T20:36:38.976512+09:00",
+ "updated": "2026-11-07T20:42:46.323909+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "30분 전"
+   "updated": "36분 전"
   },
   {
    "label": "UI/UX",
@@ -45,10 +45,10 @@
   },
   {
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "4시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "QA: 채용 흐름 인물 노출 측정(사기 특성 확률 입력)",
+   "updated": "방금"
   },
   {
    "label": "QA 2 (스모크)",
@@ -96,13 +96,13 @@
    "assignee": "구현 C (채용)"
   },
   {
-   "title": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
+   "title": "QA: 채용 흐름 인물 노출 측정(사기 특성 확률 입력)",
    "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
+   "assignee": "QA 1 (검증 설계)"
   }
  ],
  "task_counts": {
-  "completed": 150,
+  "completed": 151,
   "failed": 5,
   "dispatched": 4
  }
