@@ -1,54 +1,54 @@
 {
- "updated": "2026-11-07T16:45:53.369574+09:00",
+ "updated": "2026-11-07T16:56:02.201856+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
-   "updated": "1분 전"
+   "updated": "8분 전"
   },
   {
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "UI/UX: 새 게임 시작·채용 최소안·첫 채용 안내 반영",
-   "updated": "21분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "31분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "30분 전"
+   "updated": "40분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -59,24 +59,24 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 1건: 프로젝트 생성 범위 설명 '추정 공수 [범위]' → '계획 공수 [N]시간'",
-   "updated": "15분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구: §20 B 키 목록 A~K(scratch/B_s20_writer_keys.md) — 새 게임·채용 첫 빌드·메뉴 재편·면접 중·첫...",
+   "updated": "방금"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "41분 전"
+   "updated": "51분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -104,11 +104,16 @@
    "title": "C 예고: §20 C 몫(명령 17~25·시장 172명·평가 호스트·시간 훅·Save6 C 필드·읽기 모델) — 20절 확정본 읽고 질문,...",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
+  },
+  {
+   "title": "문구: §20 B 키 목록 A~K(scratch/B_s20_writer_keys.md) — 새 게임·채용 첫 빌드·메뉴 재편·면접 중·첫...",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
   "completed": 140,
   "failed": 5,
-  "dispatched": 5
+  "dispatched": 6
  }
 }
