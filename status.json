@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T12:48:18.334878+09:00",
+ "updated": "2026-11-07T12:54:24.516759+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "§19 A 범위 추가 1건: WorkBoard '지시 없음' 신호 기준 전환 + B 답 공유",
-   "updated": "25분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "통지: §18 커밋 08658e1 — 다음은 §19 안B(B: Save5 DTO/복원·작업판 「지시」/「자동 선택」·현재 이유 표시), 통...",
-   "updated": "25분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "B 착수: §19 Save5 WorkSelections DTO/복원 검증 + 작업판 「지시」/「자동 선택」·대기 이유·B3 지시/수행 시간",
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "43분 전"
+   "updated": "49분 전"
   },
   {
    "label": "UI/UX",
@@ -59,10 +59,10 @@
   },
   {
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "문구 요청: 자율 작업 선택(§19) 키 — 대기 이유 8종·「지시」/「자동 선택」·막는 작업 줄·수행 시간 줄",
-   "updated": "11분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "문구 1건: enum.BottleneckKind.Unassigned → NoEligiblePosition('맡을 자리 없음') 교체",
+   "updated": "방금"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "4분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -84,11 +84,26 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "B 착수: §19 Save5 WorkSelections DTO/복원 검증 + 작업판 「지시」/「자동 선택」·대기 이유·B3 지시/수행 시간",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
+  },
+  {
+   "title": "문구 1건: enum.BottleneckKind.Unassigned → NoEligiblePosition('맡을 자리 없음') 교체",
+   "status": "진행 중",
+   "assignee": "글·문구"
   }
  ],
  "task_counts": {
   "completed": 123,
-  "dispatched": 1,
+  "dispatched": 4,
   "failed": 5
  }
 }
