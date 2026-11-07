@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:32:13.563062+09:00",
+ "updated": "2026-11-07T10:42:22.801874+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,14 +13,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "51분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "⑤ 검증(통합): 세션 ZIP 읽기 손상 거부 3건 보완 — CRC 검증·UTF-16 BOM 거부·method 8 거부",
-   "updated": "방금"
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "⑤ 마지막 정리(통합 리뷰): SessionSave.Read entry 바이트 복사·Dictionary 제거 (span 경로)",
+   "updated": "1분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "UI/UX",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구: 명령 대기 팝오버의 채용 명령 4종 라벨 + speed_8x 키 정리(B 판단 뒤)",
-   "updated": "14분 전"
+   "updated": "24분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -87,7 +87,7 @@
   }
  ],
  "task_counts": {
-  "completed": 112,
+  "completed": 114,
   "dispatched": 1,
   "failed": 5
  }
