@@ -1,93 +1,93 @@
 {
- "updated": "2026-11-08T00:26:16.695167+09:00",
+ "updated": "2026-11-08T01:20:36.867430+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "M11 기술 준비: 새 채용시장 구현순서·Save6 호환 선택 검토(문서만)",
-   "updated": "2분 전"
+   "task": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "대시보드 채용 사건 문구24종·날짜단위 누락 수정 착수",
-   "updated": "방금"
+   "task": "(수신 메시지 처리)",
+   "updated": "55분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "5시간 전"
+   "updated": "6시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "29시간 전"
+   "updated": "30시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "M11 기술 준비: 새 채용시장 구현순서·Save6 호환 선택 검토(문서만)",
+   "title": "별도 통합: 대시보드 채용 사건27종 문구·인자 검수 및 로컬 커밋",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
   }
  ],
  "task_counts": {
-  "completed": 167,
+  "completed": 168,
   "failed": 7,
   "dispatched": 1
  }
