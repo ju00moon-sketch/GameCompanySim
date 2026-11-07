@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T13:04:33.095486+09:00",
+ "updated": "2026-11-07T13:32:54.997924+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "12분 전"
+   "updated": "40분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -27,14 +27,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "7시간 전"
+   "updated": "8시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "59분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "UI/UX",
@@ -48,21 +48,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "9시간 전"
+   "updated": "10시간 전"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "18시간 전"
+   "updated": "19시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구 1건: workboard.b3.row_summary를 지시/수행 시간 조각으로 교체",
-   "updated": "1분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "29분 전"
   },
   {
    "label": "아트",
@@ -89,16 +89,11 @@
    "title": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)"
-  },
-  {
-   "title": "B 착수: §19 Save5 WorkSelections DTO/복원 검증 + 작업판 「지시」/「자동 선택」·대기 이유·B3 지시/수행 시간",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
-  "completed": 125,
-  "dispatched": 3,
+  "completed": 126,
+  "dispatched": 2,
   "failed": 5
  }
 }
