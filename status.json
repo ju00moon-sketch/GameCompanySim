@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T15:22:32.007654+09:00",
+ "updated": "2026-11-07T15:28:38.823075+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,7 +27,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "C: 채용 앞단(공고·지원·평가) 계약 제안",
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "label": "게임 디자인",
@@ -48,14 +48,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "20시간 전"
+   "updated": "21시간 전"
   },
   {
    "label": "글·문구",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "5분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
