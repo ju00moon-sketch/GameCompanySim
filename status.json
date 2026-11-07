@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T09:09:00.960110+09:00",
+ "updated": "2026-11-07T09:15:06.762192+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "fix 최종 경계(통합): ScheduleForecast.Continuing(455~459)이 다음 날 첫 Started 항목을 반환해 우...",
-   "updated": "27분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "⑤ 착수(계약 확정) — A: 실제 구간/기여 연결·이동·전망·FindReceipt·codec fingerprint·X8/복원·테스트",
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "⑤ 착수(계약 확정) — B: Persistence Save4 DTO·fakes·TimePump/Submit·ZIP 세션·DayReplay...",
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
@@ -34,14 +34,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "32분 전"
+   "updated": "38분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "UI 갱신(⑤ 시간 재생 계약): 6.2 '업무 이동 480분 밖' → 08:3x 결정으로 정정 · 명령 큐 팝오버 · 비근무일 짧은 표시...",
-   "updated": "13분 전"
+   "updated": "19분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구(⑤ 시간 재생 예고): 명령 완료 기준·대기 수·취소·실제 결과, 오늘 재생 끝내기, 비근무일 표시, 8배속",
-   "updated": "9분 전"
+   "updated": "15분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "5분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -84,11 +84,21 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
+  },
+  {
+   "title": "⑤ 착수(계약 확정) — A: 실제 구간/기여 연결·이동·전망·FindReceipt·codec fingerprint·X8/복원·테스트",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)"
+  },
+  {
+   "title": "⑤ 착수(계약 확정) — B: Persistence Save4 DTO·fakes·TimePump/Submit·ZIP 세션·DayReplay...",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
   "completed": 104,
-  "dispatched": 1,
+  "dispatched": 3,
   "failed": 5
  }
 }
