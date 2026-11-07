@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:40:00.397526+09:00",
+ "updated": "2026-11-08T03:50:09.800435+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -32,7 +32,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -50,11 +50,11 @@
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "M2·M3·M8 인물 생성·이력·정보 공개와 회사 프로필 구체안 준비",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "21분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "32분 전"
+   "updated": "42분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -103,10 +103,10 @@
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "아트: G1/G2 키보드·마우스 새 시안 충실도 보완·검수",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
    "updated": "3분 전"
@@ -114,21 +114,16 @@
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
-  {
-   "title": "아트: G1/G2 키보드·마우스 새 시안 충실도 보완·검수",
-   "status": "진행 중",
-   "assignee": "아트"
-  },
   {
    "title": "외부 회사 초기안 기술 계약 검토 및 현황판 게시 대기",
    "status": "진행 중",
@@ -997,6 +992,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "아트: G1/G2 키보드·마우스 새 시안 충실도 보완·검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 질의응답·전체 세션·완료 탭 완성 및 게시 인계",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1050,9 +1050,9 @@
   }
  ],
  "task_counts": {
-  "completed": 174,
+  "completed": 175,
   "failed": 8,
-  "dispatched": 2
+  "dispatched": 1
  },
  "checks": {
   "sessions": true,
