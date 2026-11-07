@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:52:32.245144+09:00",
+ "updated": "2026-11-07T11:12:48.483685+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -19,8 +19,8 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "⑤ 마지막 정리(통합 리뷰): SessionSave.Read entry 바이트 복사·Dictionary 제거 (span 경로)",
-   "updated": "11분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "31분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -41,14 +41,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "7시간 전"
+   "updated": "8시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -62,21 +62,21 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "34분 전"
+   "updated": "55분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "6시간 전"
+   "updated": "7시간 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "8분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
