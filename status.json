@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:40:14.844053+09:00",
+ "updated": "2026-11-07T18:48:24.065613+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -31,17 +31,17 @@
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "UI/UX 추가: 4.14 새 게임 화면 — 회사명·대표명 입력, 로고 이미지 선택, 출신 8종(무직 포함), 초기 자본 2.1억·보증금...",
-   "updated": "6분 전"
+   "updated": "15분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -86,11 +86,6 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "game-design: trial-015 기입(balance-v5: hiring_market·hiring_frontend, 20.7.5)...",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
-  },
-  {
    "title": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)"
@@ -117,9 +112,9 @@
   }
  ],
  "task_counts": {
-  "completed": 143,
+  "completed": 144,
   "failed": 5,
-  "dispatched": 6,
+  "dispatched": 5,
   "blocked": 1
  }
 }
