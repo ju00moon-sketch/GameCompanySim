@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:49:21.214010+09:00",
+ "updated": "2026-11-07T11:59:30.049098+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -10,17 +10,17 @@
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "A 배정: §18 작업 생성 모델 구현 (a) 최소 12개 + (b) F·C·S·K 연동 — Production/**",
-   "updated": "방금"
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "§18 리뷰(통합) 1건: WorkGenerationTests의 오류 문구 고정 제거",
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "45분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -31,17 +31,17 @@
   },
   {
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "game-design 배정: 공식 trial-013 기입 — data/balance/m1/trial.json 스키마 v4 전환 (msg_3...",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -86,13 +86,13 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "A 배정: §18 작업 생성 모델 구현 (a) 최소 12개 + (b) F·C·S·K 연동 — Production/**",
+   "title": "game-design 배정: 공식 trial-013 기입 — data/balance/m1/trial.json 스키마 v4 전환 (msg_3...",
    "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
+   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 116,
+  "completed": 118,
   "dispatched": 2,
   "failed": 5
  }
