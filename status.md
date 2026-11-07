@@ -4,11 +4,11 @@
 
 ## 통합 기술 인계 — 시작 조건/채용 앞단 (2026-11-07)
 
-- `docs/architecture.md`20절 계약 확정(구현 전): 시작 Q1~Q3/D1·채용 Q1~Q8, 공개 명령17~25, 같은 CapacityLedger 계획/실행 훅, 평가 호스트, 공개 지원자/저장 전체 인물 분리, FI06 면접 장소, Save6 필드와 A/B/C/QA 소유권. `IScopeOptionView.PlannedWorkMinutes` 및 A 집계/B 「계획 공수」 표시를20.11에 포함했다.
-- 다음 데이터는 `balance-v5`/`m1-trial-015`. 시장 생성은 `hiring_market`(사양 결정3(d)⑫ 형태), 정책/활동/최소 범위/질문은 `hiring_frontend`, 초기 월 인건비 한도는 `hiring_frontend.initial_payroll_limit_won=15000000`. 급여 기준표·이력서 주장·질문 정의의 명시 키도20.7.5에 있다. 기존 `hiring`/`estimate_accuracy` 계수는 재사용한다.
-- `Logs/startup-front-contract-check.json`: 수신한 시장 표의172명·숙련24/48/55/33/12·구직44/59/69·분포 합계/명시 빈 목록·D29/D57 기간 경계 계산을 대조했다. 제품 채용 실행/Save6 왕복/자본 비교 결과는 아니며 A/B/C 구현 배정은 총괄이 한다.
-- 별도 아트 검증 완료: Unity6000.5.9f1 실제 저장소 FBX4개 가져오기/간판 소켓/정면 왼쪽 창/렌더 `Logs/starter-office-v11-repo-import.json` passed; 배치 로그 `Logs/unity-starter-office-v11-import-verified.log`. 임시 검사 소스/메타 제거. FI 대응표·직군 팔레트 대조와 수정된 생성 스크립트의 합성 토큰 경계11검사 통과(실제 키/네트워크/생성0). 아트만 별도 커밋하며20절/이 비공개 현황은 섞지 않는다.
-- 열린 기술 질문 없음. 출신5묶음·기납 보증금·이름 입력 없음의 대표 답은 여전히 대기이며 총괄안으로 진행한다. 다음 실행은 공유 계약/스키마·trial-015·A/B/C 구현, ② 뒤 QA다.
+- `docs/architecture.md`20절/17.6과 공유 Contracts 착지: 대표8출신·회사20/대표12자·선택 로고(코어 밖)·자본2.1억/Day0 실납후2.0억·Save6·명령17~25·공통 용량/평가/장소/공개 인물·계획 공수. OfferDefaults/PostingOptions·검수 ID도 파생 조회이며 새 저장 필드가 아니다.
+- 공식 `m1-trial-016-3bdbef734ae0c0fa`(balance-v5), 시장172명·가구17·한도1500만. 제품 폐기5키 제거,8출신/실납/면접 설정을 실제 .NET9 로더로 읽었다(`Logs/startup-trial016-loader-codec.json`);9명령 전체 공개 멤버/정본 왕복, NUnit16/16(`startup-shared-final.trx`), 패키저/실제 로더 손상 입력18쌍(`startup-v5-boundaries.json`) 통과.
+- Runtime SimulationFactory는 새 요청/복원·B 생성/직접 복원·C CreateProduct/CreateRestored 서명을 연결했다. ModuleBalance는 가구/실납/면접 설정 매핑, IBusinessModule.Found·InterviewLocations와 LeaseDeposit도 착지했다. 전체 Core/Unity/제품 채용 실행은 C 진입점·A/B/C 소비자 통합 뒤 검증하며 미녹색 커밋/가짜 구현은 없다.
+- `docs/qa/시작조건_컷오버_교차검토_시나리오_v0.1.md`: D29/D56·8출신·단일 관측/중복 평가·596입력 해시·trial014 동결·Save6/로고·자본 비교를 준비했다. 원596과 trial014 C1의505입력을 구별하며 원본3개 SHA 확인. 제품 결과를 계획의 통과 수로 바꾸지 않는다.
+- 대표 시작3질문은8출신·실납·이름/로고로 종결. A는① 완료/② 진행, B·C 진행; Runtime 테스트용 제품 입력 helper와 C 정적 진입점 착지 후 전체 관문. 추가 아트34FBX 독립 커밋 요청은 원본2.27GB 제외/최종1.75MB와 근거 범위를 검토 중.
 
 
 - 아트 분리 커밋 완료: **`9d7c73b` — `feat(art): add starter office assets and prop generation pipeline`**,80파일, 푸시 없음. Assets/Art·ArtSource 두 묶음·아트 문서3개·docs/art-pipeline만 포함했으며 §20/WORK_STATUS·로그·임시 검사 코드·Core 변경은 포함하지 않았다.
