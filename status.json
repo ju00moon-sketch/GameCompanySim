@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T11:39:12.202938+09:00",
+ "updated": "2026-11-07T11:49:21.214010+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -19,8 +19,8 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "통지: ⑤ 커밋 6d0e65b — B 다음 항목 대기",
-   "updated": "25분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "35분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "5분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
