@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:01:24.903736+09:00",
+ "updated": "2026-11-07T18:07:32.117836+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -7,13 +7,6 @@
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "updated": "1분 전"
-  },
-  {
-   "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
-   "updated": "1시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -76,7 +69,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -93,7 +86,7 @@
   {
    "title": "A 예고: §20 A 몫(새 게임 NewGameRequest·프리셋 격리·대표 시작 자리 안A·디렉터 적격·PlannedWorkMinute...",
    "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
+   "assignee": ""
   },
   {
    "title": "B 예고: §20 B 몫(새 게임 화면 4.14·채용 첫 빌드 최소안 5.0·F4 노출·시작 자산 연결·Save6 DTO·계획 공수 표시)...",
