@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T23:37:31.439299+09:00",
+ "updated": "2026-11-07T23:43:38.601024+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "후속 통합 재개: 소형 프롭 수정본 검수·커밋, B 채용 사건 문안 수정 뒤 별도 커밋",
-   "updated": "23분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 거절 사유 수정본 검수·로컬 커밋, 후속 사건 문안 수정 전 경계 확보",
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -17,24 +17,24 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "확인·필요 시 수정: 후보가 밝힌 거절 사유의 화면 표시(UI5.7)",
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "QA OBS-START-01 분석: 동일 프로그래머 반복 거절과 고정 정책의 한계",
-   "updated": "19분 전"
+   "updated": "25분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "대표 채용시장 지시를 기존 사양에 반영: 고정 전설·지속 일반 인물·스펙/능력/특성 분리·다회사 지원",
-   "updated": "9분 전"
+   "updated": "15분 전"
   },
   {
    "label": "UI/UX",
@@ -69,25 +69,25 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "41분 전"
   },
   {
    "label": "총괄",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "6분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "확인·필요 시 수정: 후보가 밝힌 거절 사유의 화면 표시(UI5.7)",
+   "title": "공개 거절 사유 수정본 검수·로컬 커밋, 후속 사건 문안 수정 전 경계 확보",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)"
+   "assignee": "통합(기술 책임)"
   }
  ],
  "task_counts": {
-  "completed": 163,
+  "completed": 164,
   "failed": 7,
   "dispatched": 1
  }
