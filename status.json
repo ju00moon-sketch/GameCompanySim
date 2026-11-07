@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T00:20:10.165221+09:00",
+ "updated": "2026-11-08T00:26:16.695167+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "공개 거절 사유 수정본 검수·로컬 커밋, 후속 사건 문안 수정 전 경계 확보",
-   "updated": "20분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "M11 기술 준비: 새 채용시장 구현순서·Save6 호환 선택 검토(문서만)",
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -17,8 +17,8 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "대시보드 채용 사건 문구24종·날짜단위 누락 수정 착수",
    "updated": "방금"
   },
@@ -34,7 +34,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "51분 전"
+   "updated": "57분 전"
   },
   {
    "label": "UI/UX",
@@ -76,18 +76,18 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
   {
-   "title": "대시보드 채용 사건 문구24종·날짜단위 누락 수정 착수",
+   "title": "M11 기술 준비: 새 채용시장 구현순서·Save6 호환 선택 검토(문서만)",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)"
+   "assignee": "통합(기술 책임)"
   }
  ],
  "task_counts": {
-  "completed": 166,
+  "completed": 167,
   "failed": 7,
   "dispatched": 1
  }
