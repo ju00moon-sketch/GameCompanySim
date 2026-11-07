@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T15:34:45.084712+09:00",
+ "updated": "2026-11-07T15:40:51.367902+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -27,14 +27,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "C: 채용 앞단(공고·지원·평가) 계약 제안",
-   "updated": "10분 전"
+   "updated": "방금"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "game-design: 스타터 공용 가구 최소 보유 명세(품목 ID·수량) + 시작 조건 2.3 반영",
-   "updated": "2분 전"
+   "updated": "8분 전"
   },
   {
    "label": "UI/UX",
@@ -66,8 +66,8 @@
   },
   {
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "아트: 간판 분리·창 위치·직군색·프롭 요청 카드",
    "updated": "방금"
   },
@@ -86,11 +86,6 @@
    "assignee": "QA 1 (검증 설계)"
   },
   {
-   "title": "아트: 간판 분리·창 위치·직군색·프롭 요청 카드",
-   "status": "진행 중",
-   "assignee": "아트"
-  },
-  {
    "title": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
@@ -102,8 +97,8 @@
   }
  ],
  "task_counts": {
-  "completed": 131,
+  "completed": 132,
   "failed": 5,
-  "dispatched": 4
+  "dispatched": 3
  }
 }
