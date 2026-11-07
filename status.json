@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T22:07:25.373560+09:00",
+ "updated": "2026-11-07T22:17:34.109078+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "35분 전"
+   "updated": "45분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -20,7 +20,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "46분 전"
+   "updated": "56분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -66,17 +66,17 @@
   },
   {
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "대표 지적: 팔레트 적용 뒤 키보드(FI11)·마우스(FI12)가 이상해 보임 — 소형 프롭 수정",
+   "updated": "1분 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -84,11 +84,16 @@
    "title": "QA: 시작 조건 기준선 재기록 + 초기 자본 1.5/1.7/2.0/2.1억 비교",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)"
+  },
+  {
+   "title": "대표 지적: 팔레트 적용 뒤 키보드(FI11)·마우스(FI12)가 이상해 보임 — 소형 프롭 수정",
+   "status": "진행 중",
+   "assignee": "아트"
   }
  ],
  "task_counts": {
   "completed": 156,
   "failed": 7,
-  "dispatched": 1
+  "dispatched": 2
  }
 }
