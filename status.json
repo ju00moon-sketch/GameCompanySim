@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T09:27:17.081672+09:00",
+ "updated": "2026-11-07T09:35:24.470855+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "⑤ 착수(계약 확정) — A: 실제 구간/기여 연결·이동·전망·FindReceipt·codec fingerprint·X8/복원·테스트",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -33,15 +33,15 @@
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "(수신 메시지 처리)",
-   "updated": "50분 전"
+   "task": "참고: 통합 작업 생성 계약(architecture 18절) — (a) 순수 12개 436시간, 혼합 포함 721시간 계산 일치; 대표 구...",
+   "updated": "방금"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "31분 전"
+   "updated": "39분 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -61,8 +61,8 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "문구(⑤ 시간 재생 예고): 명령 완료 기준·대기 수·취소·실제 결과, 오늘 재생 끝내기, 비근무일 표시, 8배속",
-   "updated": "27분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "35분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -86,19 +86,14 @@
    "assignee": "통합(기술 책임)"
   },
   {
-   "title": "⑤ 착수(계약 확정) — A: 실제 구간/기여 연결·이동·전망·FindReceipt·codec fingerprint·X8/복원·테스트",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)"
-  },
-  {
    "title": "⑤ 착수(계약 확정) — B: Persistence Save4 DTO·fakes·TimePump/Submit·ZIP 세션·DayReplay...",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
-  "completed": 104,
-  "dispatched": 3,
+  "completed": 106,
+  "dispatched": 2,
   "failed": 5
  }
 }
