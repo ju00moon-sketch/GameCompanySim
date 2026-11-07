@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T08:03:44.804568+09:00",
+ "updated": "2026-11-08T08:31:39.050287+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -17,11 +17,11 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "수동 QA 단계·시장·정산 경계 검사 저장과 실제 대조 근거 준비",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "35분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -43,7 +43,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "31분 전"
+   "updated": "59분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "63782e683d",
@@ -103,13 +103,13 @@
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -155,14 +155,6 @@
    "state": "pending",
    "session_id": null,
    "queued": true
-  },
-  {
-   "title": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "0acfc37077",
-   "queued": false
   }
  ],
  "completed_tasks": [
@@ -1150,6 +1142,11 @@
    "title": "실제 제품 캡처의 출처 표시·명명 정정과 부분 진단 분리",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1210,10 +1207,10 @@
   }
  ],
  "task_counts": {
-  "completed": 197,
+  "completed": 198,
   "failed": 10,
   "cancelled": 1,
-  "dispatched": 3,
+  "dispatched": 2,
   "pending": 2
  },
  "checks": {
