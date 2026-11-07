@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T23:17:10.963379+09:00",
+ "updated": "2026-11-07T23:23:17.177321+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "후속 통합 재개: 소형 프롭 수정본 검수·커밋, B 채용 사건 문안 수정 뒤 별도 커밋",
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "label": "구현 A (제작 코어)",
@@ -17,17 +17,17 @@
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "QA-START-01 수정: 채용 사건 문안 3키 누락",
-   "updated": "11분 전"
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "확인·필요 시 수정: 후보가 밝힌 거절 사유의 화면 표시(UI5.7)",
+   "updated": "방금"
   },
   {
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "QA OBS-START-01 분석: 동일 프로그래머 반복 거절과 고정 정책의 한계",
-   "updated": "2분 전"
+   "updated": "5분 전"
   },
   {
    "label": "게임 디자인",
@@ -48,7 +48,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "40분 전"
+   "updated": "46분 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -69,14 +69,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "15분 전"
+   "updated": "21분 전"
   },
   {
    "label": "총괄",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -86,13 +86,13 @@
    "assignee": "게임 디자인"
   },
   {
-   "title": "QA OBS-START-01 분석: 동일 프로그래머 반복 거절과 고정 정책의 한계",
+   "title": "확인·필요 시 수정: 후보가 밝힌 거절 사유의 화면 표시(UI5.7)",
    "status": "진행 중",
-   "assignee": "구현 C (채용)"
+   "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
-  "completed": 161,
+  "completed": 162,
   "failed": 7,
   "dispatched": 2
  }
