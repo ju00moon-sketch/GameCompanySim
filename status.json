@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T05:54:59.317365+09:00",
+ "updated": "2026-11-08T08:03:44.804568+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 정정본 게시: 전체 세션 복원·담당별 작업·대표결정 일원화·watch 복구",
+   "task": "원시안 공개 정정·4담당/G1비교/개별질문 수정본 게시·공개 검증",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -17,22 +17,22 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "task": "수동 QA 단계·시장·정산 경계 검사 저장과 실제 대조 근거 준비",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9시간 전"
+   "updated": "7분 전"
   },
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "B 실제 창 QA 반환 수정·뉴스와 포텐셜 시각 검증·고정 빌드 인계",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,29 +43,29 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6시간 전"
+   "updated": "8시간 전"
   },
   {
    "session_id": "7ad5ba168b",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "채용시장 후속 결정 카드의 승인 단위 정정",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "공개 현황판 읽음 상태 null 초기화 예외 수정·정상 기록 보존 검증",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "13분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -98,18 +98,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10시간 전"
+   "updated": "12시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
+   "task": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,30 +120,49 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
+   "title": "B 실제 창 QA 반환 수정·뉴스와 포텐셜 시각 검증·고정 빌드 인계",
    "status": "진행 중",
-   "assignee": "아트",
+   "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
-   "session_id": "0acfc37077"
+   "session_id": "7218e1ca19",
+   "queued": false
   },
   {
-   "title": "현황판 정정본 게시: 전체 세션 복원·담당별 작업·대표결정 일원화·watch 복구",
+   "title": "원시안 공개 정정·4담당/G1비교/개별질문 수정본 게시·공개 검증",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
-   "session_id": "db10db84d0"
+   "session_id": "db10db84d0",
+   "queued": false
   },
   {
-   "title": "채용시장 후속 결정 카드의 승인 단위 정정",
+   "title": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
+   "status": "선행 작업 대기",
+   "assignee": "아직 배정 전",
+   "state": "pending",
+   "session_id": null,
+   "queued": true
+  },
+  {
+   "title": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
+   "status": "선행 작업 대기",
+   "assignee": "아직 배정 전",
+   "state": "pending",
+   "session_id": null,
+   "queued": true
+  },
+  {
+   "title": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
    "status": "진행 중",
-   "assignee": "게임 디자인",
+   "assignee": "아트",
    "state": "dispatched",
-   "session_id": "7ad5ba168b"
+   "session_id": "0acfc37077",
+   "queued": false
   }
  ],
  "completed_tasks": [
@@ -1063,7 +1082,72 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "G1 키보드 A/B 제작 비교: 이미지 직접 Blender vs Meshy 보완·USB 세부 제외",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판 읽음 상태 null 초기화 예외 수정·정상 기록 보존 검증",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "채용시장 후속 결정 카드의 승인 단위 정정",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "동일 인물 사무실 시연용 기존 활동·시간·좌석 관측 포트 정리",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사무실 그레이박스 자산·배치 준비와 단계별 완료 상태 정리",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "G1 키보드 A직접·BMeshy 보완 비교의 독립 시각·출처 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "수동 M01~M25 최신 기준 대조와 실제 창 미검증 경로 실행",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사내 브라우저·공개 피드·포텐셜 화면 책임 배정 및 착수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "미배정4건 담당 표시·G1 A/B 비교·다음 채용 개별질문 웹 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사내브라우저 기사·커뮤니티 실제 근거와 첫 생성 계약 후속안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사무실 관측 계약 갱신·동일 인물 시연 단계별 구현 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "수동 QA 단계·시장·정산 경계 검사 저장과 실제 대조 근거 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 전 최신 작업상태 정합성과 예상 밖 이미지 3종 보존 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "실제 제품 캡처의 출처 표시·명명 정정과 부분 진단 분리",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1113,12 +1197,24 @@
    "title": "아트 반환: 키보드 모서리 확인·보완 및 실제 저폴리 비교 후보",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 정정본 게시: 전체 세션 복원·담당별 작업·대표결정 일원화·watch 복구",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사무실 통합 시연 책임 배정·현재 관측 계약과 단계별 구현 인계",
+   "status": "취소",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 184,
-  "failed": 9,
-  "dispatched": 3
+  "completed": 197,
+  "failed": 10,
+  "cancelled": 1,
+  "dispatched": 3,
+  "pending": 2
  },
  "checks": {
   "sessions": true,
