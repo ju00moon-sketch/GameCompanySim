@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T11:59:30.049098+09:00",
+ "updated": "2026-11-07T12:09:38.844892+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "§18 리뷰(통합) 1건: WorkGenerationTests의 오류 문구 고정 제거",
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "45분 전"
+   "updated": "56분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -31,10 +31,10 @@
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "game-design 배정: 공식 trial-013 기입 — data/balance/m1/trial.json 스키마 v4 전환 (msg_3...",
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "label": "UI/UX",
@@ -48,7 +48,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -69,14 +69,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "7시간 전"
+   "updated": "8시간 전"
   },
   {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
@@ -84,16 +84,11 @@
    "title": "(수신 메시지 처리)",
    "status": "진행 중",
    "assignee": "통합(기술 책임)"
-  },
-  {
-   "title": "game-design 배정: 공식 trial-013 기입 — data/balance/m1/trial.json 스키마 v4 전환 (msg_3...",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 118,
-  "dispatched": 2,
+  "completed": 119,
+  "dispatched": 1,
   "failed": 5
  }
 }
