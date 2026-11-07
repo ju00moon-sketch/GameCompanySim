@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-07T13:32:54.997924+09:00",
+ "updated": "2026-11-07T13:43:03.931175+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "40분 전"
+   "updated": "8분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "B 착수: §19 Save5 WorkSelections DTO/복원 검증 + 작업판 「지시」/「자동 선택」·대기 이유·B3 지시/수행 시간",
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -62,7 +62,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "29분 전"
+   "updated": "40분 전"
   },
   {
    "label": "아트",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "방금"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
