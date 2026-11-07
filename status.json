@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:22:04.768856+09:00",
+ "updated": "2026-11-07T10:32:13.563062+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,13 +13,13 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "41분 전"
+   "updated": "51분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "⑤ 접수 — 후속 3건(작은 작업): 날짜 표기 통일·UiSettings 오버레이 연결·speed_8x 키 정리",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "⑤ 검증(통합): 세션 ZIP 읽기 손상 거부 3건 보완 — CRC 검증·UTF-16 BOM 거부·method 8 거부",
    "updated": "방금"
   },
   {
@@ -27,14 +27,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "47분 전"
+   "updated": "57분 전"
   },
   {
    "label": "UI/UX",
@@ -55,14 +55,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "15시간 전"
+   "updated": "16시간 전"
   },
   {
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "문구: 명령 대기 팝오버의 채용 명령 4종 라벨 + speed_8x 키 정리(B 판단 뒤)",
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "label": "아트",
@@ -87,7 +87,7 @@
   }
  ],
  "task_counts": {
-  "completed": 111,
+  "completed": 112,
   "dispatched": 1,
   "failed": 5
  }
