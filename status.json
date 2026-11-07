@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:28:38.823075+09:00",
+ "updated": "2026-11-07T15:34:45.084712+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -27,14 +27,14 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "C: 채용 앞단(공고·지원·평가) 계약 제안",
-   "updated": "4분 전"
+   "updated": "10분 전"
   },
   {
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "game-design: 스타터 공용 가구 최소 보유 명세(품목 ID·수량) + 시작 조건 2.3 반영",
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "label": "UI/UX",
@@ -76,7 +76,7 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -99,16 +99,11 @@
    "title": "C: 채용 앞단(공고·지원·평가) 계약 제안",
    "status": "진행 중",
    "assignee": "구현 C (채용)"
-  },
-  {
-   "title": "game-design: 스타터 공용 가구 최소 보유 명세(품목 ID·수량) + 시작 조건 2.3 반영",
-   "status": "진행 중",
-   "assignee": "게임 디자인"
   }
  ],
  "task_counts": {
-  "completed": 130,
+  "completed": 131,
   "failed": 5,
-  "dispatched": 5
+  "dispatched": 4
  }
 }
