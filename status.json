@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:31:45.288248+09:00",
+ "updated": "2026-11-07T14:56:04.668150+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -13,14 +13,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "43분 전"
+   "updated": "1시간 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "29분 전"
+   "updated": "53분 전"
   },
   {
    "label": "구현 C (채용)",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "5시간 전"
+   "updated": "6시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -76,19 +76,12 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "7분 전"
+   "updated": "방금"
   }
  ],
- "open_tasks": [
-  {
-   "title": "(수신 메시지 처리)",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)"
-  }
- ],
+ "open_tasks": [],
  "task_counts": {
-  "completed": 128,
-  "dispatched": 1,
+  "completed": 129,
   "failed": 5
  }
 }
