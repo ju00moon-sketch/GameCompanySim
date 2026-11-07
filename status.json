@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-07T12:54:24.516759+09:00",
+ "updated": "2026-11-07T13:04:33.095486+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "2분 전"
+   "updated": "12분 전"
   },
   {
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "A 착수: §19 안B Production 구현(선택·실제 이력·공통 용량·전망·WorkBoard 신호)",
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -34,14 +34,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "49분 전"
+   "updated": "59분 전"
   },
   {
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "label": "QA 1 (검증 설계)",
@@ -59,17 +59,17 @@
   },
   {
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "문구 1건: enum.BottleneckKind.Unassigned → NoEligiblePosition('맡을 자리 없음') 교체",
-   "updated": "방금"
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "문구 1건: workboard.b3.row_summary를 지시/수행 시간 조각으로 교체",
+   "updated": "1분 전"
   },
   {
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "8시간 전"
+   "updated": "9시간 전"
   },
   {
    "label": "총괄",
@@ -94,16 +94,11 @@
    "title": "B 착수: §19 Save5 WorkSelections DTO/복원 검증 + 작업판 「지시」/「자동 선택」·대기 이유·B3 지시/수행 시간",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
-  },
-  {
-   "title": "문구 1건: enum.BottleneckKind.Unassigned → NoEligiblePosition('맡을 자리 없음') 교체",
-   "status": "진행 중",
-   "assignee": "글·문구"
   }
  ],
  "task_counts": {
-  "completed": 123,
-  "dispatched": 4,
+  "completed": 125,
+  "dispatched": 3,
   "failed": 5
  }
 }
