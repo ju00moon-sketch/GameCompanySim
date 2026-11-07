@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-07T18:07:32.117836+09:00",
+ "updated": "2026-11-07T18:17:42.274743+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
    "task": "§20 답: Q1 안A 승인 · Q2 C 앞단 계약 먼저, 같은 컷오버·Save6(커밋은 단계별 가능) · Q3 승인",
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "label": "구현 B (사업·저장·화면)",
@@ -41,7 +41,7 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "label": "QA 2 (스모크)",
@@ -58,18 +58,11 @@
    "updated": "1시간 전"
   },
   {
-   "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "대표 승인: 나머지 31장 전부 생성(2단계 G1 13장 → 3단계 18장, 2등급 포함) — 리메시 목표 상한 93%",
-   "updated": "방금"
-  },
-  {
    "label": "총괄",
    "state": "작업 중",
    "state_raw": "working",
    "task": "(수신 메시지 처리)",
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -101,7 +94,7 @@
   {
    "title": "대표 승인: 나머지 31장 전부 생성(2단계 G1 13장 → 3단계 18장, 2등급 포함) — 리메시 목표 상한 93%",
    "status": "진행 중",
-   "assignee": "아트"
+   "assignee": ""
   }
  ],
  "task_counts": {
