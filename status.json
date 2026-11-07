@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:51:45.801392+09:00",
+ "updated": "2026-11-08T00:01:55.121502+09:00",
  "agents": [
   {
    "label": "통합(기술 책임)",
@@ -19,7 +19,7 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "통합 반환: 공개 철회 사유 번역 누락의 진단만 복원",
+   "task": "대시보드 채용 사건 문구24종·날짜단위 누락 수정 착수",
    "updated": "방금"
   },
   {
@@ -27,14 +27,14 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "33분 전"
+   "updated": "43분 전"
   },
   {
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "대표 채용시장 지시를 기존 사양에 반영: 고정 전설·지속 일반 인물·스펙/능력/특성 분리·다회사 지원",
-   "updated": "23분 전"
+   "task": "(수신 메시지 처리)",
+   "updated": "33분 전"
   },
   {
    "label": "UI/UX",
@@ -69,31 +69,26 @@
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "(수신 메시지 처리)",
-   "updated": "49분 전"
+   "updated": "59분 전"
   },
   {
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "(수신 메시지 처리)",
    "updated": "1분 전"
   }
  ],
  "open_tasks": [
   {
-   "title": "공개 거절 사유 수정본 검수·로컬 커밋, 후속 사건 문안 수정 전 경계 확보",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)"
-  },
-  {
-   "title": "통합 반환: 공개 철회 사유 번역 누락의 진단만 복원",
+   "title": "대시보드 채용 사건 문구24종·날짜단위 누락 수정 착수",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)"
   }
  ],
  "task_counts": {
-  "completed": 164,
+  "completed": 166,
   "failed": 7,
-  "dispatched": 2
+  "dispatched": 1
  }
 }
