@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:42:41.307371+09:00",
+ "updated": "2026-11-08T11:58:54.586892+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "30분 전"
+   "updated": "46분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "63782e683d",
@@ -114,13 +114,13 @@
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "27분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
