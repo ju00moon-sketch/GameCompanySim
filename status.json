@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:03:54.421701+09:00",
+ "updated": "2026-11-08T13:14:03.868938+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -26,13 +26,13 @@
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "수동 QA 결정·등급·위험일·한도 표시 결함 수정",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -72,11 +72,11 @@
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "M16·M18·M19 수동 검사 전제와 원래 승인 계약 대조",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "20분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "63782e683d",
@@ -103,13 +103,13 @@
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -130,14 +130,6 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "63782e683d",
-   "queued": false
-  },
-  {
-   "title": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "0acfc37077",
    "queued": false
   },
   {
@@ -162,6 +154,14 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "7ad5ba168b",
+   "queued": false
+  },
+  {
+   "title": "수동 QA 결정·등급·위험일·한도 표시 결함 수정",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "7218e1ca19",
    "queued": false
   }
  ],
@@ -1235,6 +1235,11 @@
    "title": "M16·M18·M19 수동 검사 전제와 원래 승인 계약 대조",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1300,7 +1305,7 @@
   }
  ],
  "task_counts": {
-  "completed": 214,
+  "completed": 215,
   "failed": 10,
   "cancelled": 2,
   "dispatched": 5
