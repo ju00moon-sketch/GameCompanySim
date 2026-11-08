@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:32:21.365407+09:00",
+ "updated": "2026-11-08T13:42:30.709883+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "63782e683d",
@@ -98,18 +98,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17시간 전"
+   "updated": "18시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "25분 전"
+   "updated": "35분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
