@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:24:13.114757+09:00",
+ "updated": "2026-11-08T13:32:21.365407+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -48,13 +48,13 @@
   {
    "session_id": "7ad5ba168b",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "M13 시험 시간과 C15 고객 시간 검사 의미 정렬",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -70,13 +70,13 @@
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "R3 F2 슬래브 후보 독립 구조·렌더 근거 검토",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "63782e683d",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17분 전"
+   "updated": "25분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -149,27 +149,11 @@
    "queued": false
   },
   {
-   "title": "M13 시험 시간과 C15 고객 시간 검사 의미 정렬",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "7ad5ba168b",
-   "queued": false
-  },
-  {
    "title": "수동 QA 결정·등급·위험일·한도 표시 결함 수정",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "7218e1ca19",
-   "queued": false
-  },
-  {
-   "title": "R3 F2 슬래브 후보 독립 구조·렌더 근거 검토",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
    "queued": false
   }
  ],
@@ -1248,6 +1232,16 @@
    "title": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "M13 시험 시간과 C15 고객 시간 검사 의미 정렬",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "R3 F2 슬래브 후보 독립 구조·렌더 근거 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1313,10 +1307,10 @@
   }
  ],
  "task_counts": {
-  "completed": 215,
+  "completed": 217,
   "failed": 10,
   "cancelled": 2,
-  "dispatched": 6
+  "dispatched": 4
  },
  "checks": {
   "sessions": true,

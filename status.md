@@ -6,9 +6,9 @@
 
 - 배정 접수 기준은25행 중8통과/3실패/14차단이었다. QA2의 후속 M09 한도 표기 반환을 포함한 최신 원문 판정은 **8통과/4실패/13차단**이다. M05/M09/M14/M21은 수정 대상이며 아직 수정 후 수동 통과가 아니다. 현재 창 슬롯은 QA2가 소유한다.
 - 고정 수동 입력은 Product/trial017·Save6/SessionFormat1, Core `0338a1d2…`/Presentation `21fdce44…`다. M01/M08은 이전 Presentation `afadadd2…`에서 얻은 통과이며, 서로 다른 실행물의 결과를 새 빌드 전체 통과로 합치지 않는다. 사무실 정적 검토·별도 P2 실행은 이25행 판정과 분리한다.
-- **M05 계약 확정:** `docs/architecture.md`21.1에 `ReviseStageGate(ProjectId, ExpectedStage)`·새 kind26·Direction 권한·`StageRevisionChosen`/`Choice=revise`·현재 단계 보존·stale 거부를 고정했다. 기존 kind6 bool은 진행의 위험 수용 여부 그대로다. Save6/SessionFormat1의 기존 필드만 쓰며 새 저장의 구 실행물 전방 호환을 약속하지 않는다. 계약 착지와 A/B 수신 확인·구현/실행 완료는 별개다.
+- **M05 계약·A/B 확인 완료:** `docs/architecture.md`21.1의 `ReviseStageGate(ProjectId, ExpectedStage)`·새 kind26·Direction 권한·`StageRevisionChosen`/`Choice=revise`·현재 단계 보존·stale 거부를 A/B가 직접 읽고 확인했다. 선행 계약 게이트를 해제해 A의 Core/codec와 B의 화면·세션 소비를 연결한다. 기존 kind6 bool은 진행의 위험 수용 여부 그대로며 Save6/SessionFormat1의 기존 필드만 쓴다. 구 실행물의 새 저장 전방 호환이나 수정 후 실행 통과는 약속하지 않는다.
 - 소유: A는 새 명령/codec/검증·적용·Core 회귀, B는 Preview/Submit·문구/queue/세션 소비와 M14 관측 등급·M21 최초 음수일·M09 실제 한도·M04 표시 확인, 통합은 계약·변경분 검토·이 현황, QA2는 반환된 수정 실행물의 실제 창 검증이다. Unity/Player를 중복 실행하거나 QA2의 슬롯을 끊지 않는다.
-- M13 참가자 시간과 진행자 총량의 제품 의미, C15의 독립 QA control/zero 입력 및 동일 상태0→양수 요구는 별도 기술/설계 검토 중이다. 제안 해시를 생성·검증 완료로 쓰지 않으며 제품 팩/현재 저장/규칙을 바꾸지 않는다. M16은 W031의 기존 준비 근거와 제품7항목을 유지하며 독립 Language 항목 통과로 바꾸지 않는다.
+- **독립 기술 검토:** architecture21.2~21.4에 C15의 별도 Product control/zero 입력·Presentation 로드·ruleset/세션 거부·메타와 RNG 분리, M13 평균/총량/참가자 모델, M16 W031/제품7항목 및 M19 상품별 누적 판매/환불 대사를 기록했다. 새 QA 쌍/해시는 아직 미생성·미검사이며 A의 별도 입력 단계다. 같은 세계0→양수는 조건부 QA 표현만으로 승인된 제품 기능이 아니고 독립 쌍으로 입증되지 않는다. M13의 참가자 모델 범위 한 선택은 game-design 추천/대안과 별도로 정렬하며 확정 소비 오류 수정의 선행 조건으로 만들지 않는다.
 - 이 계약 작업에서는 제품 코드·trial·Save·사무실 소스/씬 수정, 빌드/검사 재실행·게시/watch·커밋을 하지 않는다. 원문 인계·개인 경로·QA 캡처는 공개 요약에 포함하지 않는다.
 
 ## 현황판 담당·대표 결정 기록 (2026-11-08)
