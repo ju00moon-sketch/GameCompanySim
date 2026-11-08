@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T12:33:25.986369+09:00",
+ "updated": "2026-11-08T12:43:35.564444+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "13분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -70,24 +70,24 @@
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "M16·M18·M19 수동 검사 전제와 원래 승인 계약 대조",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,18 +98,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "16시간 전"
+   "updated": "17시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "실제 R2 2층 외벽 밝은 줄무늬 원인 분리",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -149,11 +149,11 @@
    "queued": false
   },
   {
-   "title": "M16·M18·M19 수동 검사 전제와 원래 승인 계약 대조",
+   "title": "R2 외벽·F2 슬래브 중복면 제거 후보 제작",
    "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
+   "assignee": "아트",
    "state": "dispatched",
-   "session_id": "3e3ce61e2f",
+   "session_id": "0acfc37077",
    "queued": false
   }
  ],
@@ -1212,6 +1212,11 @@
    "title": "실제 R2 2층 외벽 밝은 줄무늬 원인 분리",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "M16·M18·M19 수동 검사 전제와 원래 승인 계약 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1277,7 +1282,7 @@
   }
  ],
  "task_counts": {
-  "completed": 211,
+  "completed": 212,
   "failed": 10,
   "cancelled": 2,
   "dispatched": 4
