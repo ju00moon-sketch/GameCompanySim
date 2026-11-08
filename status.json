@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:53:54.267408+09:00",
+ "updated": "2026-11-08T11:10:13.670008+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "28분 전"
+   "updated": "44분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -105,11 +105,11 @@
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "아트 R2 제품 FBX 4개 배치·기존 GUID 보존·B 실기 인계",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "18분 전"
   }
  ],
  "open_tasks": [
