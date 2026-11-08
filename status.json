@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:58:23.797868+09:00",
+ "updated": "2026-11-08T10:15:16.271792+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "24분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -147,6 +147,14 @@
    "state": "dispatched",
    "session_id": "db10db84d0",
    "queued": false
+  },
+  {
+   "title": "StarterOffice R2 제품 FBX 4개 배치·GUID 보존·B 검증 입력 인계",
+   "status": "시작 대기",
+   "assignee": "아직 배정 전",
+   "state": "ready",
+   "session_id": null,
+   "queued": true
   }
  ],
  "completed_tasks": [
@@ -1242,7 +1250,8 @@
   "completed": 206,
   "failed": 10,
   "cancelled": 1,
-  "dispatched": 3
+  "dispatched": 3,
+  "ready": 1
  },
  "checks": {
   "sessions": true,
