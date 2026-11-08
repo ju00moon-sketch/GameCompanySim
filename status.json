@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-08T08:37:45.684684+09:00",
+ "updated": "2026-11-08T09:58:23.797868+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "원시안 공개 정정·4담당/G1비교/개별질문 수정본 게시·공개 검증",
+   "task": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -21,18 +21,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "41분 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
-   "task": "B 실제 창 QA 반환 수정·뉴스와 포텐셜 시각 검증·고정 빌드 인계",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,44 +43,11 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9시간 전"
+   "updated": "10시간 전"
   },
   {
    "session_id": "7ad5ba168b",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "P1-A 첫 시험 채택 반영과 충원 이후 공고 운영안",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "8bfb57a4f1",
-   "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "3e3ce61e2f",
-   "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "StarterOffice Revision2 창·바닥 후보 독립 검수",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "63782e683d",
-   "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "마지막 보고 완료 · 다음 배정 대기",
@@ -88,6 +55,39 @@
    "connected": true,
    "assignment_verified": true,
    "updated": "1시간 전"
+  },
+  {
+   "session_id": "8bfb57a4f1",
+   "label": "UI/UX",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "비공개 원복 구역의 공통 공개 투영 차단·회귀 검증",
+   "is_complete": true,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "7분 전"
+  },
+  {
+   "session_id": "3e3ce61e2f",
+   "label": "QA 1 (검증 설계)",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "1시간 전"
+  },
+  {
+   "session_id": "63782e683d",
+   "label": "QA 2 (스모크)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,18 +98,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "13시간 전"
+   "updated": "14시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "15분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,12 +120,12 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
   {
-   "title": "B 실제 창 QA 반환 수정·뉴스와 포텐셜 시각 검증·고정 빌드 인계",
+   "title": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
@@ -133,43 +133,19 @@
    "queued": false
   },
   {
-   "title": "원시안 공개 정정·4담당/G1비교/개별질문 수정본 게시·공개 검증",
+   "title": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "63782e683d",
+   "queued": false
+  },
+  {
+   "title": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
    "session_id": "db10db84d0",
-   "queued": false
-  },
-  {
-   "title": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
-   "status": "선행 작업 대기",
-   "assignee": "아직 배정 전",
-   "state": "pending",
-   "session_id": null,
-   "queued": true
-  },
-  {
-   "title": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
-   "status": "선행 작업 대기",
-   "assignee": "아직 배정 전",
-   "state": "pending",
-   "session_id": null,
-   "queued": true
-  },
-  {
-   "title": "P1-A 첫 시험 채택 반영과 충원 이후 공고 운영안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "7ad5ba168b",
-   "queued": false
-  },
-  {
-   "title": "StarterOffice Revision2 창·바닥 후보 독립 검수",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
    "queued": false
   }
  ],
@@ -1155,12 +1131,52 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "B 실제 창 QA 반환 수정·뉴스와 포텐셜 시각 검증·고정 빌드 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "원시안 공개 정정·4담당/G1비교/개별질문 수정본 게시·공개 검증",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "실제 제품 캡처의 출처 표시·명명 정정과 부분 진단 분리",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "종결된 창 배치 반영·F1 중복 상면 수정 후보와 조립 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "P1-A 첫 시험 채택 반영과 충원 이후 공고 운영안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "StarterOffice Revision2 창·바닥 후보 독립 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "P1-A 첫 시험 채택 현황판 반영과 미답변 종결",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "P1-A 채택 기술계약·공유현황 정합과 모델 원복 기록 연결",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "수신 완료된 B 반환·A 입력·QA2와 사무실 후속 상태 정합",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "비공개 원복 구역의 공통 공개 투영 차단·회귀 검증",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1223,11 +1239,10 @@
   }
  ],
  "task_counts": {
-  "completed": 198,
+  "completed": 206,
   "failed": 10,
   "cancelled": 1,
-  "dispatched": 4,
-  "pending": 2
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
