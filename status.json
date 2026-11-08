@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T10:23:24.438843+09:00",
+ "updated": "2026-11-08T10:33:33.673593+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -26,13 +26,13 @@
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "읽기 전용 사무실 그레이박스·2층 카메라·동일 직원 실제 연결",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "32분 전"
+   "updated": "42분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -81,13 +81,13 @@
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -103,13 +103,13 @@
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "아트 R2 제품 FBX 4개 배치·기존 GUID 보존·B 실기 인계",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -141,20 +141,12 @@
    "queued": false
   },
   {
-   "title": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
+   "title": "아트 R2 제품 FBX 4개 배치·기존 GUID 보존·B 실기 인계",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)",
+   "assignee": "아트",
    "state": "dispatched",
-   "session_id": "db10db84d0",
+   "session_id": "0acfc37077",
    "queued": false
-  },
-  {
-   "title": "StarterOffice R2 제품 FBX 4개 배치·GUID 보존·B 검증 입력 인계",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true
   }
  ],
  "completed_tasks": [
@@ -1184,6 +1176,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "비공개 원복 구역의 공통 공개 투영 차단·회귀 검증",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1244,14 +1241,18 @@
    "title": "사무실 통합 시연 책임 배정·현재 관측 계약과 단계별 구현 인계",
    "status": "취소",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "StarterOffice R2 제품 FBX 4개 배치·GUID 보존·B 검증 입력 인계",
+   "status": "취소",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 206,
+  "completed": 207,
   "failed": 10,
-  "cancelled": 1,
-  "dispatched": 3,
-  "ready": 1
+  "cancelled": 2,
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
