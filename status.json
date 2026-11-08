@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T10:15:16.271792+09:00",
+ "updated": "2026-11-08T10:23:24.438843+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -43,7 +43,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10시간 전"
+   "updated": "11시간 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -61,11 +61,11 @@
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "비공개 원복 구역의 공통 공개 투영 차단·회귀 검증",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "24분 전"
+   "updated": "32분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
