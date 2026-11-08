@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T11:58:54.586892+09:00",
+ "updated": "2026-11-08T12:09:04.117341+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "사무실 최종 P3 변경·시험 증거의 증분 기술 검토",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "46분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -81,13 +81,13 @@
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "수정 고정 빌드·검사 저장 기반 수동 M01~M25 후속 실제 창 검증",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -103,13 +103,13 @@
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "실제 R2 2층 외벽 밝은 줄무늬 원인 분리",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -138,6 +138,22 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "63782e683d",
+   "queued": false
+  },
+  {
+   "title": "사무실 최종 P3 변경·시험 증거의 증분 기술 검토",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "db10db84d0",
+   "queued": false
+  },
+  {
+   "title": "실제 R2 2층 외벽 밝은 줄무늬 원인 분리",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "0acfc37077",
    "queued": false
   }
  ],
@@ -1254,7 +1270,7 @@
   "completed": 209,
   "failed": 10,
   "cancelled": 2,
-  "dispatched": 2
+  "dispatched": 4
  },
  "checks": {
   "sessions": true,
