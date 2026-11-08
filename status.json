@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T11:20:23.188771+09:00",
+ "updated": "2026-11-08T11:42:41.307371+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "사무실 관측·장면 구현의 계약·정보 경계·성능 독립 검토",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "54분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "15시간 전"
+   "updated": "16시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "40분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "27분 전"
   }
  ],
  "open_tasks": [
