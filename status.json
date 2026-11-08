@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-08T10:43:43.003009+09:00",
+ "updated": "2026-11-08T10:53:54.267408+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "P1-A 채택·P1-2a 개별 질문·최신 현황 직렬 게시와 watch 재개",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "사무실 관측·장면 구현의 계약·정보 경계·성능 독립 검토",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "53분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17분 전"
+   "updated": "28분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -109,18 +109,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -138,6 +138,14 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "63782e683d",
+   "queued": false
+  },
+  {
+   "title": "사무실 관측·장면 구현의 계약·정보 경계·성능 독립 검토",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "db10db84d0",
    "queued": false
   }
  ],
@@ -1249,7 +1257,7 @@
   "completed": 208,
   "failed": 10,
   "cancelled": 2,
-  "dispatched": 2
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
