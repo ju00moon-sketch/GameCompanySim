@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:49:44.180183+09:00",
+ "updated": "2026-11-15T23:55:55.357108+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -24,17 +24,6 @@
    "updated": "방금"
   },
   {
-   "session_id": "7218e1ca19",
-   "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "5분 전"
-  },
-  {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
@@ -43,7 +32,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -109,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -138,7 +127,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": "7218e1ca19",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -174,7 +163,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": "7218e1ca19",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -190,9 +179,9 @@
   {
    "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "7218e1ca19",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
