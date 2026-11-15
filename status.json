@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:59:04.346716+09:00",
+ "updated": "2026-11-16T02:05:14.912047+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -17,22 +17,22 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "공개 현황판: 새 결정 카드 2건 게시와 01:45 진행 반영",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "2분 전"
-  },
-  {
-   "session_id": "3e3ce61e2f",
-   "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
+   "task": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
+  },
+  {
+   "session_id": "3e3ce61e2f",
+   "label": "QA 1 (검증 설계)",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
+   "task": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "2분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -160,7 +160,7 @@
    "hold": false
   },
   {
-   "title": "공개 현황판: 새 결정 카드 2건 게시와 01:45 진행 반영",
+   "title": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -1561,6 +1561,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "공개 현황판: 새 결정 카드 2건 게시와 01:45 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환 4단계: 사무실 2층 R3 재반입 뒤 최종 확인",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1634,7 +1639,7 @@
   }
  ],
  "task_counts": {
-  "completed": 279,
+  "completed": 280,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
