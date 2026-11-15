@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:24:13.966922+09:00",
+ "updated": "2026-11-15T20:34:29.164775+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5시간 전"
+   "updated": "6시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -83,11 +83,11 @@
    "label": "QA 2 (스모크)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "언리얼 전환 5단계 준비: 수동 QA 25행 실행 준비 v0.2",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "21분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,18 +98,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "22시간 전"
+   "updated": "23시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 4단계: 사무실 2층 R3 채택(입력 사본 교체)",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -211,15 +211,6 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "8029eec1fb",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 4단계: 사무실 2층 R3 채택(입력 사본 교체)",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "0acfc37077",
    "queued": false,
    "hold": false
   }
@@ -1529,6 +1520,11 @@
    "title": "언리얼 전환 4단계: 사무실 R3 비교 판정·밝기 재확인",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 4단계: 사무실 2층 R3 채택(입력 사본 교체)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1599,11 +1595,11 @@
   }
  ],
  "task_counts": {
-  "completed": 261,
+  "completed": 262,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 5
+  "dispatched": 4
  },
  "checks": {
   "sessions": true,
