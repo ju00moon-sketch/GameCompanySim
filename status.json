@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T15:48:14.387700+09:00",
+ "updated": "2026-11-15T16:00:29.622800+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 2단계: 공통 기반·기준선 커밋",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,29 +21,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "37분 전"
+   "updated": "50분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "40분 전"
+   "updated": "52분 전"
   },
   {
    "session_id": "63782e683d",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
