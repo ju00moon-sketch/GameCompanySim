@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T14:06:08.557114+09:00",
+ "updated": "2026-11-15T14:12:11.169640+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -9,7 +9,7 @@
    "task": "언리얼 전환 2단계: 공통 기반·기준선 커밋",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "1분 전"
   },
   {
@@ -17,10 +17,10 @@
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 2단계: Production 이식",
+   "task": "언리얼 전환 3단계: 제품 전체 흐름 대조",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -31,8 +31,8 @@
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1분 전"
+   "assignment_verified": true,
+   "updated": "2분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -42,7 +42,7 @@
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -53,63 +53,63 @@
    "task": "신규 기획 설계 4차: 주식시장 구체안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "방금"
+   "assignment_verified": true,
+   "updated": "3분 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 현황판: 옛 파일 정리와 14:10 진행 반영",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "33분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "언리얼 전환 2단계: 재점검(Business·Persistence 결함 보완)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 2단계: 재점검(Production·로더·조립·팩터리)",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "10분 전"
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1시간 전"
+   "assignment_verified": true,
+   "updated": "2시간 전"
   },
   {
    "session_id": "297f61b2c6",
    "label": "글·문구",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "16시간 전"
   },
   {
    "session_id": "0acfc37077",
    "label": "아트",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "51분 전"
+   "assignment_verified": true,
+   "updated": "57분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -119,8 +119,8 @@
    "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "3분 전"
+   "assignment_verified": true,
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -188,15 +188,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 2단계: Production 이식",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "8029eec1fb",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 2단계: Hiring 이식",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -215,101 +206,38 @@
    "hold": false
   },
   {
-   "title": "Hiring native state and identity",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Hiring native commands and workday",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Hiring native snapshots and restoration",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Hiring native exact rules and market",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Hiring remaining 54 oracle vectors",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Presentation A: app, time, entry",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Presentation M: management screens",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Presentation P: production screens",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Presentation H: people and hiring",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Presentation O: office scene",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "신규 기획 설계 4차: 주식시장 구체안",
    "status": "진행 중",
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "7ad5ba168b",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 3단계: 제품 전체 흐름 대조",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "8029eec1fb",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 재점검(Production·로더·조립·팩터리)",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "공개 현황판: 옛 파일 정리와 14:10 진행 반영",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -621,7 +549,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "조립 커밋 c6d45ff — display_name 매핑은 스키마 통지 뒤",
+   "title": "조립 커밋 display_name 매핑은 스키마 통지 뒤",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -656,7 +584,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "긴급: trial.json m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
+   "title": "긴급: trial m1-trial-009 — 채용 2단계 계수 33키 + company_scale_bands 입력(공유 빌드 막힘)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -686,7 +614,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "③ 알림 문구 키 7개 추가 — Logs/notification-contract-step3.md",
+   "title": "③ 알림 문구 키 7개 추가 — notification-contract-step3",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -726,12 +654,12 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, Logs/contribution-solvency-contract.md) — 내용은...",
+   "title": "정식 Task: 기여 원장·종료 가드 구현 (계약 확정, contribution-solvency-contract) — 내용은...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "정식 Task: trial.json m1-trial-010 기입 — 내용은 msg_c3143aec6b3f",
+   "title": "정식 Task: trial m1-trial-010 기입 — 내용은 메시지",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -786,12 +714,12 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "④ 커밋 520ec8a — A 기여 원장 포함. 다음은 ⑤ 계약 확정 뒤",
+   "title": "④ 커밋 A 기여 원장 포함. 다음은 ⑤ 계약 확정 뒤",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "④ 커밋 520ec8a — B 재무/폐업 포함. 다음은 ⑤ 계약 확정 뒤",
+   "title": "④ 커밋 B 재무/폐업 포함. 다음은 ⑤ 계약 확정 뒤",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -811,7 +739,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "급여 실값 정정(통합이 trial.json에서 확인): founder 300·programmer 450·artist 400·designer...",
+   "title": "급여 실값 정정(통합이 trial에서 확인): founder 300·programmer 450·artist 400·designer...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -856,7 +784,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "⑤ 통합 검토: FindReceipt(ProductionSimulation.cs 365~368)가 조회마다 payload 해독 — 공개 여...",
+   "title": "⑤ 통합 검토: FindReceipt(ProductionSimulation 365~368)가 조회마다 payload 해독 — 공개 여...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -891,12 +819,12 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "통지: ⑤ 커밋 6d0e65b — 다음은 18절 작업 생성 구현(통합 계약 컷오버 뒤 배정)",
+   "title": "통지: ⑤ 커밋 다음은 18절 작업 생성 구현(통합 계약 컷오버 뒤 배정)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "통지: ⑤ 커밋 6d0e65b — B 다음 항목 대기",
+   "title": "통지: ⑤ 커밋 B 다음 항목 대기",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -911,17 +839,17 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "game-design 배정: 공식 trial-013 기입 — data/balance/m1/trial.json 스키마 v4 전환 (msg_3...",
+   "title": "game-design 배정: 공식 trial-013 기입 — trial 스키마 v4 전환 (msg_3...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "통지: §18 커밋 08658e1 — 다음은 §19 안B(A: Production 선택·실제 이력·공통 용량·전망), 통합 공유 타입 착지...",
+   "title": "통지: §18 커밋 다음은 §19 안B(A: Production 선택·실제 이력·공통 용량·전망), 통합 공유 타입 착지...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "통지: §18 커밋 08658e1 — 다음은 §19 안B(B: Save5 DTO/복원·작업판 「지시」/「자동 선택」·현재 이유 표시), 통...",
+   "title": "통지: §18 커밋 다음은 §19 안B(B: Save5 DTO/복원·작업판 「지시」/「자동 선택」·현재 이유 표시), 통...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -961,7 +889,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "QA: 기준선 5e4312e 작은 통합 시험·회귀·독립 재검증",
+   "title": "QA: 기준선 작은 통합 시험·회귀·독립 재검증",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -996,7 +924,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "아트 보안 수정 2건(통합 검토): meshy_generate.py api-base 제한·키 마스킹",
+   "title": "아트 보안 수정 2건(통합 검토): meshy_generate api-base 제한·키 마스킹",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -1041,7 +969,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "문구: §20 B 키 목록 A~K(scratch/B_s20_writer_keys.md) — 새 게임·채용 첫 빌드·메뉴 재편·면접 중·첫...",
+   "title": "문구: §20 B 키 목록 A~K(B_s20_writer_keys) — 새 게임·채용 첫 빌드·메뉴 재편·면접 중·첫...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -1081,7 +1009,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "A 결함 수정 1건: ProductionSimulation.cs:412~414 history 공급자를 C의 live AssessmentHi...",
+   "title": "A 결함 수정 1건: ProductionSimulation:412~414 history 공급자를 C의 live AssessmentHi...",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -1091,7 +1019,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "B: 커밋 관문용 결과 파일 — 최종 EditMode 126/126·PlayMode 11/11 XML과 Win64 빌드 로그를 Logs/T...",
+   "title": "B: 커밋 관문용 결과 파일 — 최종 EditMode 126/126·PlayMode 11/11 XML과 Win64 빌드 로그를 T",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -1426,6 +1354,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 2단계: Production 이식",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환 2단계: Business·저장 이식",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1579,16 +1512,16 @@
   }
  ],
  "task_counts": {
-  "completed": 239,
+  "completed": 240,
   "failed": 11,
   "cancelled": 2,
-  "blocked": 16,
-  "dispatched": 5
+  "blocked": 6,
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
   "terminals": true,
   "tasks": true,
-  "unattributed_open_tasks": 10
+  "unattributed_open_tasks": 0
  }
 }
