@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:38:52.601137+09:00",
+ "updated": "2026-11-16T04:47:04.119083+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "session_id": "c3b901086d",
@@ -28,7 +28,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
+   "task": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -149,7 +149,7 @@
    "hold": false
   },
   {
-   "title": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
+   "title": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -1550,7 +1550,7 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
-   "title": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
+   "title": "언리얼 전환 4단계 후속: 이어서 마감",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -1576,6 +1576,11 @@
   },
   {
    "title": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1648,7 +1653,7 @@
   }
  ],
  "task_counts": {
-  "completed": 284,
+  "completed": 285,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
