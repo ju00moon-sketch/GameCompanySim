@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T03:31:08.761139+09:00",
+ "updated": "2026-11-16T03:39:22.832554+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -13,14 +13,25 @@
    "updated": "방금"
   },
   {
-   "session_id": "297f61b2c6",
-   "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "session_id": "6b9555629c",
+   "label": "QA 1 (검증 설계)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
+   "session_id": "297f61b2c6",
+   "label": "글·문구",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": false,
    "updated": "5시간 전"
   },
   {
@@ -32,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -77,7 +88,7 @@
    "status": "보류",
    "assignee": "QA 1 (검증 설계)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "6b9555629c",
    "queued": false,
    "hold": true
   },
@@ -124,6 +135,15 @@
    "state": "ready",
    "session_id": null,
    "queued": true,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "6b9555629c",
+   "queued": false,
    "hold": false
   }
  ],
@@ -1606,7 +1626,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 1,
+  "dispatched": 2,
   "ready": 3
  },
  "checks": {
