@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:01:14.701978+09:00",
+ "updated": "2026-11-15T15:07:23.965699+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -26,24 +26,24 @@
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "31분 전"
+   "updated": "37분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -211,15 +211,6 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "8029eec1fb",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 2단계: 독립 점검 4차(Hiring 정적 대조)",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
    "queued": false,
    "hold": false
   },
@@ -1453,6 +1444,11 @@
    "title": "수동 QA M07·M10의 기대 기준 확인",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 4차(Hiring 정적 대조)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1523,11 +1519,11 @@
   }
  ],
  "task_counts": {
-  "completed": 244,
+  "completed": 245,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
