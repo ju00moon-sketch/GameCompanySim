@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:12:59.983145+09:00",
+ "updated": "2026-11-15T22:23:15.121150+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -65,18 +65,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "24분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 5단계: 수동 QA 예행 실행 분담(M14~M25)",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "15분 전"
+   "updated": "26분 전"
   },
   {
    "session_id": "0acfc37077",
@@ -220,6 +220,15 @@
    "assignee": "구현 C (채용)",
    "state": "dispatched",
    "session_id": "fa1e546b5f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계: 수동 QA 예행 실행 분담(M14~M25)",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "3e3ce61e2f",
    "queued": false,
    "hold": false
   }
@@ -1643,7 +1652,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 5
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
