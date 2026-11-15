@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:06:11.403992+09:00",
+ "updated": "2026-11-16T00:14:24.480478+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -43,7 +43,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "19분 전"
+   "updated": "27분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -59,13 +59,13 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "공개 현황판: N1 종결 처리와 23:45 진행 반영",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -238,6 +238,15 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1681,7 +1690,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
