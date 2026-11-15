@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:46:45.813016+09:00",
+ "updated": "2026-11-15T12:56:56.164915+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -50,11 +50,11 @@
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "신규 기획 설계 2차: 약속 기록·처우협의·인내심·연봉협상 구체안",
+   "task": "신규 기획 설계 3차: 복지·여섯 지표 구체안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "35분 전"
+   "updated": "46분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -105,7 +105,7 @@
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "신규 기획: SD 직원 캐릭터 아트 제안",
+   "task": "언리얼 전환: R3 후보 임포트 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
@@ -305,15 +305,6 @@
    "hold": false
   },
   {
-   "title": "신규 기획 설계 2차: 약속 기록·처우협의·인내심·연봉협상 구체안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "7ad5ba168b",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "공개 현황판: 검증된 입력만 게시, 총괄 기록 경로·ID 가리기",
    "status": "진행 중",
    "assignee": "UI/UX",
@@ -328,6 +319,24 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환: R3 후보 임포트 준비",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "0acfc37077",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "신규 기획 설계 3차: 복지·여섯 지표 구체안",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "7ad5ba168b",
    "queued": false,
    "hold": false
   }
@@ -1479,6 +1488,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "신규 기획 설계 2차: 약속 기록·처우협의·인내심·연봉협상 구체안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "신규 기획: SD 직원 캐릭터 아트 제안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1567,11 +1581,11 @@
   }
  ],
  "task_counts": {
-  "completed": 233,
+  "completed": 234,
   "failed": 11,
   "cancelled": 2,
   "blocked": 16,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
