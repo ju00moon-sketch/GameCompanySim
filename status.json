@@ -1,17 +1,6 @@
 {
- "updated": "2026-11-16T04:57:18.566504+09:00",
+ "updated": "2026-11-16T05:07:33.002024+09:00",
  "agents": [
-  {
-   "session_id": "db10db84d0",
-   "label": "통합(기술 책임)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "19분 전"
-  },
   {
    "session_id": "c3b901086d",
    "label": "구현 B (사업·저장·화면)",
@@ -21,18 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "297f61b2c6",
-   "label": "글·문구",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": false,
-   "updated": "7시간 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -43,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
@@ -70,7 +48,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": "db10db84d0",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
