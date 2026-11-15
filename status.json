@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:28:23.920287+09:00",
+ "updated": "2026-11-16T01:42:41.868384+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "38224caf99",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -32,7 +32,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "28분 전"
+   "updated": "42분 전"
+  },
+  {
+   "session_id": "4228b462c6",
+   "label": "UI/UX",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -159,15 +170,6 @@
    "state": "ready",
    "session_id": null,
    "queued": true,
-   "hold": false
-  },
-  {
-   "title": "직원 캐릭터 시범 제작 준비(제작 방법과 무관한 범위)",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "0acfc37077",
-   "queued": false,
    "hold": false
   },
   {
@@ -1566,6 +1568,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "직원 캐릭터 시범 제작 준비(제작 방법과 무관한 범위)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1639,11 +1646,11 @@
   }
  ],
  "task_counts": {
-  "completed": 276,
+  "completed": 277,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 4,
+  "dispatched": 3,
   "ready": 2
  },
  "checks": {
