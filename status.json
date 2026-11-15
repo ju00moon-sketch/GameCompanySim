@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:56:56.164915+09:00",
+ "updated": "2026-11-15T13:03:03.235348+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "8분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "46분 전"
+   "updated": "52분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
