@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:18:52.855712+09:00",
+ "updated": "2026-11-15T16:29:06.645704+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "공개 현황판: 16:10 진행 반영",
+   "task": "언리얼 전환: 화면 디자인 검수 1차",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -206,20 +206,20 @@
    "hold": false
   },
   {
-   "title": "공개 현황판: 16:10 진행 반영",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "8bfb57a4f1",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계 준비: 시험 패키징과 실제 실행 스모크",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "8029eec1fb",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환: 화면 디자인 검수 1차",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1459,6 +1459,11 @@
    "title": "언리얼 전환: 화면 디자인 검수 기준표",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: 16:10 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1529,7 +1534,7 @@
   }
  ],
  "task_counts": {
-  "completed": 247,
+  "completed": 248,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
