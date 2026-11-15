@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:28:13.276461+09:00",
+ "updated": "2026-11-16T08:34:24.003210+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,14 +10,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현: 고용·시간 쪽 기술 준비",
+   "task": "M13: 계약 시험 사례 초안과 의도된 변경 표, QD02 방지 설계안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -43,26 +43,26 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "이어서: 첫 구현의 설계 준비",
+   "task": "둘째·셋째 순서의 설계 명세 초안: 복지 1차와 재무 안정성 표시",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "N8: Unity 저장 가져오기의 화면 흐름 검토",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "41분 전"
+   "updated": "47분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -258,38 +258,11 @@
    "hold": false
   },
   {
-   "title": "이어서: 첫 구현의 설계 준비",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "N8: Unity 저장 가져오기의 화면 흐름 검토",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현: 사업·저장·화면 쪽 기술 준비",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현: 고용·시간 쪽 기술 준비",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   },
@@ -308,6 +281,24 @@
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
    "session_id": "b48f2aebda",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째·셋째 순서의 설계 명세 초안: 복지 1차와 재무 안정성 표시",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "M13: 계약 시험 사례 초안과 의도된 변경 표, QD02 방지 설계안",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   }
@@ -1764,6 +1755,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "이어서: 첫 구현의 설계 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1800,6 +1796,16 @@
   },
   {
    "title": "M13: A3 답변과 제작 모듈 쪽 기술 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "N8: Unity 저장 가져오기의 화면 흐름 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현: 고용·시간 쪽 기술 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1877,12 +1883,12 @@
   }
  ],
  "task_counts": {
-  "completed": 298,
+  "completed": 301,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
