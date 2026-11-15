@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T18:11:16.981557+09:00",
+ "updated": "2026-11-15T18:29:38.052441+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
    "is_complete": false,
    "connected": true,
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "20분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -65,7 +65,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "20분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
