@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:14:14.151878+09:00",
+ "updated": "2026-11-16T04:20:24.256265+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -24,14 +24,25 @@
    "updated": "방금"
   },
   {
-   "session_id": "297f61b2c6",
-   "label": "글·문구",
+   "session_id": "657e478dbe",
+   "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
    "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
+   "session_id": "297f61b2c6",
+   "label": "글·문구",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": false,
    "updated": "6시간 전"
   },
   {
@@ -43,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
