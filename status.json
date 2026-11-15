@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:25:45.634750+09:00",
+ "updated": "2026-11-15T21:36:00.037454+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -17,7 +17,7 @@
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 5단계 준비: M18 zero 규칙 대조와 QA 입력 인계 정리",
+   "task": "언리얼 전환 5단계 준비: QA 실행기 후속·시험 비교기 점검",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,18 +54,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6시간 전"
+   "updated": "7시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 현황판: 21:30 진행 반영",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -81,13 +81,13 @@
   {
    "session_id": "63782e683d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "23시간 전"
+   "updated": "24시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "55분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -197,15 +197,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 5단계 준비: M18 zero 규칙 대조와 QA 입력 인계 정리",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "8029eec1fb",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 2단계: 채용 시험 비교기 C-03 보완",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -220,6 +211,33 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계 준비: QA 실행기 후속·시험 비교기 점검",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "8029eec1fb",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "63782e683d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "공개 현황판: 21:30 진행 반영",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1526,6 +1544,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 5단계 준비: M18 zero 규칙 대조와 QA 입력 인계 정리",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환 5단계 준비: 수동 QA 25행 실행 준비 v0.2",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1614,11 +1637,11 @@
   }
  ],
  "task_counts": {
-  "completed": 264,
+  "completed": 265,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 5
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
