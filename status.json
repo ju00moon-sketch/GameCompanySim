@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-15T15:27:49.778587+09:00",
+ "updated": "2026-11-15T15:38:01.569922+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 2단계: 공통 기반·기준선 커밋",
    "is_complete": false,
    "connected": true,
@@ -21,24 +21,24 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "57분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,18 +65,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17분 전"
+   "updated": "27분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "언리얼 전환 2단계: 독립 점검 4차(Hiring 정적 대조)",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "20분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "63782e683d",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17시간 전"
+   "updated": "18시간 전"
   },
   {
    "session_id": "0acfc37077",
