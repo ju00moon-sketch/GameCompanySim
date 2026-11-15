@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-16T08:40:33.743776+09:00",
+ "updated": "2026-11-16T08:50:48.000437+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
+   "task": "첫 구현의 공통 계약 초안과 기준선 커밋 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -267,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)",
-   "state": "dispatched",
-   "session_id": "b48f2aebda",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "둘째·셋째 순서의 설계 명세 초안: 복지 1차와 재무 안정성 표시",
    "status": "진행 중",
    "assignee": "게임 디자인",
@@ -317,6 +308,15 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "b17ff58a4d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현의 공통 계약 초안과 기준선 커밋 준비",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "b48f2aebda",
    "queued": false,
    "hold": false
   }
@@ -1831,6 +1831,11 @@
    "title": "첫 구현: 고용·시간 쪽 기술 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1906,7 +1911,7 @@
   }
  ],
  "task_counts": {
-  "completed": 302,
+  "completed": 303,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
