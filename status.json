@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:02:43.171657+09:00",
+ "updated": "2026-11-15T22:12:59.983145+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,15 +32,15 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "29분 전"
+   "updated": "방금"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 2단계: 채용 시험 비교기 C-03 보완",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 2단계: 사업·저장 시험 비교기 보완(CMP-B01~B03)",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -65,18 +65,18 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "63782e683d",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "0acfc37077",
@@ -197,15 +197,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계 준비: QA 실행기 후속·시험 비교기 점검",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
@@ -220,6 +211,15 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "63782e683d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 사업·저장 시험 비교기 보완(CMP-B01~B03)",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "fa1e546b5f",
    "queued": false,
    "hold": false
   }
@@ -1556,6 +1556,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판: 21:30 진행 반영",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1634,7 +1639,7 @@
   }
  ],
  "task_counts": {
-  "completed": 268,
+  "completed": 269,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
