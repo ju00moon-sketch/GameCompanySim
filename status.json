@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:05:14.912047+09:00",
+ "updated": "2026-11-16T02:29:44.088836+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "27분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -50,11 +50,11 @@
    "label": "아트",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "언리얼 전환 4단계: 사무실 2층 R3 재반입 뒤 최종 확인",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
