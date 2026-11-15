@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:47:04.119083+09:00",
+ "updated": "2026-11-16T04:57:18.566504+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "19분 전"
   },
   {
    "session_id": "c3b901086d",
@@ -18,17 +18,6 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "언리얼 전환 4단계 후속: 디자인 검수 3차의 P2 수정",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "657e478dbe",
-   "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -43,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6시간 전"
+   "updated": "7시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -145,15 +134,6 @@
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "c3b901086d",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "657e478dbe",
    "queued": false,
    "hold": false
   }
@@ -1583,6 +1563,11 @@
    "title": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1653,12 +1638,12 @@
   }
  ],
  "task_counts": {
-  "completed": 285,
+  "completed": 286,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
   "ready": 3,
-  "dispatched": 2
+  "dispatched": 1
  },
  "checks": {
   "sessions": true,
