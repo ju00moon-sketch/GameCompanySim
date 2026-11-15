@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-16T06:27:17.175337+09:00",
+ "updated": "2026-11-16T06:33:27.475611+09:00",
  "agents": [
   {
-   "session_id": "608d51310f",
+   "session_id": "e44908a8db",
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 5단계: 4차 인증과 최종 실행물 교체",
+   "task": "언리얼 전환 5단계: 4차 인증 재개",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -48,7 +48,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": "608d51310f",
+   "session_id": "e44908a8db",
    "queued": false,
    "hold": true
   },
@@ -108,10 +108,19 @@
   },
   {
    "title": "언리얼 전환 5단계: 4차 인증과 최종 실행물 교체",
+   "status": "시작 대기",
+   "assignee": "아직 배정 전",
+   "state": "ready",
+   "session_id": null,
+   "queued": true,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계: 4차 인증 재개",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
-   "session_id": "608d51310f",
+   "session_id": "e44908a8db",
    "queued": false,
    "hold": false
   }
@@ -1630,7 +1639,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "ready": 3,
+  "ready": 4,
   "dispatched": 1
  },
  "checks": {
