@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:55:55.357108+09:00",
+ "updated": "2026-11-16T00:06:11.403992+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -24,6 +24,17 @@
    "updated": "방금"
   },
   {
+   "session_id": "38224caf99",
+   "label": "구현 B (사업·저장·화면)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "등록된 Task 제목 없음",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
@@ -32,7 +43,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "19분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -48,13 +59,13 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "공개 현황판: N1 종결 처리와 23:45 진행 반영",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -65,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -98,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -127,7 +138,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "38224caf99",
    "queued": false,
    "hold": true
   },
@@ -163,7 +174,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "38224caf99",
    "queued": false,
    "hold": true
   },
@@ -209,15 +220,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "7ad5ba168b",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "공개 현황판: N1 종결 처리와 23:45 진행 반영",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   },
@@ -1600,6 +1602,11 @@
    "title": "언리얼 전환 5단계: QA 실행기 독립 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: N1 종결 처리와 23:45 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1670,11 +1677,11 @@
   }
  ],
  "task_counts": {
-  "completed": 272,
+  "completed": 273,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
