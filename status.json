@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:06:47.255269+09:00",
+ "updated": "2026-11-16T06:17:02.123938+09:00",
  "agents": [
   {
    "session_id": "608d51310f",
@@ -13,17 +13,6 @@
    "updated": "방금"
   },
   {
-   "session_id": "c3b901086d",
-   "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 4단계 후속: 디자인 검수 3차의 P2 수정",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "7분 전"
-  },
-  {
    "session_id": "1b7f7e960f",
    "label": "UI/UX",
    "state": "작업 중",
@@ -32,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -61,7 +50,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": "c3b901086d",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -97,7 +86,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": "c3b901086d",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
