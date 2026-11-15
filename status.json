@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:24:40.745076+09:00",
+ "updated": "2026-11-16T00:34:57.199918+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "session_id": "38224caf99",
@@ -32,18 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
-  },
-  {
-   "session_id": "fa1e546b5f",
-   "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "38분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -59,13 +48,13 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -109,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -197,15 +186,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 5단계 준비: QA 실행기 후속·시험 비교기 점검",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "8029eec1fb",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
@@ -238,15 +218,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   },
@@ -1597,6 +1568,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 5단계 준비: QA 실행기 후속·시험 비교기 점검",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판: 21:30 진행 반영",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1623,6 +1599,11 @@
   },
   {
    "title": "공개 현황판: N1 종결 처리와 23:45 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1695,11 +1676,11 @@
   }
  ],
  "task_counts": {
-  "completed": 273,
+  "completed": 275,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 8,
+  "dispatched": 6,
   "ready": 1
  },
  "checks": {
