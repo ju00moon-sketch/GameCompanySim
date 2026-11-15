@@ -1,15 +1,26 @@
 {
- "updated": "2026-11-16T03:10:34.843421+09:00",
+ "updated": "2026-11-16T03:20:53.467899+09:00",
  "agents": [
+  {
+   "session_id": "db10db84d0",
+   "label": "통합(기술 책임)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "3분 전"
+  },
   {
    "session_id": "297f61b2c6",
    "label": "글·문구",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "5시간 전"
   }
  ],
@@ -37,7 +48,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "db10db84d0",
    "queued": false,
    "hold": true
   },
@@ -71,9 +82,9 @@
   {
    "title": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "통합(기술 책임)",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "db10db84d0",
    "queued": false,
    "hold": false
   },
@@ -1589,7 +1600,7 @@
  },
  "checks": {
   "sessions": true,
-  "terminals": false,
+  "terminals": true,
   "tasks": true,
   "unattributed_open_tasks": 0
  }
