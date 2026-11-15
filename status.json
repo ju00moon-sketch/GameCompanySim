@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-16T04:32:43.550890+09:00",
+ "updated": "2026-11-16T04:38:52.601137+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -28,7 +28,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "task": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -113,15 +113,6 @@
    "hold": true
   },
   {
-   "title": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)",
-   "state": "dispatched",
-   "session_id": "db10db84d0",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
    "status": "시작 대기",
    "assignee": "아직 배정 전",
@@ -158,7 +149,7 @@
    "hold": false
   },
   {
-   "title": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "title": "현황판 정정: 공개본에 실린 실행 환경 문장 내리기",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -1434,6 +1425,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환: 화면 디자인 검수 2차",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1577,6 +1573,11 @@
    "title": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1647,12 +1648,12 @@
   }
  ],
  "task_counts": {
-  "completed": 282,
+  "completed": 284,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 3,
-  "ready": 3
+  "ready": 3,
+  "dispatched": 2
  },
  "checks": {
   "sessions": true,
