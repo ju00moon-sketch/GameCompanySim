@@ -1,6 +1,39 @@
 {
- "updated": "2026-11-16T07:22:39.631465+09:00",
+ "updated": "2026-11-16T07:34:58.521077+09:00",
  "agents": [
+  {
+   "session_id": "707efebe09",
+   "label": "구현 A (제작 코어)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
+   "session_id": "e7e08ec16f",
+   "label": "구현 B (사업·저장·화면)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "이어서: N8 Unity 저장 가져오기 설계 초안",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
+   "session_id": "88e5a1d9b2",
+   "label": "게임 디자인",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "이어서: 첫 구현의 설계 준비",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
+  },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
@@ -43,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -61,7 +94,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "e7e08ec16f",
    "queued": false,
    "hold": true
   },
@@ -79,7 +112,7 @@
    "status": "보류",
    "assignee": "구현 A (제작 코어)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "707efebe09",
    "queued": false,
    "hold": true
   },
@@ -97,7 +130,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "e7e08ec16f",
    "queued": false,
    "hold": true
   },
@@ -198,6 +231,33 @@
    "state": "ready",
    "session_id": null,
    "queued": true,
+   "hold": false
+  },
+  {
+   "title": "이어서: 첫 구현의 설계 준비",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "이어서: N8 Unity 저장 가져오기 설계 초안",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
    "hold": false
   }
  ],
@@ -1726,7 +1786,7 @@
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 3
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
