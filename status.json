@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:45:47.649368+09:00",
+ "updated": "2026-11-15T13:55:58.077246+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -65,13 +65,13 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12분 전"
+   "updated": "22분 전"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "언리얼 전환 2단계: 재점검(Business·Persistence 결함 보완)",
    "is_complete": false,
    "connected": true,
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "30분 전"
+   "updated": "41분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -310,15 +310,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "7ad5ba168b",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 2단계: 재점검(Business·Persistence 결함 보완)",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
    "queued": false,
    "hold": false
   }
@@ -1513,6 +1504,11 @@
    "title": "신규 기획 설계 3차: 복지·여섯 지표 구체안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 2단계: 재점검(Business·Persistence 결함 보완)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1583,11 +1579,11 @@
   }
  ],
  "task_counts": {
-  "completed": 238,
+  "completed": 239,
   "failed": 11,
   "cancelled": 2,
   "blocked": 16,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
