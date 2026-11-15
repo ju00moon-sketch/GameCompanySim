@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:03:33.608150+09:00",
+ "updated": "2026-11-16T01:28:23.920287+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -28,11 +28,11 @@
    "label": "게임 디자인",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "N1 답변 반영: 협상 공통 규칙·약속 이행 기록·계약 비용 정합과 조항 제공 시점표",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "28분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
