@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:17:02.123938+09:00",
+ "updated": "2026-11-16T06:27:17.175337+09:00",
  "agents": [
   {
    "session_id": "608d51310f",
@@ -11,17 +11,6 @@
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
-  },
-  {
-   "session_id": "1b7f7e960f",
-   "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "언리얼 전환 4단계: 화면 디자인 검수 4차(P2 수정 확인)",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -123,15 +112,6 @@
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
    "session_id": "608d51310f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 4단계: 화면 디자인 검수 4차(P2 수정 확인)",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "1b7f7e960f",
    "queued": false,
    "hold": false
   }
@@ -1571,6 +1551,11 @@
    "title": "현황판 공개 투영 보완: 빠진 이름과 Task 제목",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 4단계: 화면 디자인 검수 4차(P2 수정 확인)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1641,12 +1626,12 @@
   }
  ],
  "task_counts": {
-  "completed": 287,
+  "completed": 288,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
   "ready": 3,
-  "dispatched": 2
+  "dispatched": 1
  },
  "checks": {
   "sessions": true,
