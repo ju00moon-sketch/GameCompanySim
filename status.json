@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T02:29:44.088836+09:00",
+ "updated": "2026-11-16T02:39:57.920431+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "session_id": "4228b462c6",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "27분 전"
+   "updated": "37분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "31분 전"
+   "updated": "41분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -156,15 +156,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "4228b462c6",
    "queued": false,
    "hold": false
   }
@@ -1569,6 +1560,11 @@
    "title": "언리얼 전환 4단계: 사무실 2층 R3 재반입 뒤 최종 확인",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1639,11 +1635,11 @@
   }
  ],
  "task_counts": {
-  "completed": 280,
+  "completed": 281,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 3,
+  "dispatched": 2,
   "ready": 2
  },
  "checks": {
