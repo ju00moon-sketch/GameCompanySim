@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:39:18.691324+09:00",
+ "updated": "2026-11-15T16:49:31.429450+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -26,8 +26,8 @@
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
