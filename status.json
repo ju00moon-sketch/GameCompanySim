@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:42:10.736533+09:00",
+ "updated": "2026-11-15T21:52:26.966851+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "19분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "공개 현황판: 21:30 진행 반영",
+   "task": "채용 거절 사유 incumbent_margin 문구안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -233,7 +233,7 @@
    "hold": false
   },
   {
-   "title": "공개 현황판: 21:30 진행 반영",
+   "title": "채용 거절 사유 incumbent_margin 문구안",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -1567,6 +1567,11 @@
    "title": "언리얼 전환 2단계: 독립 점검 6차(채용 보완 재점검)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: 21:30 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1637,7 +1642,7 @@
   }
  ],
  "task_counts": {
-  "completed": 265,
+  "completed": 266,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
