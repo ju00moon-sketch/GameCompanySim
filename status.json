@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-15T18:39:51.271194+09:00",
+ "updated": "2026-11-15T18:46:00.461223+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
    "label": "통합(기술 책임)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 2단계: Hiring 이식",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -59,24 +59,24 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 현황판: 18:45 진행 반영",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "30분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 2단계: 독립 점검 5차(Hiring Native 결과)",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -179,15 +179,6 @@
    "hold": true
   },
   {
-   "title": "언리얼 전환 2단계: Hiring 이식",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "fa1e546b5f",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
@@ -211,6 +202,24 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "8029eec1fb",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 5차(Hiring Native 결과)",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "공개 현황판: 18:45 진행 반영",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1342,6 +1351,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 2단계: Hiring 이식",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환 2단계: 대조 사례 목록·독립 점검 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1555,11 +1569,11 @@
   }
  ],
  "task_counts": {
-  "completed": 254,
+  "completed": 255,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 4
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
