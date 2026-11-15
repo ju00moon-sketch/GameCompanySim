@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:12:39.035197+09:00",
+ "updated": "2026-11-15T19:22:52.119021+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "언리얼 전환 2단계: Hiring 이식",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "29분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -59,13 +59,13 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "공개 현황판: 비공개로 옮긴 단락의 공개본 제거 확인",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "39분 전"
+   "updated": "49분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -211,15 +211,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "공개 현황판: 비공개로 옮긴 단락의 공개본 제거 확인",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1504,6 +1495,11 @@
    "title": "공개 현황판: 18:45 진행 반영",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: 비공개로 옮긴 단락의 공개본 제거 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1574,11 +1570,11 @@
   }
  ],
  "task_counts": {
-  "completed": 256,
+  "completed": 257,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 5
+  "dispatched": 4
  },
  "checks": {
   "sessions": true,
