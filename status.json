@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:55:58.077246+09:00",
+ "updated": "2026-11-15T14:06:08.557114+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -37,8 +37,8 @@
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
    "state": "보고 완료·작업 담당 기록 확인 불가",
    "state_raw": "unverified",
-   "task": "공개 현황판: 검증된 입력만 게시, 총괄 기록 경로·ID 가리기",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "22분 전"
+   "updated": "33분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "63782e683d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "41분 전"
+   "updated": "51분 전"
   },
   {
    "session_id": "580b24ec6c",
