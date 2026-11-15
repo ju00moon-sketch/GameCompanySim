@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:20:24.256265+09:00",
+ "updated": "2026-11-16T04:26:34.785475+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,15 +21,15 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "657e478dbe",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -154,6 +154,15 @@
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "c3b901086d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 갱신: 최종 인증 통과와 독립 확인",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "657e478dbe",
    "queued": false,
    "hold": false
   }
@@ -1642,7 +1651,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 2,
+  "dispatched": 3,
   "ready": 3
  },
  "checks": {
