@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-16T07:12:20.956720+09:00",
+ "updated": "2026-11-16T07:22:39.631465+09:00",
  "agents": [
-  {
-   "session_id": "e44908a8db",
-   "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "언리얼 전환 5단계: 4차 인증 재개",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "293fd5ace2",
-   "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "현황판: N9·N10 종결과 게시 전 낱말 검사",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
@@ -65,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -92,7 +70,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": "e44908a8db",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -160,15 +138,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 5단계: 4차 인증 재개",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)",
-   "state": "dispatched",
-   "session_id": "e44908a8db",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계: 4차 후보의 독립 확인과 수동 QA M14~M25",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -183,15 +152,6 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "6fbd13418d",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "현황판: N9·N10 종결과 게시 전 낱말 검사",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "293fd5ace2",
    "queued": false,
    "hold": false
   },
@@ -1681,6 +1641,11 @@
    "title": "언리얼 전환 4단계: 화면 디자인 검수 4차(P2 수정 확인)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판: N9·N10 종결과 게시 전 낱말 검사",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1748,15 +1713,20 @@
    "title": "언리얼 전환 1단계: 기준선·전환 설계·골격",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 5단계: 4차 인증 재개",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 288,
-  "failed": 11,
+  "completed": 289,
+  "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 5
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
