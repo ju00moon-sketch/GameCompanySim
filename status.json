@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:10:45.364605+09:00",
+ "updated": "2026-11-15T23:21:00.806462+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -32,15 +32,15 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 2단계: 사업·저장 시험 비교기 보완(CMP-B01~B03)",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 5단계: QA 실행기 독립 검토",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "63782e683d",
@@ -220,6 +220,15 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 5단계: QA 실행기 독립 검토",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "fa1e546b5f",
    "queued": false,
    "hold": false
   }
@@ -1648,7 +1657,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 5
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
