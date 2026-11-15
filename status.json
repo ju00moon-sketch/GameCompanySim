@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T01:42:41.868384+09:00",
+ "updated": "2026-11-16T01:52:54.794100+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "38224caf99",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -32,15 +32,15 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "42분 전"
+   "updated": "52분 전"
   },
   {
    "session_id": "4228b462c6",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "공개 현황판: 새 결정 카드 2건 게시와 01:45 진행 반영",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -72,7 +72,7 @@
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "직원 캐릭터 시범 제작 준비(제작 방법과 무관한 범위)",
+   "task": "언리얼 전환 4단계: 사무실 2층 R3 재반입 뒤 최종 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -182,11 +182,20 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
+   "title": "공개 현황판: 새 결정 카드 2건 게시와 01:45 진행 반영",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
+   "assignee": "UI/UX",
    "state": "dispatched",
-   "session_id": "38224caf99",
+   "session_id": "4228b462c6",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 4단계: 사무실 2층 R3 재반입 뒤 최종 확인",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "0acfc37077",
    "queued": false,
    "hold": false
   }
@@ -1576,6 +1585,11 @@
    "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1646,11 +1660,11 @@
   }
  ],
  "task_counts": {
-  "completed": 277,
+  "completed": 278,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 3,
+  "dispatched": 4,
   "ready": 2
  },
  "checks": {
