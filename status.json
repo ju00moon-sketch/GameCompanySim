@@ -1,71 +1,16 @@
 {
- "updated": "2026-11-16T03:00:23.853925+09:00",
+ "updated": "2026-11-16T03:10:34.843421+09:00",
  "agents": [
-  {
-   "session_id": "db10db84d0",
-   "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
-  },
-  {
-   "session_id": "4228b462c6",
-   "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "24분 전"
-  },
-  {
-   "session_id": "3e3ce61e2f",
-   "label": "QA 1 (검증 설계)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
-   "task": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "57분 전"
-  },
   {
    "session_id": "297f61b2c6",
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "5시간 전"
-  },
-  {
-   "session_id": "0acfc37077",
-   "label": "아트",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
-   "connected": true,
-   "assignment_verified": true,
-   "updated": "1시간 전"
-  },
-  {
-   "session_id": "580b24ec6c",
-   "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "8분 전"
+   "assignment_verified": false,
+   "updated": "5시간 전"
   }
  ],
  "open_tasks": [
@@ -92,7 +37,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": "db10db84d0",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -110,7 +55,7 @@
    "status": "보류",
    "assignee": "QA 1 (검증 설계)",
    "state": "blocked",
-   "session_id": "3e3ce61e2f",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -126,9 +71,9 @@
   {
    "title": "언리얼 전환 5단계: 통합 대조·고정 실행물·QA 인계",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "db10db84d0",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -152,11 +97,11 @@
   },
   {
    "title": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
-   "queued": false,
+   "status": "시작 대기",
+   "assignee": "아직 배정 전",
+   "state": "ready",
+   "session_id": null,
+   "queued": true,
    "hold": false
   }
  ],
@@ -1639,12 +1584,12 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 2,
-  "ready": 2
+  "dispatched": 1,
+  "ready": 3
  },
  "checks": {
   "sessions": true,
-  "terminals": true,
+  "terminals": false,
   "tasks": true,
   "unattributed_open_tasks": 0
  }
