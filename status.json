@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:26:24.814224+09:00",
+ "updated": "2026-11-15T12:36:35.443001+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "언리얼 전환 2단계: Production 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "5분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,18 +65,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 2단계: 독립 점검 2차(공통 기반)",
+   "task": "언리얼 전환 2단계: 독립 점검 3차(Production·로더·조립)",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "15분 전"
+   "updated": "25분 전"
   },
   {
    "session_id": "297f61b2c6",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "14시간 전"
+   "updated": "15시간 전"
   },
   {
    "session_id": "0acfc37077",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -323,20 +323,20 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 2단계: 독립 점검 2차(공통 기반)",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "3e3ce61e2f",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "공개 현황판: 검증된 입력만 게시, 총괄 기록 경로·ID 가리기",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "8bfb57a4f1",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 3차(Production·로더·조립)",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "3e3ce61e2f",
    "queued": false,
    "hold": false
   }
@@ -1493,6 +1493,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 2단계: 독립 점검 2차(공통 기반)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판: 대표 결정 카드 N5·N8 사실 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1566,7 +1571,7 @@
   }
  ],
  "task_counts": {
-  "completed": 231,
+  "completed": 232,
   "failed": 11,
   "cancelled": 2,
   "blocked": 16,
