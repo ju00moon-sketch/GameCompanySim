@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:38:37.526015+09:00",
+ "updated": "2026-11-15T17:48:50.563982+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -26,8 +26,8 @@
   {
    "session_id": "7218e1ca19",
    "label": "구현 B (사업·저장·화면)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 4단계: 화면·사무실 장면 이식",
    "is_complete": false,
    "connected": true,
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -59,13 +59,13 @@
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환: 화면 디자인 검수 2차",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "46분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -211,6 +211,15 @@
    "assignee": "통합(기술 책임)",
    "state": "dispatched",
    "session_id": "db10db84d0",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환: 화면 디자인 검수 2차",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1539,7 +1548,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 4
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
