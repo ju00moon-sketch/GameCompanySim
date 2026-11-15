@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T14:40:48.346739+09:00",
+ "updated": "2026-11-15T14:51:01.777162+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,29 +54,29 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10분 전"
+   "updated": "20분 전"
   },
   {
    "session_id": "8bfb57a4f1",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "공개 현황판: 옛 파일 정리와 14:10 진행 반영",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환: 화면 디자인 검수 기준표",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "17분 전"
+   "updated": "방금"
   },
   {
    "session_id": "3e3ce61e2f",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "언리얼 전환 2단계: 재점검(Production·로더·조립·팩터리)",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 2단계: 독립 점검 4차(Hiring 정적 대조)",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "63782e683d",
@@ -211,6 +211,24 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "8029eec1fb",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 4차(Hiring 정적 대조)",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "3e3ce61e2f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환: 화면 디자인 검수 기준표",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "8bfb57a4f1",
    "queued": false,
    "hold": false
   }
@@ -1509,7 +1527,7 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 4
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
