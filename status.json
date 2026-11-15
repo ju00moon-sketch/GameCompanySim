@@ -1,27 +1,49 @@
 {
- "updated": "2026-11-16T07:34:58.521077+09:00",
+ "updated": "2026-11-16T08:22:04.608192+09:00",
  "agents": [
   {
-   "session_id": "707efebe09",
-   "label": "구현 A (제작 코어)",
+   "session_id": "b48f2aebda",
+   "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "task": "4차 인증 뒤의 후속: 설계 질문 답변, 운영 기준 정리안, 영문 대조",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
   },
   {
+   "session_id": "707efebe09",
+   "label": "구현 A (제작 코어)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: 고용·시간 쪽 기술 준비",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "1분 전"
+  },
+  {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "이어서: N8 Unity 저장 가져오기 설계 초안",
+   "task": "첫 구현: 사업·저장·화면 쪽 기술 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
+  },
+  {
+   "session_id": "6d8b2262e9",
+   "label": "구현 C (채용)",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: 계약 시험 사례 초안",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -29,6 +51,17 @@
    "state": "작업 중",
    "state_raw": "working",
    "task": "이어서: 첫 구현의 설계 준비",
+   "is_complete": false,
+   "connected": true,
+   "assignment_verified": true,
+   "updated": "방금"
+  },
+  {
+   "session_id": "c658c76149",
+   "label": "UI/UX",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "N8: Unity 저장 가져오기의 화면 흐름 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -59,13 +92,13 @@
   {
    "session_id": "b17ff58a4d",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "N10 답변 반영과 직원 캐릭터 시범의 엔진 반입 준비",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "35분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -76,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -103,7 +136,7 @@
    "status": "보류",
    "assignee": "통합(기술 책임)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "b48f2aebda",
    "queued": false,
    "hold": true
   },
@@ -207,15 +240,6 @@
    "hold": false
   },
   {
-   "title": "N10 답변 반영과 직원 캐릭터 시범의 엔진 반입 준비",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "b17ff58a4d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현(약속 기록과 채용 처우협의)의 기술 준비",
    "status": "시작 대기",
    "assignee": "아직 배정 전",
@@ -243,7 +267,34 @@
    "hold": false
   },
   {
-   "title": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "title": "4차 인증 뒤의 후속: 설계 질문 답변, 운영 기준 정리안, 영문 대조",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "b48f2aebda",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "N8: Unity 저장 가져오기의 화면 흐름 검토",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: 사업·저장·화면 쪽 기술 준비",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: 고용·시간 쪽 기술 준비",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
@@ -252,11 +303,11 @@
    "hold": false
   },
   {
-   "title": "이어서: N8 Unity 저장 가져오기 설계 초안",
+   "title": "첫 구현: 계약 시험 사례 초안",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
+   "assignee": "구현 C (채용)",
    "state": "dispatched",
-   "session_id": "e7e08ec16f",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -1706,6 +1757,46 @@
    "title": "현황판: N9·N10 종결과 게시 전 낱말 검사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "N10 답변 반영과 직원 캐릭터 시범의 엔진 반입 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "이어서: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "이어서: N8 Unity 저장 가져오기 설계 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "이어서: 첫 구현의 기술 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현(약속 기록과 채용 처우협의)의 화면 설계 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "사무실 화면의 Tab 순서 변화 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현: 기술 준비 문서와 설계 명세의 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "M13: A3 답변과 제작 모듈 쪽 기술 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1781,12 +1872,12 @@
   }
  ],
  "task_counts": {
-  "completed": 289,
+  "completed": 297,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
