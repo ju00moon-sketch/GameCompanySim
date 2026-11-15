@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T06:00:37.857363+09:00",
+ "updated": "2026-11-16T06:06:47.255269+09:00",
  "agents": [
   {
    "session_id": "608d51310f",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "7분 전"
   },
   {
    "session_id": "1b7f7e960f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
