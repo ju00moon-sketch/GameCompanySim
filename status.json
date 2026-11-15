@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:14:24.480478+09:00",
+ "updated": "2026-11-16T00:24:40.745076+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -28,22 +28,22 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
+   "task": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "언리얼 전환 5단계: QA 실행기 독립 검토",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "27분 전"
+   "updated": "38분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "297f61b2c6",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -189,11 +189,11 @@
   },
   {
    "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
-   "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
-   "state": "dispatched",
+   "status": "시작 대기",
+   "assignee": "아직 배정 전",
+   "state": "ready",
    "session_id": null,
-   "queued": false,
+   "queued": true,
    "hold": false
   },
   {
@@ -247,6 +247,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "8bfb57a4f1",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 4단계 후속: 이어서 마감(메모리 보호 준수)",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "38224caf99",
    "queued": false,
    "hold": false
   }
@@ -1690,7 +1699,8 @@
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 8
+  "dispatched": 8,
+  "ready": 1
  },
  "checks": {
   "sessions": true,

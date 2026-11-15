@@ -105,9 +105,13 @@ ol.steps li:first-child{border-top:0}
 .review-sources li{min-width:0}
 .review-sources a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink-2)}
 .review-sources a:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
-.witem .decision-review{grid-template-columns:9em minmax(0,1fr);row-gap:8px;margin-top:6px}
-.witem .decision-review dt{white-space:normal;color:var(--ink-2);font-weight:500}
-@media (max-width:480px){.witem .decision-review{grid-template-columns:minmax(0,1fr);row-gap:3px}.decision-review dd{margin-bottom:8px}}
+.witem .decision-review,.witem .decision-outcome{grid-template-columns:9em minmax(0,1fr);row-gap:8px;margin-top:6px}
+.witem .decision-review dt,.witem .decision-outcome dt{white-space:normal;color:var(--ink-2);font-weight:500}
+@media (max-width:480px){.witem .decision-review,.witem .decision-outcome{grid-template-columns:minmax(0,1fr);row-gap:3px}.decision-review dd,.decision-outcome dd{margin-bottom:8px}}
+.witem .wt>.wprog,.witem .wt>.wflag{flex:0 0 auto}
+.wprog{font-size:12px;font-weight:500;color:var(--ink-2);line-height:1.7}
+.wprog::before{content:"· "}
+.wflag{font-size:12px;font-weight:700;color:var(--ink);border:1.5px solid currentColor;border-radius:4px;padding:0 6px;line-height:1.6;white-space:nowrap}
 .readbtn{margin-left:auto;font:inherit;font-size:11px;font-weight:500;color:var(--ink-3);background:transparent;border:1px solid var(--line);border-radius:4px;padding:2px 8px;cursor:pointer}
 .readbtn:hover{color:var(--ink);border-color:var(--ink-3)} .readbtn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .is-read .readbtn{color:var(--ink);border-color:var(--ink-3);background:var(--brass-soft)}
@@ -191,7 +195,7 @@ body{overflow-wrap:anywhere}
 <body class="gallery-page">
 <div class="wrap">
   <header class="hero">
-    <div class="eyebrow"><span><a href="index.html">← 현황판으로</a></span><span class="asof">2026-11-16 00:14 KST 기준 · 자동 게시</span></div>
+    <div class="eyebrow"><span><a href="index.html">← 현황판으로</a></span><span class="asof">2026-11-16 00:24 KST 기준 · 자동 게시</span></div>
     <h1>실제 게임 화면 <span class="role-m">67장</span></h1>
     <p class="fabnote">Unity 실행 화면입니다. 각 그림의 ‘실제 데이터’·‘미리보기 데이터’ 표시는 촬영에 사용한 데이터의 구분입니다.</p>
     <nav class="tabs page-tabs" aria-label="작업현황 페이지"><a class="tab" href="index.html">작업 현황</a><a class="tab is-on" href="gallery.html" aria-current="page">실제 게임 화면</a><a class="tab" href="art.html">아트 렌더</a><a class="tab" href="closed.html">완료</a></nav>
