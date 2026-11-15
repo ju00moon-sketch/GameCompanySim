@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T21:15:31.648688+09:00",
+ "updated": "2026-11-15T21:25:45.634750+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "방금"
   },
   {
    "session_id": "8029eec1fb",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "언리얼 전환 2단계: 채용 시험 비교기 C-03 보완",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "30분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -72,11 +72,11 @@
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 2단계: 독립 점검 6차(채용 보완 재점검)",
+   "task": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "45분 전"
+   "updated": "55분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -206,7 +206,16 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 2단계: 독립 점검 6차(채용 보완 재점검)",
+   "title": "언리얼 전환 2단계: 채용 시험 비교기 C-03 보완",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "fa1e546b5f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 7차(모든 모듈의 시험 비교기 훑기)",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
@@ -1530,6 +1539,11 @@
    "title": "언리얼 전환 4단계: 사무실 2층 R3 채택(입력 사본 교체)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 2단계: 독립 점검 6차(채용 보완 재점검)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1600,11 +1614,11 @@
   }
  ],
  "task_counts": {
-  "completed": 263,
+  "completed": 264,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 4
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
