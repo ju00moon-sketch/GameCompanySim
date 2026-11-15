@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:34:24.003210+09:00",
+ "updated": "2026-11-16T08:40:33.743776+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "707efebe09",
@@ -28,7 +28,7 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현: 사업·저장·화면 쪽 기술 준비",
+   "task": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "10분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "N8: Unity 저장 가져오기의 화면 흐름 검토",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "현황판 줄 갱신과 M13 화면 설계 초안",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "b17ff58a4d",
    "label": "아트",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "복지 1차 장비 자산의 현황표와 직원 부품 제작 계획 초안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "47분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -258,15 +258,6 @@
    "hold": false
   },
   {
-   "title": "첫 구현: 사업·저장·화면 쪽 기술 준비",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
-   "state": "dispatched",
-   "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현: 계약 시험 사례 초안",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -299,6 +290,33 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 줄 갱신과 M13 화면 설계 초안",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "복지 1차 장비 자산의 현황표와 직원 부품 제작 계획 초안",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "b17ff58a4d",
    "queued": false,
    "hold": false
   }
@@ -1805,6 +1823,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현: 사업·저장·화면 쪽 기술 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 구현: 고용·시간 쪽 기술 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1883,12 +1906,12 @@
   }
  ],
  "task_counts": {
-  "completed": 301,
+  "completed": 302,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
