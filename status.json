@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T16:29:06.645704+09:00",
+ "updated": "2026-11-15T16:39:18.691324+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7218e1ca19",
@@ -37,13 +37,13 @@
   {
    "session_id": "fa1e546b5f",
    "label": "구현 C (채용)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "언리얼 전환 2단계: Hiring 이식",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "방금"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "18시간 전"
+   "updated": "19시간 전"
   },
   {
    "session_id": "0acfc37077",
