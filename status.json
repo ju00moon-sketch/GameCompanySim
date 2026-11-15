@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T18:56:15.276610+09:00",
+ "updated": "2026-11-15T19:02:25.449025+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8029eec1fb",
@@ -43,7 +43,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "18분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "공개 현황판: 18:45 진행 반영",
+   "task": "공개 현황판: 비공개로 옮긴 단락의 공개본 제거 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "22분 전"
+   "updated": "28분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -215,7 +215,7 @@
    "hold": false
   },
   {
-   "title": "공개 현황판: 18:45 진행 반영",
+   "title": "공개 현황판: 비공개로 옮긴 단락의 공개본 제거 확인",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -1499,6 +1499,11 @@
    "title": "언리얼 전환: 사무실 장면의 아트 확인 3건",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "공개 현황판: 18:45 진행 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1569,7 +1574,7 @@
   }
  ],
  "task_counts": {
-  "completed": 255,
+  "completed": 256,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
