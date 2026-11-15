@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-16T08:22:04.608192+09:00",
+ "updated": "2026-11-16T08:28:13.276461+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "4차 인증 뒤의 후속: 설계 질문 답변, 운영 기준 정리안, 영문 대조",
+   "task": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "35분 전"
+   "updated": "41분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
@@ -267,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "4차 인증 뒤의 후속: 설계 질문 답변, 운영 기준 정리안, 영문 대조",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)",
-   "state": "dispatched",
-   "session_id": "b48f2aebda",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "N8: Unity 저장 가져오기의 화면 흐름 검토",
    "status": "진행 중",
    "assignee": "UI/UX",
@@ -308,6 +299,15 @@
    "assignee": "구현 C (채용)",
    "state": "dispatched",
    "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "b48f2aebda",
    "queued": false,
    "hold": false
   }
@@ -1779,6 +1779,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "4차 인증 뒤의 후속: 설계 질문 답변, 운영 기준 정리안, 영문 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 구현(약속 기록과 채용 처우협의)의 화면 설계 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1872,7 +1877,7 @@
   }
  ],
  "task_counts": {
-  "completed": 297,
+  "completed": 298,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
