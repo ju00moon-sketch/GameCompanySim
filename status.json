@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T04:03:59.504980+09:00",
+ "updated": "2026-11-16T04:14:14.151878+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -13,11 +13,11 @@
    "updated": "방금"
   },
   {
-   "session_id": "6b9555629c",
-   "label": "QA 1 (검증 설계)",
+   "session_id": "c3b901086d",
+   "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
+   "task": "언리얼 전환 4단계 후속: 디자인 검수 3차의 P2 수정",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -61,7 +61,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "c3b901086d",
    "queued": false,
    "hold": true
   },
@@ -88,7 +88,7 @@
    "status": "보류",
    "assignee": "QA 1 (검증 설계)",
    "state": "blocked",
-   "session_id": "6b9555629c",
+   "session_id": null,
    "queued": false,
    "hold": true
   },
@@ -97,7 +97,7 @@
    "status": "보류",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "blocked",
-   "session_id": null,
+   "session_id": "c3b901086d",
    "queued": false,
    "hold": true
   },
@@ -138,11 +138,11 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
+   "title": "언리얼 전환 4단계 후속: 디자인 검수 3차의 P2 수정",
    "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
+   "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
-   "session_id": "6b9555629c",
+   "session_id": "c3b901086d",
    "queued": false,
    "hold": false
   }
@@ -1552,6 +1552,11 @@
    "title": "언리얼 전환 4단계: 화면 디자인 검수 3차와 후보 수 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 5단계: 최종 인증 3차의 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1622,7 +1627,7 @@
   }
  ],
  "task_counts": {
-  "completed": 281,
+  "completed": 282,
   "failed": 11,
   "cancelled": 2,
   "blocked": 6,
