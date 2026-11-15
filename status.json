@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:35:37.127229+09:00",
+ "updated": "2026-11-15T13:45:47.649368+09:00",
  "agents": [
   {
    "session_id": "db10db84d0",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "7218e1ca19",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "7ad5ba168b",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "8bfb57a4f1",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "3e3ce61e2f",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "63782e683d",
@@ -105,11 +105,11 @@
    "label": "아트",
    "state": "보고 완료·작업 담당 기록 확인 불가",
    "state_raw": "unverified",
-   "task": "언리얼 전환: R3 후보 임포트 준비",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "20분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "580b24ec6c",
