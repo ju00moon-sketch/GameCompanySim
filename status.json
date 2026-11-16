@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-16T23:24:00.500789+09:00",
+ "updated": "2026-11-16T23:34:13.773378+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·작업 담당 기록 확인 불가",
    "state_raw": "unverified",
-   "task": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "22분 전"
+   "updated": "32분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -253,9 +253,9 @@
   {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "b48f2aebda",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
