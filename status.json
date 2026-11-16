@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:21:29.846224+09:00",
+ "updated": "2026-11-16T18:27:38.572260+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -17,7 +17,7 @@
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "넷째·다섯째·여섯째의 A 쪽 기술 검토와 화면 질문의 답",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "글 담당의 문구 검수 결과 수용과 현황판 갱신",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1시간 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10분 전"
+   "updated": "16분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
@@ -310,6 +310,15 @@
    "assignee": "글·문구",
    "state": "dispatched",
    "session_id": "9b99bd8248",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "글 담당의 문구 검수 결과 수용과 현황판 갱신",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2204,7 +2213,7 @@
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
