@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:57:34.513934+09:00",
+ "updated": "2026-11-16T14:15:55.174694+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "23분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -37,20 +37,20 @@
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "11분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
+   "task": "첫 구현 시험값의 근거 조사와 일곱째 순서의 설계 명세 초안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "b17ff58a4d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
@@ -260,18 +260,9 @@
   {
    "title": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "구현 C (채용)",
    "state": "dispatched",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   },
@@ -308,6 +299,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현 시험값의 근거 조사와 일곱째 순서의 설계 명세 초안",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -1959,6 +1959,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "전환 뒤 첫 묶음: 독립 확인의 준비와 수정 설계의 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2097,7 +2102,7 @@
   }
  ],
  "task_counts": {
-  "completed": 341,
+  "completed": 342,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
