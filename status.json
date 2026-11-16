@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:35:09.547068+09:00",
+ "updated": "2026-11-16T19:43:20.551109+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "10분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "15분 전"
+   "updated": "23분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "QD02의 실제 게임 재확인과 R01 준비본의 독립 정적 대조",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "3분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,18 +87,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "9분 전"
+   "updated": "17분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "29분 전"
+   "updated": "37분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -274,15 +274,6 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "QD02의 실제 게임 재확인과 R01 준비본의 독립 정적 대조",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   },
@@ -2138,6 +2129,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "QD02의 실제 게임 재확인과 R01 준비본의 독립 정적 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2226,12 +2222,12 @@
   }
  ],
  "task_counts": {
-  "completed": 369,
+  "completed": 370,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 5
+  "dispatched": 4
  },
  "checks": {
   "sessions": true,
