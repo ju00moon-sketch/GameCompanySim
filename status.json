@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:50:47.500799+09:00",
+ "updated": "2026-11-16T18:01:02.915554+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "넷째·다섯째·여섯째의 A 쪽 기술 검토와 화면 질문의 답",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "14분 전"
+   "updated": "25분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,18 +43,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "28분 전"
+   "updated": "38분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "둘째와 M13 시험값의 근거 조사, 여섯째 화면 질문의 답",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "A의 기술 검토 질문 9건의 답과 동률 정의의 반영",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "46분 전"
+   "updated": "56분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "29분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -265,20 +265,20 @@
    "hold": false
   },
   {
-   "title": "넷째·다섯째·여섯째의 A 쪽 기술 검토와 화면 질문의 답",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "착지를 기다리는 화면 수정 묶음의 독립 정적 대조",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "A의 기술 검토 질문 9건의 답과 동률 정의의 반영",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -2078,6 +2078,11 @@
    "title": "둘째와 M13 시험값의 근거 조사, 여섯째 화면 질문의 답",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "넷째·다섯째·여섯째의 A 쪽 기술 검토와 화면 질문의 답",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2163,7 +2168,7 @@
   }
  ],
  "task_counts": {
-  "completed": 359,
+  "completed": 360,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
