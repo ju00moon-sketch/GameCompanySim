@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:43:20.551109+09:00",
+ "updated": "2026-11-16T19:53:33.676427+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,14 +10,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
+   "task": "조회 수정의 남은 주입 시험 3곳과 첫 구현의 A 쪽 착수 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -37,20 +37,20 @@
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현 사례의 갱신과 공정성 계산·여섯째·일곱째의 C 쪽 기술 검토",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "23분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "C의 기술 검토 질문의 답(공정성 계산, 여섯째, 일곱째)",
+   "task": "대표 결정 N11의 문장별 대응과 설계 문서 반영",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -70,35 +70,35 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "QD02의 실제 게임 재확인과 R01 준비본의 독립 정적 대조",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현의 인수 기준과 독립 확인 계획 초안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "3분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "17분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "37분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -278,11 +278,56 @@
    "hold": false
   },
   {
-   "title": "C의 기술 검토 질문의 답(공정성 계산, 여섯째, 일곱째)",
+   "title": "대표 결정 N11의 문장별 대응과 설계 문서 반영",
    "status": "진행 중",
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
+   "status": "진행 중",
+   "assignee": "글·문구",
+   "state": "dispatched",
+   "session_id": "9b99bd8248",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현의 인수 기준과 독립 확인 계획 초안",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "조회 수정의 남은 주입 시험 3곳과 첫 구현의 A 쪽 착수 준비",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   }
@@ -2137,6 +2182,11 @@
    "title": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "C의 기술 검토 질문의 답(공정성 계산, 여섯째, 일곱째)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2222,12 +2272,12 @@
   }
  ],
  "task_counts": {
-  "completed": 370,
+  "completed": 371,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 4
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
