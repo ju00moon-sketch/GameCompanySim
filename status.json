@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:50:34.853150+09:00",
+ "updated": "2026-11-16T23:58:45.652228+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,29 +21,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "49분 전"
+   "updated": "57분 전"
   },
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현 공통 계약의 서명 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "Core 저장 쪽 준비 착지의 설계: 식별 관문, 엄격한 읽기, 거절 결과의 계약",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 묶음 저녁 착지분의 독립 정적 대조",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "9분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -260,15 +260,6 @@
    "hold": false
   },
   {
-   "title": "첫 묶음 저녁 착지분의 독립 정적 대조",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
    "status": "차단",
    "assignee": "원장에 담당 기록 없음",
@@ -278,29 +269,11 @@
    "hold": false
   },
   {
-   "title": "Core 저장 쪽 준비 착지의 설계: 식별 관문, 엄격한 읽기, 거절 결과의 계약",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "셋째와 넷째 구현 명세의 모호함 자가 점검",
    "status": "진행 중",
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현 공통 계약의 서명 검토",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
-   "state": "dispatched",
-   "session_id": "e7e08ec16f",
    "queued": false,
    "hold": false
   },
@@ -2266,6 +2239,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 묶음 저녁 착지분의 독립 정적 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2306,7 +2284,17 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "Core 저장 쪽 준비 착지의 설계: 식별 관문, 엄격한 읽기, 거절 결과의 계약",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "FP10과 D3 자리의 재검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현 공통 계약의 서명 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -2394,12 +2382,12 @@
   }
  ],
  "task_counts": {
-  "completed": 399,
+  "completed": 402,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
