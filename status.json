@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:57:19.198544+09:00",
+ "updated": "2026-11-17T02:03:28.078404+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "10분 전"
+   "updated": "16분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "일곱째 명세의 글 검수와 사전 점검에서 고친 문장의 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "5분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -301,15 +301,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "일곱째 명세의 글 검수와 사전 점검에서 고친 문장의 검수",
-   "status": "진행 중",
-   "assignee": "글·문구",
-   "state": "dispatched",
-   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2369,6 +2360,11 @@
    "title": "첫 구현 문구 수용 장부의 확인 전 11개 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "일곱째 명세의 글 검수와 사전 점검에서 고친 문장의 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2454,12 +2450,12 @@
   }
  ],
  "task_counts": {
-  "completed": 411,
+  "completed": 412,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
