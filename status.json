@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:53:21.609182+09:00",
+ "updated": "2026-11-16T23:03:34.921398+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12분 전"
+   "updated": "22분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "34분 전"
+   "updated": "44분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "43분 전"
+   "updated": "53분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -292,15 +292,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   },
@@ -2289,6 +2280,11 @@
    "title": "첫 구현 공통 계약 v0.2의 서명 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2374,12 +2370,12 @@
   }
  ],
  "task_counts": {
-  "completed": 395,
+  "completed": 396,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
