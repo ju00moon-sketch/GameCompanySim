@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:35:53.985276+09:00",
+ "updated": "2026-11-16T09:46:09.107149+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,14 +10,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
+   "task": "M13 화면 설계의 질문 답변과 읽기 모델 정리",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -32,25 +32,25 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현: 계약 시험 사례 초안",
+   "task": "오라클의 큰 채용 사례 출력 설계와 공개 사유 답변, 둘째·셋째 명세 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "둘째 명세의 자산 대조, 결정 후보 정리, 넷째 순서의 설계 명세 초안",
+   "task": "쌓인 질문의 답변과 다섯째 순서의 설계 명세 초안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현: 화면 설계 v0.2와 문구 초안",
+   "task": "전환 뒤 첫 묶음의 화면·문구 후보: 질문 답변과 문구 확정안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -249,15 +249,6 @@
    "hold": false
   },
   {
-   "title": "첫 구현: 계약 시험 사례 초안",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
@@ -276,33 +267,6 @@
    "hold": false
   },
   {
-   "title": "둘째 명세의 자산 대조, 결정 후보 정리, 넷째 순서의 설계 명세 초안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현: 화면 설계 v0.2와 문구 초안",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "둘째·셋째 명세의 사업·저장·화면 쪽 기술 검토",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
@@ -317,6 +281,42 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "전환 뒤 첫 묶음의 화면·문구 후보: 질문 답변과 문구 확정안",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "M13 화면 설계의 질문 답변과 읽기 모델 정리",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "오라클의 큰 채용 사례 출력 설계와 공개 사유 답변, 둘째·셋째 명세 검토",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "쌓인 질문의 답변과 다섯째 순서의 설계 명세 초안",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -1838,6 +1838,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현: 계약 시험 사례 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1873,7 +1878,22 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "둘째 명세의 자산 대조, 결정 후보 정리, 넷째 순서의 설계 명세 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "전환 뒤 첫 묶음의 화면·문구 후보: 수정 설계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현: 화면 설계 v0.2와 문구 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -1951,7 +1971,7 @@
   }
  ],
  "task_counts": {
-  "completed": 311,
+  "completed": 315,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
