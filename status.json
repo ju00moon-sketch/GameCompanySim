@@ -1,27 +1,27 @@
 {
- "updated": "2026-11-16T22:43:09.163703+09:00",
+ "updated": "2026-11-16T22:53:21.609182+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "첫 구현 공통 계약 v0.2의 서명 검토",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현 공통 계약 v0.2의 서명 검토",
+   "task": "Core 저장 쪽 준비 착지의 설계: 식별 관문, 엄격한 읽기, 거절 결과의 계약",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -83,22 +83,22 @@
    "label": "QA 2 (스모크)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "새 후보의 영향 기반 재검 계획과 보존 장부 둘째 줄의 준비",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "24분 전"
+   "updated": "34분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
    "state": "보고 완료·작업 담당 기록 확인 불가",
    "state_raw": "unverified",
-   "task": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "33분 전"
+   "updated": "43분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -253,9 +253,9 @@
   {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "통합(기술 책임)",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "b48f2aebda",
    "queued": false,
    "hold": false
   },
@@ -278,15 +278,6 @@
    "hold": false
   },
   {
-   "title": "첫 구현 공통 계약 v0.2의 서명 검토",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
    "status": "차단",
    "assignee": "원장에 담당 기록 없음",
@@ -301,6 +292,24 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "Core 저장 쪽 준비 착지의 설계: 식별 관문, 엄격한 읽기, 거절 결과의 계약",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2262,6 +2271,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현 공통 계약 v0.2의 서명 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "새 후보의 영향 기반 재검 계획과 보존 장부 둘째 줄의 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2360,12 +2374,12 @@
   }
  ],
  "task_counts": {
-  "completed": 394,
+  "completed": 395,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 5
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
