@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:49:37.507795+09:00",
+ "updated": "2026-11-16T10:59:51.117408+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -83,7 +83,7 @@
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "규칙·저장 모듈의 오류 경로 전수 대조",
+   "task": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -258,15 +258,6 @@
    "hold": false
   },
   {
-   "title": "규칙·저장 모듈의 오류 경로 전수 대조",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "전환 뒤 첫 묶음: QD02 방지의 구현과 복지 검토의 답 반영",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
@@ -317,6 +308,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   }
@@ -2033,11 +2033,16 @@
    "title": "언리얼 전환 5단계: 4차 인증 재개",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "규칙·저장 모듈의 오류 경로 전수 대조",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
   "completed": 328,
-  "failed": 12,
+  "failed": 13,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
