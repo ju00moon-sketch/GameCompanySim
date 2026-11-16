@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:18:33.127659+09:00",
+ "updated": "2026-11-16T16:28:46.165066+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "21분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,28 +32,28 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
+   "task": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "설계 명세의 교차 일관성 검토와 둘째 묶음 결정 카드 초안",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "둘째와 M13 시험값의 근거 조사, 여섯째 화면 질문의 답",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -276,15 +276,6 @@
    "hold": false
   },
   {
-   "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -299,6 +290,24 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째와 M13 시험값의 근거 조사, 여섯째 화면 질문의 답",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2068,6 +2077,11 @@
    "title": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2153,12 +2167,12 @@
   }
  ],
  "task_counts": {
-  "completed": 353,
+  "completed": 354,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
