@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:59:32.898829+09:00",
+ "updated": "2026-11-16T17:09:46.974460+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "21분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -59,13 +59,13 @@
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "화면 설계 초안에 답과 판정을 반영",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "5분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "b17ff58a4d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -272,15 +272,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "화면 설계 초안에 답과 판정을 반영",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   },
@@ -2087,6 +2078,11 @@
    "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "화면 설계 초안에 답과 판정을 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2172,12 +2168,12 @@
   }
  ],
  "task_counts": {
-  "completed": 355,
+  "completed": 356,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
