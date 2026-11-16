@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:23:08.798830+09:00",
+ "updated": "2026-11-17T03:33:21.227703+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "49분 전"
+   "updated": "59분 전"
   },
   {
    "session_id": "c658c76149",
@@ -72,11 +72,11 @@
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "새 후보(첫 수정 묶음)의 독립 확인",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "22분 전"
+   "updated": "32분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "12분 전"
   }
  ],
  "open_tasks": [
