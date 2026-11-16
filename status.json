@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:26:07.712096+09:00",
+ "updated": "2026-11-16T14:40:25.268542+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "1분 전"
+   "assignment_verified": false,
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -272,15 +272,6 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   },
@@ -2109,15 +2100,20 @@
    "title": "규칙·저장 모듈의 오류 경로 전수 대조",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
   "completed": 344,
-  "failed": 13,
+  "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
