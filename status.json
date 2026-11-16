@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:23:20.122606+09:00",
+ "updated": "2026-11-17T08:33:34.081302+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -87,18 +87,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6분 전"
+   "updated": "16분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "task": "둘째 화면 설계 v0.4의 새 문장 검수",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "30분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -2390,6 +2390,11 @@
    "title": "범위 질문 카드 한 장의 문구 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "둘째 화면 설계 v0.4의 새 문장 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2515,7 +2520,7 @@
   }
  ],
  "task_counts": {
-  "completed": 426,
+  "completed": 427,
   "failed": 12,
   "superseded": 10,
   "cancelled": 2,
