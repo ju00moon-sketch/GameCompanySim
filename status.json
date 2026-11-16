@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T01:20:31.926189+09:00",
+ "updated": "2026-11-17T01:40:57.752046+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "32분 전"
+   "updated": "53분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "21분 전"
   },
   {
    "session_id": "a13c9c6ba1",
