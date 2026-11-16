@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T08:50:48.000437+09:00",
+ "updated": "2026-11-16T09:01:03.271764+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -26,13 +26,13 @@
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "1분 전"
+   "assignment_verified": false,
+   "updated": "5분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -290,15 +290,6 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
-   "state": "dispatched",
-   "session_id": "e7e08ec16f",
    "queued": false,
    "hold": false
   },
@@ -1836,6 +1827,11 @@
    "title": "전환 완료 판정 준비: 완료 보고서 초안과 해제 뒤 계획",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1911,12 +1907,12 @@
   }
  ],
  "task_counts": {
-  "completed": 303,
+  "completed": 304,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 9
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
