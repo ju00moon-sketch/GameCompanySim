@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:08:19.723275+09:00",
+ "updated": "2026-11-16T16:18:33.127659+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "11분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,36 +43,36 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "설계 명세의 교차 일관성 검토와 둘째 묶음 결정 카드 초안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "1분 전"
+   "assignment_verified": false,
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 갱신과 여섯째의 화면 설계 초안",
+   "task": "화면 설계 초안에 답과 판정을 반영",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
+   "task": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "b17ff58a4d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -276,25 +276,16 @@
    "hold": false
   },
   {
-   "title": "설계 명세의 교차 일관성 검토와 둘째 묶음 결정 카드 초안",
+   "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
    "status": "진행 중",
-   "assignee": "게임 디자인",
+   "assignee": "구현 C (채용)",
    "state": "dispatched",
-   "session_id": "88e5a1d9b2",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   },
   {
-   "title": "현황판 갱신과 여섯째의 화면 설계 초안",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
+   "title": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
@@ -303,11 +294,11 @@
    "hold": false
   },
   {
-   "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
+   "title": "화면 설계 초안에 답과 판정을 반영",
    "status": "진행 중",
-   "assignee": "구현 C (채용)",
+   "assignee": "UI/UX",
    "state": "dispatched",
-   "session_id": "6d8b2262e9",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2062,6 +2053,21 @@
    "title": "넷째와 다섯째의 화면 설계 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "설계 명세의 교차 일관성 검토와 둘째 묶음 결정 카드 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 갱신과 여섯째의 화면 설계 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2147,12 +2153,12 @@
   }
  ],
  "task_counts": {
-  "completed": 350,
+  "completed": 353,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
