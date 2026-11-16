@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:11:14.885056+09:00",
+ "updated": "2026-11-16T21:21:28.181062+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -28,7 +28,7 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "전환 뒤 첫 묶음: 화면·문구 9건과 불러오기 실패 경로의 수정",
+   "task": "새 후보의 동결 전에 남은 것과 첫 구현의 B 쪽 착수 준비 v0.2",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -39,7 +39,7 @@
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
+   "task": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -54,14 +54,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
+   "task": "첫 묶음 저녁 착지분의 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현의 인수 기준과 독립 확인 계획 초안",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 묶음 저녁 착지분의 독립 정적 대조",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "9분 전"
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "51분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "22분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -260,33 +260,6 @@
    "hold": false
   },
   {
-   "title": "전환 뒤 첫 묶음: 화면·문구 9건과 불러오기 실패 경로의 수정",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
-   "state": "dispatched",
-   "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현 인수 계획의 공백 29묶음에 대한 설계의 답과 금액 상한의 시험값",
    "status": "진행 중",
    "assignee": "게임 디자인",
@@ -301,6 +274,42 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "새 후보의 동결 전에 남은 것과 첫 구현의 B 쪽 착수 준비 v0.2",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음 저녁 착지분의 검수",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음 저녁 착지분의 독립 정적 대조",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   }
@@ -1937,6 +1946,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "전환 뒤 첫 묶음: 화면·문구 9건과 불러오기 실패 경로의 수정",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 갱신: 최종 수동 QA 25/25 통과와 실패 경로 조사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2215,6 +2229,16 @@
    "title": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2300,12 +2324,12 @@
   }
  ],
  "task_counts": {
-  "completed": 382,
+  "completed": 385,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
