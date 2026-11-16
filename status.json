@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-17T01:40:57.752046+09:00",
+ "updated": "2026-11-17T01:47:06.194019+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -26,13 +26,13 @@
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "QA 2의 재검에 필요한 두 장면의 제품 입력과 절차",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "53분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -54,14 +54,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현 화면 문구 13개의 글 검수 반영",
+   "task": "현황판 01:45 반영: 새 후보의 통합 인증 통과, 후보 30건",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "새 후보(첫 수정 묶음)의 독립 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "첫 구현 화면의 글 검수 전 문구 13개의 검수",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현 문구 수용 장부의 확인 전 11개 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "21분 전"
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "9분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -253,9 +253,9 @@
   {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "b48f2aebda",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -278,7 +278,25 @@
    "hold": false
   },
   {
-   "title": "첫 구현 화면 문구 13개의 글 검수 반영",
+   "title": "새 후보(첫 수정 묶음)의 독립 확인",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "QA 2의 재검에 필요한 두 장면의 제품 입력과 절차",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 01:45 반영: 새 후보의 통합 인증 통과, 후보 30건",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -2327,6 +2345,16 @@
    "title": "첫 구현 화면의 글 검수 전 문구 13개의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현 화면 문구 13개의 글 검수 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현 문구 수용 장부의 확인 전 11개 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2412,12 +2440,12 @@
   }
  ],
  "task_counts": {
-  "completed": 408,
+  "completed": 410,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 3
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
