@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:33:15.911527+09:00",
+ "updated": "2026-11-16T10:43:28.935010+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,14 +54,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
+   "task": "현황판 갱신과 첫 묶음의 검수 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -276,15 +276,6 @@
    "hold": false
   },
   {
-   "title": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -317,6 +308,15 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "b17ff58a4d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 갱신과 첫 묶음의 검수 준비",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -1956,6 +1956,11 @@
    "title": "현황판 갱신: 최종 수동 QA 25/25 통과와 실패 경로 조사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2031,7 +2036,7 @@
   }
  ],
  "task_counts": {
-  "completed": 327,
+  "completed": 328,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
