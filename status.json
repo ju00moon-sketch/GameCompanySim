@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:40:36.224069+09:00",
+ "updated": "2026-11-16T20:50:48.897813+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "15분 전"
+   "updated": "26분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "18분 전"
+   "updated": "29분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -83,22 +83,22 @@
    "label": "QA 2 (스모크)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "실제 창 사전 준비 점검표 v0.2와 보존 장부의 보충",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "20분 전"
+   "updated": "31분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "N11 결정 문서와 현황판의 N11 문장 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "44분 전"
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -283,15 +283,6 @@
    "assignee": "글·문구",
    "state": "dispatched",
    "session_id": "9b99bd8248",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   },
@@ -2200,6 +2191,11 @@
    "title": "실제 창 사전 준비 점검표 v0.2와 보존 장부의 보충",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2285,12 +2281,12 @@
   }
  ],
  "task_counts": {
-  "completed": 379,
+  "completed": 380,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
