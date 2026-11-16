@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:42:19.621983+09:00",
+ "updated": "2026-11-17T03:00:41.172167+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "33분 전"
+   "updated": "51분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2시간 전"
+   "updated": "3시간 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "8분 전"
+   "updated": "27분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,13 +65,13 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "36분 전"
+   "updated": "54분 전"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "새 후보(첫 수정 묶음)의 독립 확인",
    "is_complete": false,
    "connected": true,
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "43분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "8분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -265,15 +265,6 @@
    "assignee": "원장에 담당 기록 없음",
    "state": "blocked",
    "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "새 후보(첫 수정 묶음)의 독립 확인",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   },
@@ -2339,6 +2330,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "새 후보(첫 수정 묶음)의 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "QA 2의 재검에 필요한 두 장면의 제품 입력과 절차",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2447,12 +2443,12 @@
   }
  ],
  "task_counts": {
-  "completed": 415,
+  "completed": 416,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 3
+  "dispatched": 2
  },
  "checks": {
   "sessions": true,
