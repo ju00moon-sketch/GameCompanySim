@@ -1,49 +1,49 @@
 {
- "updated": "2026-11-17T06:06:16.101483+09:00",
+ "updated": "2026-11-17T06:12:25.060254+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: 공통 고정, 소스 편집 해제, 착지 조율과 인증",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: A-1, A-2, A-3, A-4",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "7시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: B-2, B-1, B-3, B-5a, B-4, B-5b",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: Core 저장(C-S1~S4)과 협상 규칙(C-L1~L3)",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -81,13 +81,13 @@
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "11시간 전"
+   "updated": "12시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -256,6 +256,51 @@
    "assignee": "원장에 담당 기록 없음",
    "state": "blocked",
    "session_id": null,
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: 공통 고정, 소스 편집 해제, 착지 조율과 인증",
+   "status": "진행 중",
+   "assignee": "통합(기술 책임)",
+   "state": "dispatched",
+   "session_id": "b48f2aebda",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: A-1, A-2, A-3, A-4",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: B-2, B-1, B-3, B-5a, B-4, B-5b",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: Core 저장(C-S1~S4)과 협상 규칙(C-L1~L3)",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2444,7 +2489,8 @@
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
-  "ready": 8
+  "ready": 8,
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
