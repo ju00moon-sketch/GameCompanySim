@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:02:19.542834+09:00",
+ "updated": "2026-11-16T22:12:32.022800+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -39,11 +39,11 @@
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
+   "task": "첫 구현 공통 계약 v0.2의 서명 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "10분 전"
+   "updated": "20분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,29 +76,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "새 후보의 영향 기반 재검 계획과 보존 장부 둘째 줄의 준비",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1시간 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
+   "task": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3시간 전"
+   "updated": "4시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -260,15 +260,6 @@
    "hold": false
   },
   {
-   "title": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "새 후보의 동결 전에 남은 것과 첫 구현의 B 쪽 착수 준비 v0.2",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
@@ -301,6 +292,33 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현 공통 계약 v0.2의 서명 검토",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "새 후보의 영향 기반 재검 계획과 보존 장부 둘째 줄의 준비",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
+   "status": "진행 중",
+   "assignee": "글·문구",
+   "state": "dispatched",
+   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2242,6 +2260,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 묶음 저녁 착지분의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2330,12 +2353,12 @@
   }
  ],
  "task_counts": {
-  "completed": 388,
+  "completed": 389,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
