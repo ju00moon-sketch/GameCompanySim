@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:09:56.450616+09:00",
+ "updated": "2026-11-16T20:20:09.939905+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현의 C 쪽 착수 준비 v0.2",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "2분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,18 +76,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
+   "task": "실제 창 사전 준비 점검표 v0.2와 보존 장부의 보충",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "13분 전"
+   "updated": "23분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -310,6 +310,15 @@
    "assignee": "글·문구",
    "state": "dispatched",
    "session_id": "9b99bd8248",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현의 C 쪽 착수 준비 v0.2",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2184,6 +2193,11 @@
    "title": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "실제 창 사전 준비 점검표 v0.2와 보존 장부의 보충",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2269,12 +2283,12 @@
   }
  ],
  "task_counts": {
-  "completed": 374,
+  "completed": 375,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
