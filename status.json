@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:12:25.060254+09:00",
+ "updated": "2026-11-17T06:18:34.149256+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -48,35 +48,35 @@
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현의 설계 지원: 구현 중 질문의 답과 시험값 비교 실험의 계획",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "현황판 06:20 반영: 수용, 첫 구현의 시작, 결정 카드 다섯 장 게시",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 구현: 착지마다의 독립 대조와 인수 추적",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,29 +87,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "이전 실행물에서 이어 하기 안내문 v0.4와 완료 보고서의 읽기 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
    "label": "아트",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "직원 캐릭터 시범의 엔진 반입",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -301,6 +301,42 @@
    "assignee": "구현 C (채용)",
    "state": "dispatched",
    "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 06:20 반영: 수용, 첫 구현의 시작, 결정 카드 다섯 장 게시",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: 착지마다의 독립 대조와 인수 추적",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현의 설계 지원: 구현 중 질문의 답과 시험값 비교 실험의 계획",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "직원 캐릭터 시범의 엔진 반입",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "a13c9c6ba1",
    "queued": false,
    "hold": false
   }
@@ -2400,6 +2436,11 @@
    "title": "글 검수 두 건 더의 반영: 사전 점검의 정정 문장, 일곱째 명세",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "이전 실행물에서 이어 하기 안내문 v0.4와 완료 보고서의 읽기 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2485,12 +2526,12 @@
   }
  ],
  "task_counts": {
-  "completed": 419,
+  "completed": 420,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 5
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
