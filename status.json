@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:52:18.104705+09:00",
+ "updated": "2026-11-16T09:58:26.425599+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,14 +76,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 5단계: 최종 실행물의 수동 QA M01~M13과 실제 창 실행표",
+   "task": "전환 뒤 첫 묶음: 영향 기반 재검 계획과 M13 사례의 독립 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -201,15 +201,6 @@
    "state": "ready",
    "session_id": null,
    "queued": true,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 5단계: 최종 실행물의 수동 QA M01~M13과 실제 창 실행표",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
-   "queued": false,
    "hold": false
   },
   {
@@ -317,6 +308,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "전환 뒤 첫 묶음: 영향 기반 재검 계획과 M13 사례의 독립 검토",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   }
@@ -1768,6 +1768,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 5단계: 최종 실행물의 수동 QA M01~M13과 실제 창 실행표",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판: N9·N10 종결과 게시 전 낱말 검사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1981,7 +1986,7 @@
   }
  ],
  "task_counts": {
-  "completed": 317,
+  "completed": 318,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
