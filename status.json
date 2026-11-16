@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T23:34:13.773378+09:00",
+ "updated": "2026-11-16T23:40:22.430494+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "11분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "32분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "FP10과 D3 자리의 재검수",
+   "task": "현황판 23:40 반영: 첫 수정 묶음의 마무리, 후보 29건",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
@@ -296,20 +296,20 @@
    "hold": false
   },
   {
-   "title": "FP10과 D3 자리의 재검수",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현 공통 계약의 서명 검토",
    "status": "진행 중",
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 23:40 반영: 첫 수정 묶음의 마무리, 후보 29건",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2304,6 +2304,11 @@
    "title": "남은 대기 둘 닫기: A·C 공동 입력의 확정과 A·B 결과형의 합의안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "FP10과 D3 자리의 재검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2389,7 +2394,7 @@
   }
  ],
  "task_counts": {
-  "completed": 398,
+  "completed": 399,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
