@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:50:37.763699+09:00",
+ "updated": "2026-11-16T15:00:50.592348+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,17 +76,17 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "D-1 수정과 R01 계약 변경의 독립 검토",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
+   "assignment_verified": false,
    "updated": "방금"
   },
   {
@@ -281,15 +281,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "D-1 수정과 R01 계약 변경의 독립 검토",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   },
@@ -2034,6 +2025,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "D-1 수정과 R01 계약 변경의 독립 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 묶음 검수: FP05·FP06과 n-09 보충",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2122,12 +2118,12 @@
   }
  ],
  "task_counts": {
-  "completed": 345,
+  "completed": 346,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
