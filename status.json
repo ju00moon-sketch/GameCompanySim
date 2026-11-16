@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:28:46.165066+09:00",
+ "updated": "2026-11-16T16:38:59.582473+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "21분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,14 +76,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "문자열 비교의 서수 대조",
+   "task": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -267,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "문자열 비교의 서수 대조",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -308,6 +299,15 @@
    "assignee": "구현 C (채용)",
    "state": "dispatched",
    "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   }
@@ -2064,6 +2064,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "문자열 비교의 서수 대조",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "설계 명세의 교차 일관성 검토와 둘째 묶음 결정 카드 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2167,7 +2172,7 @@
   }
  ],
  "task_counts": {
-  "completed": 354,
+  "completed": 355,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
