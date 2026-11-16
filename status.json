@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:10:53.963709+09:00",
+ "updated": "2026-11-17T03:23:08.798830+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "37분 전"
+   "updated": "49분 전"
   },
   {
    "session_id": "c658c76149",
@@ -76,18 +76,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "10분 전"
+   "updated": "22분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "새 후보의 영향 기반 재검",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "10분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -265,15 +265,6 @@
    "assignee": "원장에 담당 기록 없음",
    "state": "blocked",
    "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "새 후보의 영향 기반 재검",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   }
@@ -2358,6 +2349,11 @@
    "title": "일곱째 명세의 글 검수와 사전 점검에서 고친 문장의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "새 후보의 영향 기반 재검",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2443,12 +2439,12 @@
   }
  ],
  "task_counts": {
-  "completed": 416,
+  "completed": 417,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 2
+  "dispatched": 1
  },
  "checks": {
   "sessions": true,
