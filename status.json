@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:30:23.286061+09:00",
+ "updated": "2026-11-16T20:40:36.224069+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현의 C 쪽 착수 준비 v0.2",
+   "task": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "8분 전"
+   "updated": "18분 전"
   },
   {
    "session_id": "c658c76149",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "10분 전"
+   "updated": "20분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "33분 전"
+   "updated": "44분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -287,20 +287,20 @@
    "hold": false
   },
   {
-   "title": "첫 구현의 C 쪽 착수 준비 v0.2",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2192,6 +2192,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현의 C 쪽 착수 준비 v0.2",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "실제 창 사전 준비 점검표 v0.2와 보존 장부의 보충",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2280,7 +2285,7 @@
   }
  ],
  "task_counts": {
-  "completed": 378,
+  "completed": 379,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
