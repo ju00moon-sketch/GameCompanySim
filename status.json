@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:09:46.974460+09:00",
+ "updated": "2026-11-16T17:20:01.351041+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "21분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "9분 전"
+   "assignment_verified": false,
+   "updated": "19분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,18 +65,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4시간 전"
+   "updated": "5시간 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
@@ -267,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "둘째와 M13 시험값의 근거 조사, 여섯째 화면 질문의 답",
    "status": "진행 중",
    "assignee": "게임 디자인",
@@ -287,9 +278,9 @@
   {
    "title": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "status": "진행 중",
-   "assignee": "구현 C (채용)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "6d8b2262e9",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -2080,6 +2071,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "실행 도구 독립 반례의 마무리와 새 자손 검사의 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "화면 설계 초안에 답과 판정을 반영",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2168,12 +2164,12 @@
   }
  ],
  "task_counts": {
-  "completed": 356,
+  "completed": 357,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
