@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:46:30.488467+09:00",
+ "updated": "2026-11-17T07:52:39.687189+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -81,21 +81,21 @@
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "1분 전"
+   "assignment_verified": false,
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "종결 결정 카드 다섯 장의 문구 검수",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "범위 질문 카드 한 장의 문구 검수",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -181,9 +181,9 @@
   {
    "title": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "6fbd13418d",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -256,6 +256,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "범위 질문 카드 한 장의 문구 검수",
+   "status": "진행 중",
+   "assignee": "글·문구",
+   "state": "dispatched",
+   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2509,7 +2518,7 @@
   "failed": 22,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 9
+  "dispatched": 10
  },
  "checks": {
   "sessions": true,
