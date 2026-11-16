@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T08:45:51.367010+09:00",
+ "updated": "2026-11-17T08:56:05.107958+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,18 +43,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "8분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "29분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "14분 전"
+   "updated": "24분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "28분 전"
+   "updated": "38분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -238,15 +238,6 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "a13c9c6ba1",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -2368,6 +2359,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "둘째 묶음 다섯 결정의 게시와 화면 설계 반영",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2516,12 +2512,12 @@
   }
  ],
  "task_counts": {
-  "completed": 428,
+  "completed": 429,
   "failed": 12,
   "superseded": 10,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
