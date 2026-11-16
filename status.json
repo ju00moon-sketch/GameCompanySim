@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:32:56.869646+09:00",
+ "updated": "2026-11-16T22:43:09.163703+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,18 +10,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "11분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "첫 구현 공통 계약 v0.2의 서명 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,29 +43,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "둘째 구현 명세의 모호함 자가 점검",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 금액 입력 경계와 설계 답이 화면에 닿는 곳의 설계 보충",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "14분 전"
+   "updated": "24분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "23분 전"
+   "updated": "33분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -296,20 +296,11 @@
    "hold": false
   },
   {
-   "title": "첫 구현의 금액 입력 경계와 설계 답이 화면에 닿는 곳의 설계 보충",
+   "title": "둘째 구현 명세의 모호함 자가 점검",
    "status": "진행 중",
-   "assignee": "UI/UX",
+   "assignee": "게임 디자인",
    "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현 공통 계약 v0.2의 서명 검토",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -2274,6 +2265,16 @@
    "title": "새 후보의 영향 기반 재검 계획과 보존 장부 둘째 줄의 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현의 금액 입력 경계와 설계 답이 화면에 닿는 곳의 설계 보충",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현 공통 계약 v0.2의 서명 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2359,12 +2360,12 @@
   }
  ],
  "task_counts": {
-  "completed": 392,
+  "completed": 394,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
