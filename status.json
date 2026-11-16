@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:30:29.133816+09:00",
+ "updated": "2026-11-16T11:40:42.280086+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "22분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,14 +76,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
+   "task": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -285,15 +285,6 @@
    "hold": false
   },
   {
-   "title": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "R01의 도달성 분석과 QD02 방지의 독립 확인",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -317,6 +308,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   }
@@ -1978,6 +1978,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "M13 화면 설계 v0.2와 첫 묶음의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2061,7 +2066,7 @@
   }
  ],
  "task_counts": {
-  "completed": 332,
+  "completed": 333,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
