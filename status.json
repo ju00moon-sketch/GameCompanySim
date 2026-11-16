@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:21:33.524454+09:00",
+ "updated": "2026-11-16T12:39:55.115014+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -43,18 +43,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "29분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "9분 전"
+   "updated": "27분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
@@ -269,9 +269,9 @@
   {
    "title": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "게임 디자인",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   },
@@ -281,15 +281,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
-   "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
-   "state": "dispatched",
-   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -1993,6 +1984,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2081,12 +2077,12 @@
   }
  ],
  "task_counts": {
-  "completed": 336,
+  "completed": 337,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 9
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
