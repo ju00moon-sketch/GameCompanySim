@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:11:20.646219+09:00",
+ "updated": "2026-11-16T12:21:33.524454+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "19분 전"
+   "updated": "29분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "마지막 보고 완료 · 다음 배정 대기",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "첫 묶음 ①의 검수",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "29분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "b17ff58a4d",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "9분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -287,9 +287,9 @@
   {
    "title": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
    "status": "진행 중",
-   "assignee": "아트",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "b17ff58a4d",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -308,6 +308,15 @@
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
    "session_id": "6fbd13418d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음 ①의 검수",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2077,7 +2086,7 @@
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
