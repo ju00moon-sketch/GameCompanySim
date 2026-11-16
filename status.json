@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T16:49:16.395931+09:00",
+ "updated": "2026-11-16T16:59:32.898829+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "9분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "11분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "9분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "b17ff58a4d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
@@ -296,9 +296,9 @@
   {
    "title": "첫 묶음: QA 2의 거절 사유 대조 사례의 트리 착지",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "구현 C (채용)",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   },
