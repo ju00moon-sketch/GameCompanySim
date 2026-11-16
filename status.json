@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T15:31:29.873082+09:00",
+ "updated": "2026-11-16T15:41:43.827454+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,18 +65,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "실패 경로 수정의 독립 정적 대조와 실행 도구 반례의 마무리",
+   "task": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -276,15 +276,6 @@
    "hold": false
   },
   {
-   "title": "실패 경로 수정의 독립 정적 대조와 실행 도구 반례의 마무리",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "문자열 비교의 서수 대조",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
@@ -308,6 +299,15 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음 독립 확인 계획과 실제 창 실행표의 갱신",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   }
@@ -2049,6 +2049,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "실패 경로 수정의 독립 정적 대조와 실행 도구 반례의 마무리",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "넷째와 다섯째의 화면 설계 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2137,7 +2142,7 @@
   }
  ],
  "task_counts": {
-  "completed": 348,
+  "completed": 349,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
