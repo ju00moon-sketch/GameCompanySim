@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-16T22:22:44.529180+09:00",
+ "updated": "2026-11-16T22:32:56.869646+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "is_complete": false,
    "connected": true,
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,13 +43,13 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
    "is_complete": false,
    "connected": true,
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12분 전"
+   "updated": "23분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -253,9 +253,9 @@
   {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
-   "assignee": "통합(기술 책임)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "b48f2aebda",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
@@ -274,15 +274,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   },
@@ -2270,6 +2261,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "A 몫 보충안의 설계 답 반영 v0.2와 착지 단위의 시험 목록",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2363,12 +2359,12 @@
   }
  ],
  "task_counts": {
-  "completed": 391,
+  "completed": 392,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
