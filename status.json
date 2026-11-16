@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:50:48.897813+09:00",
+ "updated": "2026-11-16T21:01:01.692744+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -17,11 +17,11 @@
    "label": "구현 A (제작 코어)",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "조회 수정의 남은 주입 시험 3곳과 첫 구현의 A 쪽 착수 준비",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "26분 전"
+   "updated": "36분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,29 +43,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "3분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "대표 결정 N11의 문장별 대응과 설계 문서 반영",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "29분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현의 이전 판 저장 거절 화면 설계와 디자인 검수 기준표 초안",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,18 +87,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "31분 전"
+   "updated": "41분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "N11 결정 문서와 현황판의 N11 문장 검수",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -278,20 +278,20 @@
    "hold": false
   },
   {
-   "title": "N11 결정 문서와 현황판의 N11 문장 검수",
-   "status": "진행 중",
-   "assignee": "글·문구",
-   "state": "dispatched",
-   "session_id": "9b99bd8248",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "FI-22의 공개 원인: 현행 코드에서 닿는 경로의 사실 확인",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
    "state": "dispatched",
    "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2183,6 +2183,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "N11 결정 문서와 현황판의 N11 문장 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 구현의 C 쪽 착수 준비 v0.2",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2281,7 +2286,7 @@
   }
  ],
  "task_counts": {
-  "completed": 380,
+  "completed": 381,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
