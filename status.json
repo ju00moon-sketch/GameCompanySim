@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T20:03:47.642614+09:00",
+ "updated": "2026-11-16T20:09:56.450616+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -37,13 +37,13 @@
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "2분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,18 +76,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "2분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "13분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
@@ -283,24 +283,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   },
@@ -2189,6 +2171,16 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "채용시장 기술 계약 문서의 M11 범위 구분과 저장 식별·거절의 기술 메모",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "실행물·저장 보존 장부 초안과 저장 이어 하기 안내문의 사실 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2277,12 +2269,12 @@
   }
  ],
  "task_counts": {
-  "completed": 372,
+  "completed": 374,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 9
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
