@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:31:41.090013+09:00",
+ "updated": "2026-11-16T21:41:54.247803+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -15,13 +15,13 @@
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "33분 전"
+   "updated": "43분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -265,15 +265,6 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   },
@@ -2239,6 +2230,11 @@
    "title": "현황판 21:00 반영과 N11 종결 카드의 문장 다듬기",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2324,12 +2320,12 @@
   }
  ],
  "task_counts": {
-  "completed": 385,
+  "completed": 386,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
