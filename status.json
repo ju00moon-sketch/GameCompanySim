@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:27:23.345712+09:00",
+ "updated": "2026-11-17T00:37:36.229092+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -26,13 +26,13 @@
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현 공통 계약의 서명 검토",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "오프스크린 캡처의 1920 폭 5건 실패 원인 조사",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "28분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "29분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,29 +54,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "현황판 23:40 반영: 첫 수정 묶음의 마무리, 후보 29건",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "20분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "첫 묶음 저녁 착지분의 독립 정적 대조",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "28분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "5분 전"
+   "updated": "6분 전"
   }
  ],
  "open_tasks": [
@@ -274,6 +274,15 @@
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "오프스크린 캡처의 1920 폭 5건 실패 원인 조사",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
    "queued": false,
    "hold": false
   }
@@ -2388,7 +2397,7 @@
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 2
+  "dispatched": 3
  },
  "checks": {
   "sessions": true,
