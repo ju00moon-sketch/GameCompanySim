@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:15:55.174694+09:00",
+ "updated": "2026-11-16T14:26:07.712096+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -61,11 +61,11 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "둘째(복지 1차)의 화면 설계 초안",
+   "task": "첫 묶음 검수: FP05·FP06과 n-09 보충",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -83,11 +83,11 @@
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "사업·저장·공통의 거절 사유 대조 사례 작성",
+   "task": "D-1 수정과 R01 계약 변경의 독립 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "b17ff58a4d",
@@ -276,15 +276,6 @@
    "hold": false
   },
   {
-   "title": "사업·저장·공통의 거절 사유 대조 사례 작성",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -294,20 +285,29 @@
    "hold": false
   },
   {
-   "title": "둘째(복지 1차)의 화면 설계 초안",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현 시험값의 근거 조사와 일곱째 순서의 설계 명세 초안",
    "status": "진행 중",
    "assignee": "게임 디자인",
    "state": "dispatched",
    "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "D-1 수정과 R01 계약 변경의 독립 검토",
+   "status": "진행 중",
+   "assignee": "QA 2 (스모크)",
+   "state": "dispatched",
+   "session_id": "6fbd13418d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 묶음 검수: FP05·FP06과 n-09 보충",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2009,6 +2009,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "사업·저장·공통의 거절 사유 대조 사례 작성",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 묶음 ①의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2020,6 +2025,11 @@
   },
   {
    "title": "거절 사유 대조 사례의 독립 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "둘째(복지 1차)의 화면 설계 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -2102,7 +2112,7 @@
   }
  ],
  "task_counts": {
-  "completed": 342,
+  "completed": 344,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
