@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:24:56.480688+09:00",
+ "updated": "2026-11-16T19:35:09.547068+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "5분 전"
+   "updated": "15분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,18 +76,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "9분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "19분 전"
+   "updated": "29분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "3분 전"
   }
  ],
  "open_tasks": [
@@ -265,15 +265,6 @@
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
-   "status": "진행 중",
-   "assignee": "QA 2 (스모크)",
-   "state": "dispatched",
-   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   },
@@ -2107,6 +2098,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "실제 창 확인의 사전 입력 준비와 영향 기반 재검 계획 v0.2",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "넷째·다섯째·여섯째의 A 쪽 기술 검토와 화면 질문의 답",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2230,12 +2226,12 @@
   }
  ],
  "task_counts": {
-  "completed": 368,
+  "completed": 369,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
