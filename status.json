@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:19:53.437196+09:00",
+ "updated": "2026-11-17T07:26:02.184665+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,29 +43,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 구현의 설계 지원: 구현 중 질문의 답과 시험값 비교 실험의 계획",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "21분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "둘째 묶음 다섯 결정의 게시와 화면 설계 반영",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -319,6 +319,24 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "a13c9c6ba1",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째 묶음 다섯 결정의 게시와 화면 설계 반영",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -2523,7 +2541,7 @@
   "cancelled": 2,
   "blocked": 7,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
