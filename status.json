@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:18:34.149256+09:00",
+ "updated": "2026-11-17T06:28:48.074094+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -87,18 +87,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·작업 담당 기록 확인 불가",
+   "state_raw": "unverified",
    "task": "이전 실행물에서 이어 하기 안내문 v0.4와 완료 보고서의 읽기 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "a13c9c6ba1",
