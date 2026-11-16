@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:40:42.280086+09:00",
+ "updated": "2026-11-16T11:50:54.981633+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "22분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "5분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -299,15 +299,6 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "b17ff58a4d",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   },
@@ -1986,6 +1977,11 @@
    "title": "M13 화면 설계 v0.2와 첫 묶음의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2066,12 +2062,12 @@
   }
  ],
  "task_counts": {
-  "completed": 333,
+  "completed": 334,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 9
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
