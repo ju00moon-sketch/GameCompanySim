@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:37:36.229092+09:00",
+ "updated": "2026-11-17T00:47:48.966408+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -26,8 +26,8 @@
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "오프스크린 캡처의 1920 폭 5건 실패 원인 조사",
    "is_complete": false,
    "connected": true,
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "39분 전"
+   "updated": "50분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "30분 전"
+   "updated": "40분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "39분 전"
+   "updated": "49분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "쌓인 글 검수: 둘째 묶음의 결정 카드, 금액 입력 문구 후보, 설계 답",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "2시간 전"
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "6분 전"
+   "updated": "2분 전"
   }
  ],
  "open_tasks": [
@@ -278,11 +278,11 @@
    "hold": false
   },
   {
-   "title": "오프스크린 캡처의 1920 폭 5건 실패 원인 조사",
+   "title": "쌓인 글 검수: 둘째 묶음의 결정 카드, 금액 입력 문구 후보, 설계 답",
    "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
+   "assignee": "글·문구",
    "state": "dispatched",
-   "session_id": "e7e08ec16f",
+   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2307,6 +2307,11 @@
    "title": "현황판 23:40 반영: 첫 수정 묶음의 마무리, 후보 29건",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "오프스크린 캡처의 1920 폭 5건 실패 원인 조사",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2392,7 +2397,7 @@
   }
  ],
  "task_counts": {
-  "completed": 404,
+  "completed": 405,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
