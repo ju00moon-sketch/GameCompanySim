@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:52:39.687189+09:00",
+ "updated": "2026-11-17T08:02:52.873791+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "11분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,29 +76,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "범위 질문 카드 한 장의 문구 검수",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "9분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -181,9 +181,9 @@
   {
    "title": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "QA 2 (스모크)",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   },
@@ -256,15 +256,6 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "범위 질문 카드 한 장의 문구 검수",
-   "status": "진행 중",
-   "assignee": "글·문구",
-   "state": "dispatched",
-   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2389,6 +2380,11 @@
    "title": "종결 결정 카드 다섯 장의 문구 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "범위 질문 카드 한 장의 문구 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2434,7 +2430,7 @@
   },
   {
    "title": "아트 반환: 키보드 모서리 확인·보완 및 실제 저폴리 비교 후보",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
@@ -2454,22 +2450,22 @@
   },
   {
    "title": "언리얼 전환 1단계: 기준선·전환 설계·골격",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "언리얼 전환 5단계: 4차 인증과 최종 실행물 교체",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
@@ -2479,22 +2475,22 @@
   },
   {
    "title": "언리얼 전환 5단계: 최종 수동 QA 지원과 M13 설계 질문 답변",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "N9 답변 반영과 첫 구현의 설계 준비",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "첫 구현(약속 기록과 채용 처우협의)의 기술 준비",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "N8: Unity 저장 가져오기 설계 초안",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   },
   {
@@ -2509,16 +2505,17 @@
   },
   {
    "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
-   "status": "실패·반환",
+   "status": "취소 · 다른 작업이 이어받음",
    "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 424,
-  "failed": 22,
+  "completed": 425,
+  "failed": 12,
+  "superseded": 10,
   "cancelled": 2,
   "blocked": 6,
-  "dispatched": 10
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
