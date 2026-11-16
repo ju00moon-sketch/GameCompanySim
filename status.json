@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:39:00.771515+09:00",
+ "updated": "2026-11-17T06:49:13.910556+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "7분 전"
+   "updated": "18분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -94,11 +94,11 @@
    "label": "글·문구",
    "state": "보고 완료·작업 담당 기록 확인 불가",
    "state_raw": "unverified",
-   "task": "이전 실행물에서 이어 하기 안내문 v0.4와 완료 보고서의 읽기 검수",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "20분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
