@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:20:16.652812+09:00",
+ "updated": "2026-11-16T11:30:29.133816+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "12분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "5분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "M13 화면 설계 v0.2와 첫 묶음의 검수",
+   "task": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "9분 전"
   }
  ],
  "open_tasks": [
@@ -294,15 +294,6 @@
    "hold": false
   },
   {
-   "title": "M13 화면 설계 v0.2와 첫 묶음의 검수",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "R01의 도달성 분석과 QD02 방지의 독립 확인",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -317,6 +308,15 @@
    "assignee": "아트",
    "state": "dispatched",
    "session_id": "b17ff58a4d",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -1976,6 +1976,11 @@
    "title": "현황판 갱신과 첫 묶음의 검수 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "M13 화면 설계 v0.2와 첫 묶음의 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2056,7 +2061,7 @@
   }
  ],
  "task_counts": {
-  "completed": 331,
+  "completed": 332,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
