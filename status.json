@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:58:19.630506+09:00",
+ "updated": "2026-11-16T19:08:34.155060+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "16분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "4분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
@@ -92,13 +92,13 @@
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·대기",
+   "state_raw": "done",
    "task": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
-   "is_complete": false,
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "47분 전"
+   "updated": "57분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
@@ -310,15 +310,6 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
-   "status": "진행 중",
-   "assignee": "글·문구",
-   "state": "dispatched",
-   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2148,6 +2139,11 @@
    "title": "대표 결정 후보 카드와 전환 완료 보고서 초안의 문장 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "Unity 저장 이어 하기 안내문 초안과 현황판 본문의 문장 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2233,12 +2229,12 @@
   }
  ],
  "task_counts": {
-  "completed": 365,
+  "completed": 366,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 7
  },
  "checks": {
   "sessions": true,
