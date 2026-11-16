@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:40:32.137745+09:00",
+ "updated": "2026-11-16T17:50:47.500799+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "18분 전"
+   "updated": "28분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "36분 전"
+   "updated": "46분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,18 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "19분 전"
-  },
-  {
-   "session_id": "b17ff58a4d",
-   "label": "아트",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
-   "connected": true,
-   "assignment_verified": false,
-   "updated": "5시간 전"
+   "updated": "29분 전"
   },
   {
    "session_id": "580b24ec6c",
