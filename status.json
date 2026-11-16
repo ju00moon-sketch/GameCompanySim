@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:39:55.115014+09:00",
+ "updated": "2026-11-16T12:46:03.879923+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,14 +54,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 묶음 ①의 검수",
+   "task": "현황판 갱신: 첫 수정 묶음의 진행과 오류 경로 조사 결과",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -72,11 +72,11 @@
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "R01의 도달성 분석과 QD02 방지의 독립 확인",
+   "task": "거절 사유 대조 사례의 독립 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "27분 전"
+   "updated": "33분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "8분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
@@ -276,15 +276,6 @@
    "hold": false
   },
   {
-   "title": "R01의 도달성 분석과 QD02 방지의 독립 확인",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "전환 뒤 첫 묶음: 제작 모듈의 거절 사유 대조 사례와 R01",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
@@ -303,11 +294,20 @@
    "hold": false
   },
   {
-   "title": "첫 묶음 ①의 검수",
+   "title": "현황판 갱신: 첫 수정 묶음의 진행과 오류 경로 조사 결과",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "거절 사유 대조 사례의 독립 검토",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   }
@@ -1984,6 +1984,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "R01의 도달성 분석과 QD02 방지의 독립 확인",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1995,6 +2000,11 @@
   },
   {
    "title": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 묶음 ①의 검수",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -2077,7 +2087,7 @@
   }
  ],
  "task_counts": {
-  "completed": 337,
+  "completed": 339,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
