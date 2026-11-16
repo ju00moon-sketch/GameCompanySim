@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T04:30:29.616195+09:00",
+ "updated": "2026-11-17T04:56:58.311988+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "707efebe09",
@@ -48,13 +48,13 @@
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "글 검수 두 건 더의 반영: 사전 점검의 정정 문장, 일곱째 명세",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "4분 전"
+   "updated": "1분 전"
   }
  ],
  "open_tasks": [
@@ -256,15 +256,6 @@
    "assignee": "원장에 담당 기록 없음",
    "state": "blocked",
    "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "글 검수 두 건 더의 반영: 사전 점검의 정정 문장, 일곱째 명세",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -2359,6 +2350,11 @@
    "title": "새 후보의 영향 기반 재검",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "글 검수 두 건 더의 반영: 사전 점검의 정정 문장, 일곱째 명세",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2444,12 +2440,11 @@
   }
  ],
  "task_counts": {
-  "completed": 418,
+  "completed": 419,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
-  "ready": 8,
-  "dispatched": 1
+  "ready": 8
  },
  "checks": {
   "sessions": true,
