@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T02:32:06.642577+09:00",
+ "updated": "2026-11-17T02:42:19.621983+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -28,11 +28,11 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "QA 2의 재검에 필요한 두 장면의 제품 입력과 절차",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "23분 전"
+   "updated": "33분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -48,24 +48,24 @@
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "글 검수 두 건의 반영: 둘째 묶음의 결정 카드, 설계 답과 정정 요약",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "현황판 01:45 반영: 새 후보의 통합 인증 통과, 후보 30건",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "26분 전"
+   "updated": "36분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "33분 전"
+   "updated": "43분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
