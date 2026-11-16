@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:37:07.487137+09:00",
+ "updated": "2026-11-16T13:47:20.604968+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "9분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "13분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,18 +32,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "17분 전"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "5분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "현황판 갱신: 첫 수정 묶음의 진행과 오류 경로 조사 결과",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "28분 전"
+   "updated": "39분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -260,9 +260,9 @@
   {
    "title": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "status": "진행 중",
-   "assignee": "구현 C (채용)",
+   "assignee": "현재 세션과 연결 안 됨",
    "state": "dispatched",
-   "session_id": "6d8b2262e9",
+   "session_id": null,
    "queued": false,
    "hold": false
   },
