@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T15:58:03.353644+09:00",
+ "updated": "2026-11-16T16:08:19.723275+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "28분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -37,12 +37,12 @@
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "b17ff58a4d",
@@ -299,6 +299,15 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "넷째·다섯째의 C 쪽 기술 검토와 화면 질문의 답",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
    "queued": false,
    "hold": false
   }
@@ -2143,7 +2152,7 @@
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
