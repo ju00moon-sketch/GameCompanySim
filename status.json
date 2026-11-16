@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:53:33.676427+09:00",
+ "updated": "2026-11-16T20:03:47.642614+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -92,13 +92,13 @@
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
+   "task": "N11 결정 문서와 현황판의 N11 문장 검수",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "7분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -305,15 +305,6 @@
    "hold": false
   },
   {
-   "title": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
-   "status": "진행 중",
-   "assignee": "글·문구",
-   "state": "dispatched",
-   "session_id": "9b99bd8248",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 인수 기준과 독립 확인 계획 초안",
    "status": "진행 중",
    "assignee": "QA 1 (검증 설계)",
@@ -328,6 +319,15 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "N11 결정 문서와 현황판의 N11 문장 검수",
+   "status": "진행 중",
+   "assignee": "글·문구",
+   "state": "dispatched",
+   "session_id": "9b99bd8248",
    "queued": false,
    "hold": false
   }
@@ -2187,6 +2187,11 @@
    "title": "C의 기술 검토 질문의 답(공정성 계산, 여섯째, 일곱째)",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "저장 이어 하기 안내문 v0.2와 지원하지 않는 저장의 거절 문구 후보",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2272,7 +2277,7 @@
   }
  ],
  "task_counts": {
-  "completed": 371,
+  "completed": 372,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
