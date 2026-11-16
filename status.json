@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-17T03:33:21.227703+09:00",
+ "updated": "2026-11-17T03:49:39.541286+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
    "label": "통합(기술 책임)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "is_complete": false,
    "connected": true,
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "59분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "c658c76149",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "32분 전"
+   "updated": "49분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12분 전"
+   "updated": "28분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "12분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
@@ -248,15 +248,6 @@
    "state": "ready",
    "session_id": null,
    "queued": true,
-   "hold": false
-  },
-  {
-   "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
-   "status": "진행 중",
-   "assignee": "통합(기술 책임)",
-   "state": "dispatched",
-   "session_id": "b48f2aebda",
-   "queued": false,
    "hold": false
   },
   {
@@ -1831,6 +1822,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "직원 부품 제작의 준비 묶음 B0",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2439,12 +2435,11 @@
   }
  ],
  "task_counts": {
-  "completed": 417,
+  "completed": 418,
   "failed": 14,
   "cancelled": 2,
   "blocked": 7,
-  "ready": 8,
-  "dispatched": 1
+  "ready": 8
  },
  "checks": {
   "sessions": true,
