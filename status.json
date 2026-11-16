@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:36:16.623536+09:00",
+ "updated": "2026-11-17T07:46:30.488467+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -9,7 +9,7 @@
    "task": "첫 구현: 공통 고정, 소스 편집 해제, 착지 조율과 인증",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -20,8 +20,8 @@
    "task": "첫 구현: A-1, A-2, A-3, A-4",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "방금"
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -31,7 +31,7 @@
    "task": "첫 구현: B-2, B-1, B-3, B-5a, B-4, B-5b",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -42,8 +42,8 @@
    "task": "첫 구현: Core 저장(C-S1~S4)과 협상 규칙(C-L1~L3)",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "2분 전"
+   "assignment_verified": true,
+   "updated": "6분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -53,8 +53,8 @@
    "task": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "방금"
+   "assignment_verified": true,
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
@@ -64,7 +64,7 @@
    "task": "둘째 묶음 다섯 결정의 게시와 화면 설계 반영",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -75,30 +75,30 @@
    "task": "첫 구현: 착지마다의 독립 대조와 인수 추적",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "19분 전"
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
-   "state": "보고 완료·작업 담당 기록 확인 불가",
-   "state_raw": "unverified",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "종결 결정 카드 다섯 장의 문구 검수",
+   "is_complete": true,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "1시간 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -108,7 +108,7 @@
    "task": "직원 캐릭터 시범의 엔진 반입",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "방금"
   },
   {
@@ -119,7 +119,7 @@
    "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
+   "assignment_verified": true,
    "updated": "1분 전"
   }
  ],
@@ -179,92 +179,11 @@
    "hold": true
   },
   {
-   "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 5단계: 4차 인증과 최종 실행물 교체",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "언리얼 전환 5단계: 최종 수동 QA 지원과 M13 설계 질문 답변",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "N9 답변 반영과 첫 구현의 설계 준비",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "첫 구현(약속 기록과 채용 처우협의)의 기술 준비",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "N8: Unity 저장 가져오기 설계 초안",
-   "status": "시작 대기",
-   "assignee": "아직 배정 전",
-   "state": "ready",
-   "session_id": null,
-   "queued": true,
-   "hold": false
-  },
-  {
-   "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
-   "status": "차단",
-   "assignee": "원장에 담당 기록 없음",
-   "state": "blocked",
-   "session_id": null,
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "status": "진행 중",
-   "assignee": "현재 세션과 연결 안 됨",
+   "assignee": "QA 2 (스모크)",
    "state": "dispatched",
-   "session_id": null,
+   "session_id": "6fbd13418d",
    "queued": false,
    "hold": false
   },
@@ -1728,6 +1647,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 2단계: 독립 점검 8차(시험 비교기 보완 재점검)",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "공개 현황판: N1~N8·M13 대표 답변 연결과 P1-2a 문구 정정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2451,6 +2375,11 @@
    "title": "첫 구현의 설계 지원: 구현 중 질문의 답과 시험값 비교 실험의 계획",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "종결 결정 카드 다섯 장의 문구 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2520,7 +2449,42 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 4단계 후속: 실제 제품 세션 연결·2차 검수 반영·세션 저장 확인",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 5단계: 수동 QA 예행 실행(창 없는 실행기)",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 5단계: 4차 인증과 최종 실행물 교체",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "언리얼 전환 5단계: 4차 인증 재개",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "언리얼 전환 5단계: 최종 수동 QA 지원과 M13 설계 질문 답변",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "N9 답변 반영과 첫 구현의 설계 준비",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현(약속 기록과 채용 처우협의)의 기술 준비",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "N8: Unity 저장 가져오기 설계 초안",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
   },
@@ -2533,20 +2497,24 @@
    "title": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
    "status": "실패·반환",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 구현의 금액 입력 경계 문구 후보와 설계 답의 읽기 검수",
+   "status": "실패·반환",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "task_counts": {
-  "completed": 422,
-  "failed": 14,
+  "completed": 424,
+  "failed": 22,
   "cancelled": 2,
-  "blocked": 7,
-  "ready": 8,
+  "blocked": 6,
   "dispatched": 9
  },
  "checks": {
   "sessions": true,
   "terminals": true,
   "tasks": true,
-  "unattributed_open_tasks": 1
+  "unattributed_open_tasks": 0
  }
 }
