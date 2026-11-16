@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T12:01:07.507052+09:00",
+ "updated": "2026-11-16T12:11:20.646219+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,14 +10,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "전환 뒤 첫 묶음: QD02 방지의 구현과 복지 검토의 답 반영",
+   "task": "전환 뒤 첫 묶음: 제작 모듈의 거절 사유 대조 사례와 R01",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "9분 전"
+   "updated": "19분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "19분 전"
+   "updated": "29분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -83,11 +83,11 @@
    "label": "QA 2 (스모크)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
+   "task": "사업·저장·공통의 거절 사유 대조 사례 작성",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "b17ff58a4d",
@@ -258,15 +258,6 @@
    "hold": false
   },
   {
-   "title": "전환 뒤 첫 묶음: QD02 방지의 구현과 복지 검토의 답 반영",
-   "status": "진행 중",
-   "assignee": "구현 A (제작 코어)",
-   "state": "dispatched",
-   "session_id": "707efebe09",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -303,7 +294,16 @@
    "hold": false
   },
   {
-   "title": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
+   "title": "전환 뒤 첫 묶음: 제작 모듈의 거절 사유 대조 사례와 R01",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "사업·저장·공통의 거절 사유 대조 사례 작성",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
    "state": "dispatched",
@@ -1949,6 +1949,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "전환 뒤 첫 묶음: QD02 방지의 구현과 복지 검토의 답 반영",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1980,6 +1985,11 @@
   },
   {
    "title": "넷째·다섯째 명세의 화면 요구 검토와 첫 묶음의 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "오류 경로 대조의 나머지와 새 거절 사례의 독립 검토",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -2062,7 +2072,7 @@
   }
  ],
  "task_counts": {
-  "completed": 334,
+  "completed": 336,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
