@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:41:54.247803+09:00",
+ "updated": "2026-11-16T21:52:06.727504+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "18분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -54,17 +54,17 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "첫 묶음 저녁 착지분의 검수",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
+   "assignment_verified": false,
    "updated": "방금"
   },
   {
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "43분 전"
+   "updated": "53분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -283,15 +283,6 @@
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "첫 묶음 저녁 착지분의 검수",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   },
@@ -2235,6 +2226,11 @@
    "title": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 묶음 저녁 착지분의 검수",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2320,12 +2316,12 @@
   }
  ],
  "task_counts": {
-  "completed": 386,
+  "completed": 387,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 6
+  "dispatched": 5
  },
  "checks": {
   "sessions": true,
