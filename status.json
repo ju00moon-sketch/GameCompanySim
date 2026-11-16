@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:25:37.561292+09:00",
+ "updated": "2026-11-16T09:35:53.985276+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -28,11 +28,11 @@
    "label": "구현 B (사업·저장·화면)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "전환 뒤 첫 묶음의 화면·문구 후보: 수정 설계",
+   "task": "둘째·셋째 명세의 사업·저장·화면 쪽 기술 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,14 +65,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "방금"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "언리얼 전환 5단계: 4차 후보의 독립 확인과 수동 QA M14~M25",
+   "task": "실패 경로의 이식 차이 전수 조사와 새 규칙 시험 사례의 독립 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -204,15 +204,6 @@
    "hold": false
   },
   {
-   "title": "언리얼 전환 5단계: 4차 후보의 독립 확인과 수동 QA M14~M25",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "언리얼 전환 5단계: 최종 실행물의 수동 QA M01~M13과 실제 창 실행표",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
@@ -294,15 +285,6 @@
    "hold": false
   },
   {
-   "title": "전환 뒤 첫 묶음의 화면·문구 후보: 수정 설계",
-   "status": "진행 중",
-   "assignee": "구현 B (사업·저장·화면)",
-   "state": "dispatched",
-   "session_id": "e7e08ec16f",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
    "status": "진행 중",
    "assignee": "구현 A (제작 코어)",
@@ -317,6 +299,24 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째·셋째 명세의 사업·저장·화면 쪽 기술 검토",
+   "status": "진행 중",
+   "assignee": "구현 B (사업·저장·화면)",
+   "state": "dispatched",
+   "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "실패 경로의 이식 차이 전수 조사와 새 규칙 시험 사례의 독립 검토",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
    "queued": false,
    "hold": false
   }
@@ -1763,6 +1763,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "언리얼 전환 5단계: 4차 후보의 독립 확인과 수동 QA M14~M25",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판: N9·N10 종결과 게시 전 낱말 검사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1866,6 +1871,11 @@
    "title": "첫 구현의 공통 계약 초안과 기준선 커밋 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "전환 뒤 첫 묶음의 화면·문구 후보: 수정 설계",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -1941,7 +1951,7 @@
   }
  ],
  "task_counts": {
-  "completed": 309,
+  "completed": 311,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
