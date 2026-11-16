@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:52:06.727504+09:00",
+ "updated": "2026-11-16T22:02:19.542834+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -15,13 +15,13 @@
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "A 몫 보충안의 설계 답 반영 v0.2와 착지 단위의 시험 목록",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "18분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -50,11 +50,11 @@
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 구현 인수 계획의 공백 29묶음에 대한 설계의 답과 금액 상한의 시험값",
+   "task": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "방금"
+   "updated": "10분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "53분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -260,15 +260,6 @@
    "hold": false
   },
   {
-   "title": "첫 구현 인수 계획의 공백 29묶음에 대한 설계의 답과 금액 상한의 시험값",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현 인수 공백 가운데 C 몫의 사례 보충안과 FI-22 판정의 반영",
    "status": "진행 중",
    "assignee": "구현 C (채용)",
@@ -292,6 +283,24 @@
    "assignee": "QA 1 (검증 설계)",
    "state": "dispatched",
    "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현 명세의 배정 전 고정 준비: FI-22 반영과 정정 요약",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "A 몫 보충안의 설계 답 반영 v0.2와 착지 단위의 시험 목록",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
    "queued": false,
    "hold": false
   }
@@ -2223,6 +2232,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "첫 구현 인수 계획의 공백 29묶음에 대한 설계의 답과 금액 상한의 시험값",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "첫 구현 인수 공백 가운데 A 몫의 사례 보충안과 복원 원자성의 시험안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2316,12 +2330,12 @@
   }
  ],
  "task_counts": {
-  "completed": 387,
+  "completed": 388,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 5
+  "dispatched": 6
  },
  "checks": {
   "sessions": true,
