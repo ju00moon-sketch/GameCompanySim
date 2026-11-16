@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T09:15:23.645717+09:00",
+ "updated": "2026-11-16T09:25:37.561292+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,15 +10,15 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "보고 완료·대기",
-   "state_raw": "done",
-   "task": "M13: 계약 시험 사례 초안과 의도된 변경 표, QD02 방지 설계안",
-   "is_complete": true,
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
+   "is_complete": false,
    "connected": true,
    "assignment_verified": true,
    "updated": "방금"
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 줄 갱신과 M13 화면 설계 초안",
+   "task": "첫 구현: 화면 설계 v0.2와 문구 초안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "4분 전"
   }
  ],
  "open_tasks": [
@@ -267,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "현황판 줄 갱신과 M13 화면 설계 초안",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "첫 구현의 의도된 변경 표 초안과 도착 문서 검토",
    "status": "진행 중",
    "assignee": "통합(기술 책임)",
@@ -308,6 +299,24 @@
    "assignee": "구현 B (사업·저장·화면)",
    "state": "dispatched",
    "session_id": "e7e08ec16f",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "둘째 명세(복지 1차)의 자리·제작 쪽 기술 검토",
+   "status": "진행 중",
+   "assignee": "구현 A (제작 코어)",
+   "state": "dispatched",
+   "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "첫 구현: 화면 설계 v0.2와 문구 초안",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
    "queued": false,
    "hold": false
   }
@@ -1839,6 +1848,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "현황판 줄 갱신과 M13 화면 설계 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "N8: 가져오기 설계 초안 v0.2와 규모 산정",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1927,12 +1941,12 @@
   }
  ],
  "task_counts": {
-  "completed": 308,
+  "completed": 309,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
