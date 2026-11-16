@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T14:40:25.268542+09:00",
+ "updated": "2026-11-16T14:50:37.763699+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "14분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -61,7 +61,7 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "첫 묶음 검수: FP05·FP06과 n-09 보충",
+   "task": "넷째와 다섯째의 화면 설계 초안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "첫 묶음: 실행 기준과 오라클 출력 도구의 독립 검토",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "실패 경로 수정의 독립 정적 대조와 실행 도구 반례의 마무리",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "방금"
+   "assignment_verified": true,
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -294,7 +294,16 @@
    "hold": false
   },
   {
-   "title": "첫 묶음 검수: FP05·FP06과 n-09 보충",
+   "title": "실패 경로 수정의 독립 정적 대조와 실행 도구 반례의 마무리",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "넷째와 다섯째의 화면 설계 초안",
    "status": "진행 중",
    "assignee": "UI/UX",
    "state": "dispatched",
@@ -2023,6 +2032,11 @@
    "title": "둘째(복지 1차)의 화면 설계 초안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "첫 묶음 검수: FP05·FP06과 n-09 보충",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
   }
  ],
  "returned_tasks": [
@@ -2108,12 +2122,12 @@
   }
  ],
  "task_counts": {
-  "completed": 344,
+  "completed": 345,
   "failed": 14,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 7
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
