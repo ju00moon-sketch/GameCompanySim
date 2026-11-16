@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:16:52.713030+09:00",
+ "updated": "2026-11-16T10:27:06.412409+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,14 +32,14 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "6d8b2262e9",
    "label": "구현 C (채용)",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "오라클의 큰 채용 사례 출력 설계와 공개 사유 답변, 둘째·셋째 명세 검토",
+   "task": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -50,7 +50,7 @@
    "label": "게임 디자인",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "쌓인 질문의 답변과 다섯째 순서의 설계 명세 초안",
+   "task": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -61,21 +61,21 @@
    "label": "UI/UX",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "현황판 갱신: 최종 수동 QA 25/25 통과와 실패 경로 조사",
+   "task": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "보고 완료·터미널 연결 확인 불가",
+   "state_raw": "unlinked",
    "task": "실패 경로의 이식 차이 전수 조사와 새 규칙 시험 사례의 독립 검토",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
+   "assignment_verified": false,
    "updated": "방금"
   },
   {
@@ -98,7 +98,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
@@ -249,33 +249,6 @@
    "hold": false
   },
   {
-   "title": "실패 경로의 이식 차이 전수 조사와 새 규칙 시험 사례의 독립 검토",
-   "status": "진행 중",
-   "assignee": "QA 1 (검증 설계)",
-   "state": "dispatched",
-   "session_id": "9e307dd2d5",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "오라클의 큰 채용 사례 출력 설계와 공개 사유 답변, 둘째·셋째 명세 검토",
-   "status": "진행 중",
-   "assignee": "구현 C (채용)",
-   "state": "dispatched",
-   "session_id": "6d8b2262e9",
-   "queued": false,
-   "hold": false
-  },
-  {
-   "title": "쌓인 질문의 답변과 다섯째 순서의 설계 명세 초안",
-   "status": "진행 중",
-   "assignee": "게임 디자인",
-   "state": "dispatched",
-   "session_id": "88e5a1d9b2",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "복지 1차의 1·2등급 자산 14개: 사용 장면 검사",
    "status": "진행 중",
    "assignee": "아트",
@@ -294,15 +267,6 @@
    "hold": false
   },
   {
-   "title": "현황판 갱신: 최종 수동 QA 25/25 통과와 실패 경로 조사",
-   "status": "진행 중",
-   "assignee": "UI/UX",
-   "state": "dispatched",
-   "session_id": "c658c76149",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "규칙·저장 모듈의 오류 경로 전수 대조",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
@@ -317,6 +281,33 @@
    "assignee": "구현 A (제작 코어)",
    "state": "dispatched",
    "session_id": "707efebe09",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "셋째(재무 안정성 표시)의 화면 설계 초안과 둘째의 화면 요구 검토",
+   "status": "진행 중",
+   "assignee": "UI/UX",
+   "state": "dispatched",
+   "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "전환 뒤 첫 묶음: 오라클의 큰 채용 사례 출력 연결",
+   "status": "진행 중",
+   "assignee": "구현 C (채용)",
+   "state": "dispatched",
+   "session_id": "6d8b2262e9",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "대표 결정 대기열의 정리와 여섯째 순서의 설계 명세 초안",
+   "status": "진행 중",
+   "assignee": "게임 디자인",
+   "state": "dispatched",
+   "session_id": "88e5a1d9b2",
    "queued": false,
    "hold": false
   }
@@ -1913,6 +1904,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "실패 경로의 이식 차이 전수 조사와 새 규칙 시험 사례의 독립 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "전환 뒤 첫 묶음의 화면·문구 후보: 질문 답변과 문구 확정안",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -1923,12 +1919,27 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "오라클의 큰 채용 사례 출력 설계와 공개 사유 답변, 둘째·셋째 명세 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "쌓인 질문의 답변과 다섯째 순서의 설계 명세 초안",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 갱신: 수동 QA 중간 결과와 결정 후보 21건",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   },
   {
    "title": "전환 뒤 첫 묶음: 영향 기반 재검 계획과 M13 사례의 독립 검토",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
+   "title": "현황판 갱신: 최종 수동 QA 25/25 통과와 실패 경로 조사",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
   }
@@ -2006,12 +2017,12 @@
   }
  ],
  "task_counts": {
-  "completed": 322,
+  "completed": 326,
   "failed": 12,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 9
+  "dispatched": 8
  },
  "checks": {
   "sessions": true,
