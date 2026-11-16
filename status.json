@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:21:28.181062+09:00",
+ "updated": "2026-11-16T21:31:41.090013+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -76,7 +76,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -94,11 +94,11 @@
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "N11 결정 문서와 현황판의 N11 문장 검수",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "22분 전"
+   "updated": "33분 전"
   },
   {
    "session_id": "a13c9c6ba1",
