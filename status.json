@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T11:10:03.831652+09:00",
+ "updated": "2026-11-16T11:20:16.652812+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "c658c76149",
@@ -70,13 +70,13 @@
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "보고 완료·터미널 연결 확인 불가",
-   "state_raw": "unlinked",
-   "task": "전환 뒤 첫 묶음: 독립 확인의 준비와 수정 설계의 검토",
+   "state": "작업 중",
+   "state_raw": "working",
+   "task": "R01의 도달성 분석과 QD02 방지의 독립 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "7분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "6fbd13418d",
@@ -94,7 +94,7 @@
    "label": "아트",
    "state": "작업 중",
    "state_raw": "working",
-   "task": "문서 정정과 복지 1차 자산의 수정 후보",
+   "task": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
@@ -285,15 +285,6 @@
    "hold": false
   },
   {
-   "title": "문서 정정과 복지 1차 자산의 수정 후보",
-   "status": "진행 중",
-   "assignee": "아트",
-   "state": "dispatched",
-   "session_id": "b17ff58a4d",
-   "queued": false,
-   "hold": false
-  },
-  {
    "title": "거절 사유의 미관측 목록과 유발 입력 정리, 오류 경로 대조의 마무리",
    "status": "진행 중",
    "assignee": "QA 2 (스모크)",
@@ -308,6 +299,24 @@
    "assignee": "UI/UX",
    "state": "dispatched",
    "session_id": "c658c76149",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "R01의 도달성 분석과 QD02 방지의 독립 확인",
+   "status": "진행 중",
+   "assignee": "QA 1 (검증 설계)",
+   "state": "dispatched",
+   "session_id": "9e307dd2d5",
+   "queued": false,
+   "hold": false
+  },
+  {
+   "title": "시범 인물의 엔진 반입 스크립트 초안과 측정 장면 준비",
+   "status": "진행 중",
+   "assignee": "아트",
+   "state": "dispatched",
+   "session_id": "b17ff58a4d",
    "queued": false,
    "hold": false
   }
@@ -1959,6 +1968,11 @@
    "assignee": "원장에 담당 기록 없음"
   },
   {
+   "title": "문서 정정과 복지 1차 자산의 수정 후보",
+   "status": "완료",
+   "assignee": "원장에 담당 기록 없음"
+  },
+  {
    "title": "현황판 갱신과 첫 묶음의 검수 준비",
    "status": "완료",
    "assignee": "원장에 담당 기록 없음"
@@ -2042,12 +2056,12 @@
   }
  ],
  "task_counts": {
-  "completed": 330,
+  "completed": 331,
   "failed": 13,
   "cancelled": 2,
   "blocked": 6,
   "ready": 8,
-  "dispatched": 8
+  "dispatched": 9
  },
  "checks": {
   "sessions": true,
