@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T11:41:46.634918+09:00",
+ "updated": "2026-11-17T11:54:04.350098+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,29 +10,29 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
    "label": "구현 A (제작 코어)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "첫 구현: A-1, A-2, A-3, A-4",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "1분 전"
   },
   {
    "session_id": "e7e08ec16f",
    "label": "구현 B (사업·저장·화면)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "첫 구현: B-2, B-1, B-3, B-5a, B-4, B-5b",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "7분 전"
+   "assignment_verified": false,
+   "updated": "1분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "39분 전"
+   "updated": "51분 전"
   },
   {
    "session_id": "c658c76149",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -109,18 +109,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "580b24ec6c",
    "label": "총괄",
-   "state": "작업 중",
-   "state_raw": "working",
-   "task": "등록된 Task 제목 없음",
-   "is_complete": false,
+   "state": "보고 완료·대기",
+   "state_raw": "done",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
+   "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "6분 전"
+   "updated": "방금"
   }
  ],
  "open_tasks": [
