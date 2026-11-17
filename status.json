@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:06:18.446620+09:00",
+ "updated": "2026-11-17T09:12:26.953142+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "18분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -54,18 +54,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "18분 전"
+   "updated": "24분 전"
   },
   {
    "session_id": "c658c76149",
    "label": "UI/UX",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "글 검수 반영 재게시와 범위 질문 카드의 게시",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "24분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "49분 전"
+   "updated": "55분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "34분 전"
+   "updated": "40분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "7분 전"
   }
  ],
  "open_tasks": [
