@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T09:12:26.953142+09:00",
+ "updated": "2026-11-17T09:22:40.347187+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -10,7 +10,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "707efebe09",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "18분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,18 +43,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "6분 전"
   },
   {
    "session_id": "88e5a1d9b2",
    "label": "게임 디자인",
    "state": "보고 완료·터미널 연결 확인 불가",
    "state_raw": "unlinked",
-   "task": "둘째 묶음 다섯 결정의 반영과 후속 구체안",
+   "task": "등록된 Task 제목 없음",
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "24분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "30분 전"
+   "updated": "4분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -81,13 +81,13 @@
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "배정·응답 대기",
-   "state_raw": "idle",
+   "state": "작업 중",
+   "state_raw": "working",
    "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": false,
-   "updated": "55분 전"
+   "assignment_verified": true,
+   "updated": "방금"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "40분 전"
+   "updated": "50분 전"
   },
   {
    "session_id": "a13c9c6ba1",
