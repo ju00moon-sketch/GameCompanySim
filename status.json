@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T10:42:29.637888+09:00",
+ "updated": "2026-11-17T11:00:51.648595+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "8분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "4분 전"
+   "updated": "6분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "3분 전"
+   "updated": "21분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -87,18 +87,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "29분 전"
+   "updated": "47분 전"
   },
   {
    "session_id": "9b99bd8248",
    "label": "글·문구",
    "state": "보고 완료·대기",
    "state_raw": "done",
-   "task": "가구 범위 답의 현황판 글과 화면 새 문장 검수",
+   "task": "마지막 보고 완료 · 다음 배정 대기",
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "12분 전"
+   "updated": "30분 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "31분 전"
+   "updated": "49분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "7분 전"
+   "updated": "5분 전"
   }
  ],
  "open_tasks": [
