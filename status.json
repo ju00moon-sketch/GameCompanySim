@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T12:04:17.914084+09:00",
+ "updated": "2026-11-17T12:55:14.199446+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "11분 전"
+   "updated": "방금"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "방금"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -65,18 +65,18 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "9e307dd2d5",
    "label": "QA 1 (검증 설계)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "첫 구현: 착지마다의 독립 대조와 인수 추적",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
-   "updated": "방금"
+   "assignment_verified": false,
+   "updated": "1분 전"
   },
   {
    "session_id": "6fbd13418d",
@@ -87,7 +87,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": false,
-   "updated": "1분 전"
+   "updated": "52분 전"
   },
   {
    "session_id": "9b99bd8248",
@@ -98,7 +98,7 @@
    "is_complete": true,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1시간 전"
+   "updated": "2시간 전"
   },
   {
    "session_id": "a13c9c6ba1",
@@ -109,7 +109,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "11분 전"
+   "updated": "1시간 전"
   },
   {
    "session_id": "580b24ec6c",
