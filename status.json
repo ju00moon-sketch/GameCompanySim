@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T10:07:42.845167+09:00",
+ "updated": "2026-11-17T10:13:51.843472+09:00",
  "agents": [
   {
    "session_id": "b48f2aebda",
@@ -21,7 +21,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "e7e08ec16f",
@@ -32,7 +32,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "5분 전"
   },
   {
    "session_id": "6d8b2262e9",
@@ -43,7 +43,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "3분 전"
   },
   {
    "session_id": "88e5a1d9b2",
@@ -54,7 +54,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "3분 전"
+   "updated": "방금"
   },
   {
    "session_id": "c658c76149",
@@ -65,7 +65,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "1분 전"
   },
   {
    "session_id": "9e307dd2d5",
@@ -76,17 +76,17 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "1분 전"
+   "updated": "2분 전"
   },
   {
    "session_id": "6fbd13418d",
    "label": "QA 2 (스모크)",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "실제 창 확인: 새 후보의 방문과 보존 사본의 확인",
    "is_complete": false,
    "connected": true,
-   "assignment_verified": true,
+   "assignment_verified": false,
    "updated": "방금"
   },
   {
@@ -103,13 +103,13 @@
   {
    "session_id": "a13c9c6ba1",
    "label": "아트",
-   "state": "작업 중",
-   "state_raw": "working",
+   "state": "배정·응답 대기",
+   "state_raw": "idle",
    "task": "직원 캐릭터 시범의 엔진 반입",
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "방금"
+   "updated": "2분 전"
   },
   {
    "session_id": "580b24ec6c",
@@ -120,7 +120,7 @@
    "is_complete": false,
    "connected": true,
    "assignment_verified": true,
-   "updated": "2분 전"
+   "updated": "8분 전"
   }
  ],
  "open_tasks": [
